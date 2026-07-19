@@ -1,18 +1,23 @@
 ---
 layout: page
-title: About
+title: על הפרויקט
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div dir="rtl" lang="he" class="about-page">
+  <h1>על הפרויקט</h1>
+  <p>זהו אתר זיכרון לעומרי תמרי, נער גבוה, יפה ולבבי שאהב ספורט. האתר נבנה כדי לשמור על שמו, לספר על הישגיו ולחבר בין משפחה וחברים באמצעות זיכרונות, סיפורים ואתגר ייחודי.</p>
+  <p>עומרי היה אתלט מצטיין: הוא זכה במספר מרוצי רגל ושיחק כדורסל עם תשוקה ורוח קבוצה. המטרה כאן היא לכבד אותו בדרך כנה ופשוטה, בשפה העברית, עם דגש על הקשר האנושי והכוח להשאיר חותם.</p>
+  <h2>מה נמצא באתר</h2>
+  <ul>
+    <li><strong>דף הבית</strong> — תמונה מרכזית של עומרי וקישורים לפרויקטים לזכרו.</li>
+    <li><strong>אתגר הסוכר</strong> — תיאור החודש שבו משתתפים משתפים חוויות על הימנעות מסוכר מוסיף ועל רגעי חולשה כמו גלידת סנדוויץ'.</li>
+    <li><strong>מרוצי רגל וכדורסל</strong> — זכרונות מהשדה ומהמגרש, ונקודות אור מחיי הספורט שלו.</li>
+  </ul>
+  <h2>למי מיועד האתר</h2>
+  <p>האתר מיועד למשפחה, לחברים ולכל מי שרוצה לשמר זיכרונות ולשתף מחשבות על עומרי. זה מקום שבו אפשר להיזכר, לחיות את הרגעים היפים ולדרבן את המשתתפים לאתגר אישי ומחובר.</p>
+  <h2>כיצד להשתתף</h2>
+  <p>נשמח לראות סיפורים, תמונות, עצות וחוויות על אתגר הסוכר והספורט. אפשר לשתף כאן זכרונות שיש בהם ערך, בשיתוף פעולה עם הזיכרון של עומרי וביכולות שלו להעניק השראה.</p>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+  {% include footer.html %}
+</div>
