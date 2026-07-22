@@ -1,29 +1,24 @@
 ---
-layout: home
+layout: default
+title: תבי
 ---
 
 <div dir="rtl" lang="he" class="memorial-page">
   <section class="hero">
-    <img src="/assets/images/omri-hero.jpg" alt="תמונה של עמרי" class="hero-image" />
+    <img src="/assets/main/omri-hero.jpg" alt="תמונה של עמרי" class="hero-image" />
     <div class="hero-content">
       <p class="eyebrow">אתר זיכרון לעומרי תמרי</p>
       <h1></h1>
       <p class="hero-description"></p>
-      <div class="hero-links">
-        <a href="#sugar-challenge">אתגר הסוכר</a>
-        <a href="#running">מרוצי רגל</a>
-        <a href="#basketball">כדורסל וזיכרונות</a>
-        <a href="/about/">על הפרויקט</a>
-      </div>
     </div>
   </section>
 
   <section class="project-links">
-    <h2>פרויקטים בזכרו</h2>
+    <h2>פרויקטים לזכרו</h2>
     <div class="project-grid">
       <article class="project-card">
         <h3>אתגר הסוכר</h3>
-        <p>חודש של סיפורים, תמונות וחוויות של משתתפים שניסו להימנע ממזון עם סוכר מוסיף.</p>
+        <p>חודש של סיפורים, תמונות וחוויות של משתתפים שניסו להימנע ממזון עם סוכר .</p>
         <a href="#sugar-challenge">קראו עוד</a>
       </article>
       <article class="project-card">
@@ -41,12 +36,12 @@ layout: home
 
   <section class="story-section" id="sugar-challenge">
     <h2>אתגר הסוכר</h2>
-    <p>אתגר סוכר הוא מסע של חודש שבו המשתתפים משתפים את חוויותיהם בניסיון להימנע ממזון עם סוכר מוסיף. מי שמפסיד, מתחיל שוב — עם סיפורים על דחף לשוקולד, כוסות גלידת סנדוויץ' ואיך השגרה של עומרי מזכירה לנו להמשיך לנסות.</p>
+    <p>אתגר סוכר הוא מסע של חודש שבו המשתתפים משתפים את חוויותיהם בניסיון להימנע ממזון עם סוכר . מי שמפסיד, מתחיל שוב — עם סיפורים על דחף לשוקולד, כוסות גלידת סנדוויץ' ואיך השגרה של עומרי מזכירה לנו להמשיך לנסות.</p>
     <p>האתגר כולל פרסומים על התמודדות, תמונות של מזונות מפתים ושל רגעים של חולשה — והכל לזכרו של עמרי, שהיה חזק, אמיץ ומלא שמחת חיים.</p>
   </section>
 
   <section class="story-section" id="running">
-    <h2>מרוצי רגל</h2>
+  <h2>>רוציםמ</h2>
     <p>עמרי היה לרץ מצטיין, זכה במספר מרוצים על מסלולי הבית והאזור. הוא היה טיפוס של מטרה, שראה כל ריצה כהזדמנות להיות טוב יותר.</p>
     <p>הקצב שלו, הגובה והנוכחות שלו בשטח הפכו אותו לדמות שהדרך שלו זוכרים גם היום.</p>
   </section>
@@ -79,8 +74,9 @@ layout: home
       overflow: hidden;
       border-radius: 1rem;
       box-shadow: 0 18px 45px rgba(0,0,0,0.08);
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       background: #000;
+      min-height: 480px;
     }
     .hero-image {
       width: 100%;
@@ -88,6 +84,9 @@ layout: home
       object-fit: cover;
       display: block;
       filter: brightness(0.75);
+      position: absolute;
+      top: 0;
+      left: 0;
     }
     .hero-content {
       position: absolute;
@@ -100,6 +99,7 @@ layout: home
       color: #ffffff;
       text-shadow: 0 20px 40px rgba(0,0,0,0.35);
       background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.7) 100%);
+      z-index: 10;
     }
     .hero-content h1 {
       margin: 0.25rem 0 1rem;
@@ -119,23 +119,10 @@ layout: home
       line-height: 1.8;
       margin-bottom: 1.5rem;
     }
-    .hero-links a {
-      display: inline-block;
-      margin: 0.25rem 0.75rem 0.25rem 0;
-      padding: 0.9rem 1.4rem;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.16);
-      color: #fff;
-      text-decoration: none;
-      border: 1px solid rgba(255,255,255,0.28);
-      transition: transform .2s ease, background .2s ease;
-    }
-    .hero-links a:hover {
-      transform: translateY(-1px);
-      background: rgba(255,255,255,0.24);
-    }
     .project-links {
       margin-bottom: 2rem;
+      position: relative;
+      z-index: 1;
     }
     .project-links h2,
     .story-section h2 {
