@@ -288,8 +288,6 @@ permalink: /hespedim/
     </div>
   </div>
 
-  {% include footer.html %}
-
   <style>
     .hespedim-page {
       max-width: 1200px;

@@ -55,8 +55,7 @@ title: תבי
   <section class="story-section" id="share-memory">
     <h2>שתפו זיכרונות</h2>
     <p>אם יש לכם תמונה, סיפור או מחשבה על עמרי, נשמח שתשתפו. זה המקום לתעד את השפעתו, את הרגעים הקטנים ואת הרוח הספורטיבית שהפכה לחלק מההיסטוריה שלנו.</p>
-    <p>כתבו פוסט, צרפו תמונה והיו חלק מהאתגר שממשיך לזכור אותו בדרך חיובית.</p>
-  </section>
+    <p>כתבו פוסט, צרפו תמונה והיו חלק מהאתגר שממשיך לזכור אותו בדרך חיובית.</p>    <a href="/share-memory/" class="cta-button">לעמוד השיתוף</a>  </section>
 
   {% include footer.html %}
 
@@ -168,6 +167,21 @@ title: תבי
       line-height: 1.8;
       color: #484848;
       margin: 0.8rem 0;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.8rem;
+      background: #2c3e50;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 0.5rem;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .cta-button:hover {
+      background: #1a252f;
+      transform: translateY(-2px);
     }
     @media (max-width: 720px) {
       .hero {
