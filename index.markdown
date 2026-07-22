@@ -6,9 +6,9 @@ layout: home
   <section class="hero">
     <img src="/assets/images/omri-hero.jpg" alt="תמונה של עמרי" class="hero-image" />
     <div class="hero-content">
-      <p class="eyebrow">לזכר עמרי תמרי</p>
-      <h1>נער גבוה, יפה וספורטאי על</h1>
-      <p class="hero-description">זכרון של עמרי, שזכה בריצות רגל רבות ושיחק כדורסל בלב של צוות.</p>
+      <p class="eyebrow">אתר זיכרון לעומרי תמרי</p>
+      <h1></h1>
+      <p class="hero-description"></p>
       <div class="hero-links">
         <a href="#sugar-challenge">אתגר הסוכר</a>
         <a href="#running">מרוצי רגל</a>
