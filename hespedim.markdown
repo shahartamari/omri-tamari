@@ -4,9 +4,11 @@ title: הספדים
 permalink: /hespedim/
 ---
 
+<link rel="stylesheet" href="{{ '/style/hespedim.css' | relative_url }}" />
+
 <div dir="rtl" lang="he" class="hespedim-page">
   <div class="hespedim-header">
-    <h1>הספדים בזכרו</h1>
+    <h1>הספדים לזכרו</h1>
     <p>מילים מהלב של חברים וקרובים</p>
   </div>
 
@@ -104,9 +106,9 @@ permalink: /hespedim/
           <p class="note-preview">הספד מההלוויה...</p>
         </div>
       </div>
-      <div class="note-card" onclick="openLightbox('elad_halvaya', 'אלד הלוויה')">
+      <div class="note-card" onclick="openLightbox('elad_halvaya', 'אלעד הלוויה')">
         <div class="note-content">
-          <h3>אלד הלוויה</h3>
+          <h3>אלעד הלוויה</h3>
           <p class="note-preview">הספד מההלוויה...</p>
         </div>
       </div>
@@ -171,9 +173,9 @@ permalink: /hespedim/
           <p class="note-preview">הספד מיום השנה...</p>
         </div>
       </div>
-      <div class="note-card" onclick="openLightbox('1st_year_elad', 'אלד')">
+      <div class="note-card" onclick="openLightbox('1st_year_elad', 'אלעד')">
         <div class="note-content">
-          <h3>אלד</h3>
+          <h3>אלעד</h3>
           <p class="note-preview">הספד מיום השנה...</p>
         </div>
       </div>
@@ -202,9 +204,9 @@ permalink: /hespedim/
           <p class="note-preview">הספד מהשלושים...</p>
         </div>
       </div>
-      <div class="note-card" onclick="openLightbox('30_elad', 'אלד')">
+      <div class="note-card" onclick="openLightbox('30_elad', 'אלעד')">
         <div class="note-content">
-          <h3>אלד</h3>
+          <h3>אלעד</h3>
           <p class="note-preview">הספד מהשלושים...</p>
         </div>
       </div>
@@ -221,9 +223,9 @@ permalink: /hespedim/
   <section class="hespedim-section">
     <h2>שבעה</h2>
     <div class="notes-grid">
-      <div class="note-card" onclick="openLightbox('7_elad', 'אלד')">
+      <div class="note-card" onclick="openLightbox('7_elad', 'אלעד')">
         <div class="note-content">
-          <h3>אלד</h3>
+          <h3>אלעד</h3>
           <p class="note-preview">הספד מהשבעה...</p>
         </div>
       </div>
@@ -240,9 +242,9 @@ permalink: /hespedim/
   <section class="hespedim-section">
     <h2>הושענה רבה 2024</h2>
     <div class="notes-grid">
-      <div class="note-card" onclick="openLightbox('hoshana_raba_elad', 'אלד')">
+      <div class="note-card" onclick="openLightbox('hoshana_raba_elad', 'אלעד')">
         <div class="note-content">
-          <h3>אלד</h3>
+          <h3>אלעד</h3>
           <p class="note-preview">הספד מהושענה רבה...</p>
         </div>
       </div>
@@ -270,9 +272,9 @@ permalink: /hespedim/
   <section class="hespedim-section">
     <h2>יום הזיכרון 2026</h2>
     <div class="notes-grid">
-      <div class="note-card" onclick="openLightbox('yom_hazikaron_2026_elad', 'אלד')">
+      <div class="note-card" onclick="openLightbox('yom_hazikaron_2026_elad', 'אלעד')">
         <div class="note-content">
-          <h3>אלד</h3>
+          <h3>אלעד</h3>
           <p class="note-preview">הספד מיום הזיכרון...</p>
         </div>
       </div>
@@ -287,245 +289,6 @@ permalink: /hespedim/
       </div>
     </div>
   </div>
-
-  <style>
-    .hespedim-page {
-      max-width: 1200px;
-      margin: auto;
-      padding: 2rem 1rem;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Arial", sans-serif;
-      color: #1a1a1a;
-    }
-
-    .hespedim-header {
-      text-align: center;
-      margin-bottom: 3rem;
-      padding: 2rem 0;
-      border-bottom: 2px solid #e0e0e0;
-    }
-
-    .hespedim-header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-      color: #333;
-    }
-
-    .hespedim-header p {
-      font-size: 1.1rem;
-      color: #666;
-      margin: 0;
-    }
-
-    .hespedim-section {
-      margin-bottom: 4rem;
-    }
-
-    .hespedim-section h2 {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-      color: #333;
-      border-right: 4px solid #2c3e50;
-      padding-right: 1rem;
-    }
-
-    .notes-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 2rem;
-    }
-
-    .note-card {
-      perspective: 1000px;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
-
-    .note-card:hover {
-      transform: translateY(-8px) rotateZ(-1deg);
-    }
-
-    .note-content {
-      background: linear-gradient(135deg, #fff8e1 0%, #fffacd 100%);
-      padding: 1.5rem;
-      border-radius: 0px 12px 15px 8px;
-      box-shadow: 
-        -2px 4px 8px rgba(0,0,0,0.1),
-        -8px 12px 20px rgba(0,0,0,0.08);
-      position: relative;
-      overflow: hidden;
-      min-height: 160px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .note-content::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: 
-        repeating-linear-gradient(
-          90deg,
-          transparent,
-          transparent 2px,
-          rgba(0,0,0,0.02) 2px,
-          rgba(0,0,0,0.02) 4px
-        );
-      pointer-events: none;
-    }
-
-    .note-content h3 {
-      margin: 0 0 0.5rem 0;
-      font-size: 1.2rem;
-      color: #333;
-      position: relative;
-      z-index: 1;
-    }
-
-    .note-preview {
-      margin: 0;
-      font-size: 0.9rem;
-      color: #666;
-      position: relative;
-      z-index: 1;
-      font-style: italic;
-    }
-
-    /* Torn paper effect */
-    .note-content {
-      border: 1px solid rgba(0,0,0,0.05);
-    }
-
-    .note-card:nth-child(1) .note-content {
-      transform: rotateZ(-2deg);
-      margin-top: -1rem;
-    }
-
-    .note-card:nth-child(2) .note-content {
-      transform: rotateZ(1.5deg);
-      margin-top: 0.5rem;
-    }
-
-    .note-card:nth-child(3) .note-content {
-      transform: rotateZ(-1deg);
-      margin-top: -0.5rem;
-    }
-
-    .note-card:nth-child(4) .note-content {
-      transform: rotateZ(2deg);
-      margin-top: 0.8rem;
-    }
-
-    .note-card:nth-child(n+5) .note-content {
-      transform: rotateZ(calc(sin(var(--index)) * 2deg));
-    }
-
-    /* Lightbox */
-    .lightbox {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0,0,0,0.7);
-      z-index: 1000;
-      justify-content: center;
-      align-items: center;
-      animation: fadeIn 0.3s ease;
-    }
-
-    .lightbox.open {
-      display: flex;
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    .lightbox-content {
-      background: white;
-      padding: 2rem;
-      border-radius: 1rem;
-      max-width: 600px;
-      max-height: 80vh;
-      overflow-y: auto;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-      position: relative;
-      animation: slideUp 0.3s ease;
-    }
-
-    @keyframes slideUp {
-      from {
-        transform: translateY(30px);
-        opacity: 0;
-      }
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }
-
-    .lightbox-close {
-      position: absolute;
-      top: 1rem;
-      left: 1rem;
-      font-size: 2rem;
-      cursor: pointer;
-      color: #999;
-      transition: color 0.2s ease;
-    }
-
-    .lightbox-close:hover {
-      color: #333;
-    }
-
-    #lightbox-title {
-      margin-top: 0;
-      color: #333;
-      border-bottom: 2px solid #e0e0e0;
-      padding-bottom: 1rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .lightbox-body {
-      color: #555;
-      line-height: 1.8;
-    }
-
-    @media (max-width: 720px) {
-      .hespedim-header h1 {
-        font-size: 1.8rem;
-      }
-
-      .hespedim-section h2 {
-        font-size: 1.5rem;
-      }
-
-      .notes-grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 1.5rem;
-      }
-
-      .note-content {
-        padding: 1.2rem;
-        min-height: 140px;
-      }
-
-      .lightbox-content {
-        max-width: 90vw;
-        padding: 1.5rem;
-      }
-    }
-  </style>
 
   <script>
     // Map IDs to file paths

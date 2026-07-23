@@ -19,7 +19,9 @@
 {"@context":"https://schema.org","@type":"WebSite","description":"Omri Tamari","headline":"⌂","name":"אתר זיכרון לעומרי תמרי","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="אתר זיכרון לעומרי תמרי" /></head>
-<body><header class="site-header" role="banner">
+<body><link rel="stylesheet" href="/style/header.css" />
+
+<header class="site-header" role="banner">
   <div class="wrapper"><a class="site-title" rel="author" href="/">אתר זיכרון לעומרי תמרי</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -32,57 +34,36 @@
 
         <div class="trigger"><a class="page-link" href="/about/">על הפרויקט</a><a class="page-link" href="/hespedim/">הספדים</a><a class="page-link" href="/">⌂</a><a class="page-link" href="/share-memory/">שתפו זיכרון</a></div>
       </nav></div>
-
-  <style>
-    .site-nav .page-link {
-      display: inline-block;
-      margin-right: 1.5rem;
-      padding: 0.5rem 0;
-      color: #424242;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.2s ease;
-    }
-
-    .site-nav .page-link:hover {
-      color: #111;
-    }
-
-    .site-nav .page-link:last-child {
-      margin-right: 0;
-    }
-
-    @media (max-width: 720px) {
-      .site-nav .page-link {
-        display: block;
-        margin: 0;
-        padding: 0.75rem 0;
-      }
-    }
-  </style>
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div dir="rtl" lang="he" class="memorial-page">
+        <link rel="stylesheet" href="/style/index.css" />
+
+<div dir="rtl" lang="he" class="memorial-page">
   <section class="hero">
     <img src="/assets/main/omri-hero.jpg" alt="תמונה של עמרי" class="hero-image" />
     <div class="hero-content">
       <p class="eyebrow">אתר זיכרון לעומרי תמרי</p>
-      <h1></h1>
-      <p class="hero-description"></p>
+      <div class="hero-links">
+        <a href="/hespedim/">הספדים</a>
+        <a href="/share-memory/">שתפו זיכרון</a>
+      </div>
+      <h1>סיפורים, חברים, וזיכרון חי</h1>
+      <p class="hero-description">עמוד הבית מרכז את פרויקטי ההנצחה, רגעים ספורטיביים והדרך שבה ממשיכים לזכור את עומרי בכל יום.</p>
     </div>
   </section>
 
   <section class="project-links">
     <h2>פרויקטים לזכרו</h2>
+    <p class="section-lead">הצצה מהירה לכל פרויקט. לחצו על כרטיס כדי לעבור לפרטים המלאים בהמשך העמוד.</p>
     <div class="project-grid">
       <article class="project-card">
         <h3>אתגר הסוכר</h3>
-        <p>חודש של סיפורים, תמונות וחוויות של משתתפים שניסו להימנע ממזון עם סוכר .</p>
+        <p>חודש של סיפורים, תמונות וחוויות של משתתפים שניסו להימנע ממזון עם סוכר מוסף .</p>
         <a href="#sugar-challenge">קראו עוד</a>
       </article>
       <article class="project-card">
-        <h3>מרוצי רגל</h3>
+        <h3>מרוצים </h3>
         <p>רגעים ממסלולים, ניצחונות והדחיפה של עמרי כאחד האצנים הטובים באזור.</p>
         <a href="#running">קראו עוד</a>
       </article>
@@ -94,167 +75,37 @@
     </div>
   </section>
 
-  <section class="story-section" id="sugar-challenge">
+  <section class="details-intro">
+    <h2>פירוט הפרויקטים</h2>
+    <p>כאן תמצאו את הסיפורים המלאים מאחורי כל יוזמה, כולל רגעים אישיים וזיכרונות מהשטח.</p>
+  </section>
+
+  <section class="story-section detail-card" id="sugar-challenge">
     <h2>אתגר הסוכר</h2>
     <p>אתגר סוכר הוא מסע של חודש שבו המשתתפים משתפים את חוויותיהם בניסיון להימנע ממזון עם סוכר . מי שמפסיד, מתחיל שוב — עם סיפורים על דחף לשוקולד, כוסות גלידת סנדוויץ' ואיך השגרה של עומרי מזכירה לנו להמשיך לנסות.</p>
     <p>האתגר כולל פרסומים על התמודדות, תמונות של מזונות מפתים ושל רגעים של חולשה — והכל לזכרו של עמרי, שהיה חזק, אמיץ ומלא שמחת חיים.</p>
   </section>
 
-  <section class="story-section" id="running">
-  <h2>&gt;רוציםמ</h2>
-    <p>עמרי היה לרץ מצטיין, זכה במספר מרוצים על מסלולי הבית והאזור. הוא היה טיפוס של מטרה, שראה כל ריצה כהזדמנות להיות טוב יותר.</p>
+  <section class="story-section detail-card" id="running">
+  <h2>מירוצים</h2>
+    <p>עמרי היה אצן מצטיין, זכה במספר מרוצים על מסלולי הבית והאזור. הוא היה טיפוס של מטרה, שראה כל ריצה כהזדמנות להיות טוב יותר.</p>
     <p>הקצב שלו, הגובה והנוכחות שלו בשטח הפכו אותו לדמות שהדרך שלו זוכרים גם היום.</p>
   </section>
 
-  <section class="story-section" id="basketball">
+  <section class="story-section detail-card" id="basketball">
     <h2>כדורסל וזיכרונות</h2>
     <p>על המגרש, עמרי היה שחקן מסודר, שוויוני וקלע סלים חשובים. המשחקים הזכירו את האכפתיות שלו ואת ההשקעה הקבוצתית.</p>
     <p>היום, אנו זוכרים את הרגעים שבהם הוא קפץ, העביר את הכדור ויצר קהילה סביב הספורט שהוא אהב.</p>
   </section>
 
-  <section class="story-section" id="share-memory">
+  <section class="story-section detail-card share-memory-highlight" id="share-memory">
     <h2>שתפו זיכרונות</h2>
     <p>אם יש לכם תמונה, סיפור או מחשבה על עמרי, נשמח שתשתפו. זה המקום לתעד את השפעתו, את הרגעים הקטנים ואת הרוח הספורטיבית שהפכה לחלק מההיסטוריה שלנו.</p>
-    <p>כתבו פוסט, צרפו תמונה והיו חלק מהאתגר שממשיך לזכור אותו בדרך חיובית.</p>    <a href="/share-memory/" class="cta-button">לעמוד השיתוף</a>  </section>
+    <p>כתבו פוסט, צרפו תמונה והיו חלק מהאתגר שממשיך לזכור אותו בדרך חיובית.</p>
+    <a href="/share-memory/" class="cta-button cta-clean">לעמוד שיתוף הזיכרונות</a>
+  </section>
 
 
-  <style>
-    .memorial-page {
-      max-width: 980px;
-      margin: auto;
-      padding: 1.5rem 1rem 3rem;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Arial", sans-serif;
-      color: #1a1a1a;
-      background: #f7f7f7;
-    }
-    .hero {
-      position: relative;
-      overflow: hidden;
-      border-radius: 1rem;
-      box-shadow: 0 18px 45px rgba(0,0,0,0.08);
-      margin-bottom: 3rem;
-      background: #000;
-      min-height: 480px;
-    }
-    .hero-image {
-      width: 100%;
-      height: 480px;
-      object-fit: cover;
-      display: block;
-      filter: brightness(0.75);
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    .hero-content {
-      position: absolute;
-      inset: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      padding: 2rem;
-      color: #ffffff;
-      text-shadow: 0 20px 40px rgba(0,0,0,0.35);
-      background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.7) 100%);
-      z-index: 10;
-    }
-    .hero-content h1 {
-      margin: 0.25rem 0 1rem;
-      font-size: clamp(2rem, 4vw, 3.4rem);
-      line-height: 1.05;
-    }
-    .hero-content .eyebrow {
-      margin-bottom: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      font-size: 0.85rem;
-      color: #c5d2ff;
-    }
-    .hero-description {
-      max-width: 760px;
-      font-size: 1.05rem;
-      line-height: 1.8;
-      margin-bottom: 1.5rem;
-    }
-    .project-links {
-      margin-bottom: 2rem;
-      position: relative;
-      z-index: 1;
-    }
-    .project-links h2,
-    .story-section h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      letter-spacing: 0.02em;
-    }
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1rem;
-    }
-    .project-card {
-      padding: 1.75rem;
-      border-radius: 1rem;
-      background: #ffffff;
-      border: 1px solid #e8e8e8;
-      box-shadow: 0 8px 22px rgba(13, 38, 76, 0.06);
-    }
-    .project-card h3 {
-      margin-top: 0;
-      margin-bottom: 0.75rem;
-    }
-    .project-card p {
-      margin-bottom: 1.2rem;
-      line-height: 1.75;
-      color: #4f4f4f;
-    }
-    .project-card a {
-      color: #0f63ff;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .story-section {
-      margin-bottom: 2rem;
-      padding: 1.9rem 2rem;
-      background: #ffffff;
-      border-radius: 1rem;
-      border: 1px solid #ececec;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.02);
-    }
-    .story-section p {
-      line-height: 1.8;
-      color: #484848;
-      margin: 0.8rem 0;
-    }
-    .cta-button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.8rem 1.8rem;
-      background: #2c3e50;
-      color: white;
-      text-decoration: none;
-      font-weight: 600;
-      border-radius: 0.5rem;
-      transition: background 0.3s ease, transform 0.2s ease;
-    }
-    .cta-button:hover {
-      background: #1a252f;
-      transform: translateY(-2px);
-    }
-    @media (max-width: 720px) {
-      .hero {
-        border-radius: 0.9rem;
-      }
-      .hero-content {
-        padding: 1.4rem;
-      }
-      .hero-links a {
-        margin-right: 0.5rem;
-        margin-left: 0;
-      }
-    }
-  </style>
 </div>
 
       </div>

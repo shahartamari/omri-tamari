@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ '/style/header.css' | relative_url }}" />
+
 <header class="site-header" role="banner">
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" | sort -%}
@@ -26,32 +28,4 @@
       </nav>
     {%- endif -%}
   </div>
-
-  <style>
-    .site-nav .page-link {
-      display: inline-block;
-      margin-right: 1.5rem;
-      padding: 0.5rem 0;
-      color: #424242;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.2s ease;
-    }
-
-    .site-nav .page-link:hover {
-      color: #111;
-    }
-
-    .site-nav .page-link:last-child {
-      margin-right: 0;
-    }
-
-    @media (max-width: 720px) {
-      .site-nav .page-link {
-        display: block;
-        margin: 0;
-        padding: 0.75rem 0;
-      }
-    }
-  </style>
 </header>
