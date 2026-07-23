@@ -20,19 +20,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af68
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@95517c90271b417065f0dcd6e5a6e64fa33463b7 # v5
 
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+        uses: actions/jekyll-build-pages@9e27a69b516d60376a5026643a4e5b4c72622472 # v1
         with:
           source: ./
           destination: ./_site
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@5d53c407ca3144656840c38d6e77d908e41a3915 # v3
 
   deploy:
     environment:
