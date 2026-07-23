@@ -1,6 +1,6 @@
 ---
 layout: default
-title: תבי
+title: "⌂"
 ---
 
 <div dir="rtl" lang="he" class="memorial-page">
