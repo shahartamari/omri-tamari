@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 <article>
@@ -8,4 +8,9 @@ layout: default
   <div class="content">
     {{ content }}
   </div>
+  <section>
+    <div>
+      <p> submitted by <link href="mailto:{{page.email}}">{{ page.author }}</link></p>
+    </div>
+  </section>
 </article>   
