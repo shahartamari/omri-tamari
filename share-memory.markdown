@@ -126,7 +126,7 @@ permalink: /share-memory/
       <li>הוסיפו את ה-Front Matter וה-Content:</li>
     </ol>
 
-    <pre><code>---
+    <pre><code>--
 layout: post
 title: "כותרת הזיכרון"
 date: 2026-07-22
