@@ -1,4 +1,5 @@
 ---
+layout: hesped
 author: נבו ירדן
 title: שלושים
 event: שלושים

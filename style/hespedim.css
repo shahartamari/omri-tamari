@@ -130,7 +130,73 @@
 .note-card:nth-child(n+5) .note-content {
   transform: rotateZ(calc(sin(var(--index)) * 2deg));
 }
+.author-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px 0;
+}
 
+.author-link {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.author-link:hover {
+  color: #000;
+  border-color: #999;
+}
+
+.author-link.active {
+  color: #000;
+  border-color: #333;
+}
+
+.author-panel {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.author-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.close-panel {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.hesped-entry {
+  margin-bottom: 25px;
+}
+
+.hesped-entry h3 {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.empty-state {
+  text-align: center;
+  color: #888;
+  margin-top: 40px;
+}
 @media (max-width: 720px) {
   .hespedim-header h1 {
     font-size: 1.8rem;

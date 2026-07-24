@@ -1,4 +1,5 @@
 ---
+layout: hesped
 author: עומר גיא
 title: שבעה
 event: שבעה

@@ -1,4 +1,5 @@
 ---
+layout: hesped
 author: אלעד
 title: שלושים
 event: שלושים

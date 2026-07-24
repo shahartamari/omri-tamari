@@ -1,4 +1,5 @@
 ---
+layout: hesped
 author: קינן יארין
 title: ספר הזכרון
 event: ספר הזכרון

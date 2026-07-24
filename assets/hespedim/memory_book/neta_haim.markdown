@@ -1,4 +1,5 @@
 ---
+layout: hesped
 author: חיים נטע
 title: ספר הזכרון
 event: ספר הזכרון

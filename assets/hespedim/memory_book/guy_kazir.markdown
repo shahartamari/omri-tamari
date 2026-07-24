@@ -1,4 +1,5 @@
 ---
+layout: hesped
 author: קזיר גיא
 title: ספר הזכרון
 event: ספר הזכרון

@@ -1,4 +1,5 @@
 ---
+layout: hesped
 author: רוחל יונתן
 title: הלוויה
 event: הלוויה
