@@ -1,0 +1,40 @@
+---
+author:
+title:
+event:
+---
+
+body {
+  margin: 0;
+  padding: 24px;
+  background: #f7f3eb;
+  color: #222;
+  font-family: 'Arial Hebrew', Arial, sans-serif;
+  line-height: 1.8;
+}
+
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 28px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.content {
+  direction: rtl;
+  text-align: right;
+}
+
+.content p {
+  margin: 0 0 16px;
+}
+
+.page-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 24px auto 0;
+  border-radius: 8px;
+}
