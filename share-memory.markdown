@@ -79,7 +79,7 @@ document.getElementById('memory-form').addEventListener('submit', async (e) => {
     body: new FormData(form)
   });
   if (response.ok) {
-    alert("תודה ששיתפם את הזיכרונות שלכם");
+    alert("תודה ששיתפתם את הזיכרונות שלכם");
     form.reset();
   } else {
     console.log(response.text());
