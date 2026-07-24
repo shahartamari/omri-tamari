@@ -1,7 +1,6 @@
 ---
 layout: hesped
 author: אלעד
-title: יום הזיכרון 2026
 event: יום הזיכרון 2026
 relative: אבא
 ---

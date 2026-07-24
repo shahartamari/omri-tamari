@@ -1,7 +1,6 @@
 ---
 layout: hesped
 author: רוזנשטט חן
-title: הלוויה
 event: הלוויה
 relative: אבא
 ---

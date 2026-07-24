@@ -1,7 +1,6 @@
 ---
 layout: hesped
 author: אלעד
-title: שבעה
 event: שבעה
 relative: אבא
 ---

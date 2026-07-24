@@ -1,6 +1,5 @@
 ---
 author: אלעד
-title: אזכרת השבעה
 event: יום הולדת לאבא
 relative: אבא
 ---

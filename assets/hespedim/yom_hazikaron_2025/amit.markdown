@@ -1,7 +1,6 @@
 ---
 layout: hesped
 author: עמית
-title: יום הזיכרון 2025
 event: יום הזיכרון 2025
 relative: אבא
 ---

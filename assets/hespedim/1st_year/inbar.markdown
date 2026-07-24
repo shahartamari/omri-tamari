@@ -1,7 +1,6 @@
 ---
 layout: hesped
 author: ענבר
-title: יום השנה
 event: יום השנה
 relative: אבא
 ---
