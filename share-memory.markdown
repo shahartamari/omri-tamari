@@ -82,7 +82,7 @@ document.getElementById('memory-form').addEventListener('submit', async (e) => {
     alert("תודה ששיתפם את הזיכרונות שלכם");
     form.reset();
   } else {
-    console.log(reponse.text());
+    console.log(response.text());
     alert("אנחנו מאוד מצטערים אך קרתה טעות בזמן ההגשה. אנא נסו שנית");
   }
 });
