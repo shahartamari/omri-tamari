@@ -131,85 +131,6 @@
   transform: rotateZ(calc(sin(var(--index)) * 2deg));
 }
 
-.lightbox {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 1000;
-  justify-content: center;
-  align-items: center;
-  animation: fadeIn 0.3s ease;
-}
-
-.lightbox.open {
-  display: flex;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.lightbox-content {
-  background: white;
-  padding: 2rem;
-  border-radius: 1rem;
-  max-width: 600px;
-  max-height: 80vh;
-  overflow-y: auto;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  position: relative;
-  animation: slideUp 0.3s ease;
-}
-
-@keyframes slideUp {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-.lightbox-close {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  font-size: 2rem;
-  cursor: pointer;
-  color: #999;
-  transition: color 0.2s ease;
-}
-
-.lightbox-close:hover {
-  color: #333;
-}
-
-#lightbox-title {
-  margin-top: 0;
-  color: #333;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.lightbox-body {
-  color: #555;
-  line-height: 1.8;
-}
-
 @media (max-width: 720px) {
   .hespedim-header h1 {
     font-size: 1.8rem;
@@ -229,8 +150,4 @@
     min-height: 140px;
   }
 
-  .lightbox-content {
-    max-width: 90vw;
-    padding: 1.5rem;
-  }
 }

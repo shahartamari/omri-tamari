@@ -5,6 +5,7 @@ permalink: /hespedim/
 ---
 
 <link rel="stylesheet" href="{{ '/style/hespedim.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/style/lightbox.css' | relative_url }}" />
 
 <div dir="rtl" lang="he" class="hespedim-page">
   <div class="hespedim-header">
@@ -283,7 +284,7 @@ permalink: /hespedim/
   <div id="lightbox" class="lightbox" onclick="closeLightbox()">
     <div class="lightbox-content" onclick="event.stopPropagation()">
       <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
-      <h2 id="lightbox-title"></h2>
+      <h2 id="lightbox-title" class="lightbox-title"></h2>
       <div id="lightbox-body" class="lightbox-body">
         <p>תוכן יופיע כאן</p>
       </div>
