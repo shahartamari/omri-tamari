@@ -130,6 +130,7 @@
 .note-card:nth-child(n+5) .note-content {
   transform: rotateZ(calc(sin(var(--index)) * 2deg));
 }
+
 .author-cloud {
   display: flex;
   flex-wrap: wrap;
@@ -138,23 +139,28 @@
   margin: 30px 0;
 }
 
-.author-link {
+.hespedim-page .author-link,
+.hespedim-page a.author-link {
   font-size: 1.4rem;
   font-weight: 600;
   color: #333;
-  text-decoration: none;
+  text-decoration: none !important;
   padding-bottom: 2px;
   display: inline-block;
   transition: color 0.2s, transform 0.2s;
 }
 
-.author-link:hover {
+.hespedim-page .author-link:hover,
+.hespedim-page a.author-link:hover {
   color: #000;
+  text-decoration: none !important;
   transform: translateY(-3px);
 }
 
-.author-link.active {
+.hespedim-page .author-link.active,
+.hespedim-page a.author-link.active {
   color: #000;
+  text-decoration: none !important;
   transform: translateY(-3px);
 }
 
@@ -197,6 +203,7 @@
   color: #888;
   margin-top: 40px;
 }
+
 @media (max-width: 720px) {
   .hespedim-header h1 {
     font-size: 1.8rem;
