@@ -5,8 +5,6 @@ permalink: /hespedim/
 ---
 
 <link rel="stylesheet" href="{{ '/style/hespedim.css' | relative_url }}" />
-<link rel="stylesheet" href="{{ '/style/lightbox.css' | relative_url }}" />
-
 <div dir="rtl" lang="he" class="hespedim-page">
   <div class="hespedim-header">
     <h1>הספדים לזכרו</h1>

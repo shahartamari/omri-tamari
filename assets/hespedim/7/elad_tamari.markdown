@@ -1,20 +1,10 @@
-
 ---
 author: אלעד
-title:  אזכרת השבעה
-event:  יום הולדת לאבא
+title: אזכרת השבעה
+event: יום הולדת לאבא
 relative: אבא
 ---
 
-<!DOCTYPE html>
-<html lang="he" dir="rtl">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>אלעד</title>
-    <link rel="stylesheet" href="{{ '/style/memory.css' | relative_url }}" />
-  </head>
-  <body>
     <div class="page">
       <div class="content">
         <p>עומריק</p>
@@ -25,8 +15,3 @@ relative: אבא
     <div class="gallery">
     <img src="/assets/hespedim/7/elad_omri.jpg" alt="image info" />
     </div>
-  </body>
-</html>
-
-
-
