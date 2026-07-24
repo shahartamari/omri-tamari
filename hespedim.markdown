@@ -14,11 +14,12 @@ permalink: /hespedim/
   {% assign hespedim_pages = "" | split: "" %}
   {% for p in site.pages %}
     {% if p.path contains "assets/hespedim/" and p.author %}
+      {% assign p_author_trimmed = p.author | strip %}
       {% assign hespedim_pages = hespedim_pages | push: p %}
     {% endif %}
   {% endfor %}
 
-  {% assign grouped_by_author = hespedim_pages | group_by: "author" %}
+  {% assign grouped_by_author = hespedim_pages | group_by_exp: "p", "p.author | strip" %}
   {% assign grouped_by_author = grouped_by_author | sort: "name" %}
 
   <div class="author-cloud">
@@ -34,18 +35,23 @@ permalink: /hespedim/
     {% for group in grouped_by_author %}
       {% assign author_id = group.name | slugify %}
       {% assign items = group.items | sort: "event" %}
+      {% assign seen_events = "" | split: "" %}
       <div id="panel-{{ author_id }}" class="author-panel" style="display:none;">
         <div class="author-panel-header">
           <h2>{{ group.name }}</h2>
           <button class="close-panel" onclick="closeAuthor()">&times;</button>
         </div>
         {% for item in items %}
-          <div class="hesped-entry">
-            <h3>{{ item.event | default: item.title }}</h3>
-            <div class="hesped-content">
-              {{ item.content }}
+          {% assign event_key = item.event | default: item.title %}
+          {% unless seen_events contains event_key %}
+            {% assign seen_events = seen_events | push: event_key %}
+            <div class="hesped-entry">
+              <h3>{{ event_key }}</h3>
+              <div class="hesped-content">
+                {{ item.content }}
+              </div>
             </div>
-          </div>
+          {% endunless %}
         {% endfor %}
       </div>
     {% endfor %}
