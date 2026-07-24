@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "⌂"
+title: "עמוד הבית"
 ---
 
 <link rel="stylesheet" href="{{ '/style/index.css' | relative_url }}" />
