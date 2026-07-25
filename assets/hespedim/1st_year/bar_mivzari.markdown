@@ -1,6 +1,6 @@
 ---
 layout: hesped
-author: מבזרי בר
+author: מבצרי בר
 event: יום השנה
 relative: אבא
 ---
