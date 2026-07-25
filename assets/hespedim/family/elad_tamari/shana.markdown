@@ -1,6 +1,6 @@
 ---
 layout: hesped
-author: אלעד
+author: אלעד תמרי
 event: יום השנה
 relative: אבא
 ---

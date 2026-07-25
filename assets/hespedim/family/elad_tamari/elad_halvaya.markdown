@@ -1,6 +1,6 @@
 ---
 layout: hesped
-author: אלעד
+author: אלעד תמרי
 event: הלוויה
 relative: אבא
 ---
