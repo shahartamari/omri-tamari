@@ -82,7 +82,6 @@ relative: סבא
 
 
 <img src="/assets/hespedim/family/moshe_rosenstadt/romania.jpeg" alt="image info" />
-<img src="/assets/hespedim/family/moshe_rosenstadt/safta.jpeg" alt="image info" />
 <img src="/assets/hespedim/family/moshe_rosenstadt/omri_and_inba.jpeg" alt="image info" />
 <img src="/assets/hespedim/family/moshe_rosenstadt/kita_alef.jpeg" alt="image info" />
 <img src="/assets/hespedim/family/moshe_rosenstadt/hashbaa.jpeg" alt="image info" />
