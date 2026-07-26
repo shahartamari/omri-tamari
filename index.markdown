@@ -34,9 +34,12 @@ title: "עמוד הבית"
         <a href="#running">קראו עוד</a>
       </article>
       <article class="project-card">
-        <h3>כדורסל וזמן קבוצה</h3>
-        <p>זכרונות מן המגרש, משחקים, אימונים ושיתוף הפעולה עם חברי הקבוצה.</p>
+        <h3>טורניר כדורסל לזכרו של עומרי תמרי</h3>
+        <p>  השנה יתקיים הטורניר ב9.10.26</p>
         <a href="#basketball">קראו עוד</a>
+      </article>
+      <article class="project-card">
+        {% include instagram-embed.html %}
       </article>
     </div>
   </section>
@@ -59,9 +62,9 @@ title: "עמוד הבית"
   </section>
 
   <section class="story-section detail-card" id="basketball">
-    <h2>כדורסל וזיכרונות</h2>
-    <p>על המגרש, עמרי היה שחקן מסודר, שוויוני וקלע סלים חשובים. המשחקים הזכירו את האכפתיות שלו ואת ההשקעה הקבוצתית.</p>
-    <p>היום, אנו זוכרים את הרגעים שבהם הוא קפץ, העביר את הכדור ויצר קהילה סביב הספורט שהוא אהב.</p>
+    <h2>טורניר כדורסל לזכרו של עומרי </h2>
+    <p>טורניר סטריטבול מתקיים מידי שנה בתאריך האזכרה שלעומרי</p>
+    <p>עומרי שיחק במדי הפועל מזכרת בתיה מכיתה ג׳ עד כיתה י״א.<br>לזכרו יזמו חבריו את הטורניר</p>
   </section>
 
   <section class="story-section detail-card share-memory-highlight" id="share-memory">
