@@ -46,6 +46,7 @@ relative: מאמן אקספרט
 שבת שלום ❤️🤴🏼<br>
 
 מכתב שכתב עומרי ללאופולד לפני הגיוס<br>
+
 <picture>
   
   <img src="/assets/hespedim/others/amit_leopold/omri.avif" alt="image info" loading="lazy" />

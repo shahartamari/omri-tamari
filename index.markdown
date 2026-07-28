@@ -7,15 +7,40 @@ title: "עמוד הבית"
 
 <div dir="rtl" lang="he" class="memorial-page">
   <section class="hero">
-    <img src="/assets/main/omri-hero.jpg" alt="תמונה של עמרי" class="hero-image" />
+    <img src="/assets/main/omri-hero.avif" alt="תמונה של עמרי" class="hero-image" />
     <div class="hero-content">
       <p class="eyebrow">אתר זיכרון לעומרי תמרי</p>
       <div class="hero-links">
         <a href="/hespedim/">הספדים</a>
         <a href="/share-memory/">שתפו זיכרון</a>
       </div>
+      <a href="/about/" class="hero-image-link" aria-label="על הפרויקט">
+        <img src="/assets/main/glufa.png" alt="על הפרויקט" />
+      </a>
       <h1>אתר להנצחת ולהנכחת עומרי </h1>
-      <p class="hero-description">.האתר ישאיר את עומרי איתנו בעשייה בזכרונות ובתמונות</p>
+      <p class="hero-description">האתר ישאיר את עומרי איתנו בעשייה בזכרונות ובתמונות</p>
+    </div>
+  </section>
+
+   <section class="omri-figure">
+   <h2>על עומרי</h2>
+   <p class="section-lead"> 
+   <a href="/about-omri/">לקרוא על עומרי</a>
+   </p>
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="home-slideshow">
+          <button class="home-slideshow__button prev" type="button" aria-label="תמונה קודמת">&#10094;</button>
+          <div class="home-slideshow__viewport">
+            <img src="/assets/images/long/army/army.JPG" alt="תמונה 1" class="home-slideshow__image active" loading="lazy" />
+            <img src="/assets/images/long/komuna/ez.JPG" alt="תמונה 2" class="home-slideshow__image" loading="lazy" />
+            <img src="/assets/images/long/komuna/hamus.JPG" alt="תמונה 3" class="home-slideshow__image" loading="lazy" />
+            <img src="/assets/images/long/childhood/mishkefet.jpg" alt="תמונה 4" class="home-slideshow__image" loading="lazy" />
+          </div>
+          <button class="home-slideshow__button next" type="button" aria-label="תמונה הבאה">&#10095;</button>
+        </div>
+        <p>אמור מעט ועשה הרבה</p>
+      </article>
     </div>
   </section>
 
@@ -70,7 +95,57 @@ title: "עמוד הבית"
         {% include instagram-embed.html %}
       </article>
   </section>
-  
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.home-slideshow').forEach(function (slideshow) {
+        const images = slideshow.querySelectorAll('.home-slideshow__image');
+        const prevButton = slideshow.querySelector('.home-slideshow__button.prev');
+        const nextButton = slideshow.querySelector('.home-slideshow__button.next');
+        let currentIndex = 0;
+
+        function showImage(index) {
+          images.forEach(function (img, i) {
+            img.classList.toggle('active', i === index);
+          });
+        }
+
+        let autoplayTimer;
+
+        function restartAutoplay() {
+          clearTimeout(autoplayTimer);
+          autoplayTimer = setTimeout(function () {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+            restartAutoplay();
+          }, 3000);
+        }
+
+        prevButton.addEventListener('click', function () {
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+          showImage(currentIndex);
+          restartAutoplay();
+        });
+
+        nextButton.addEventListener('click', function () {
+          currentIndex = (currentIndex + 1) % images.length;
+          showImage(currentIndex);
+          restartAutoplay();
+        });
+
+        slideshow.addEventListener('mouseenter', function () {
+          clearTimeout(autoplayTimer);
+        });
+
+        slideshow.addEventListener('mouseleave', function () {
+          restartAutoplay();
+        });
+
+        showImage(0);
+        restartAutoplay();
+      });
+    });
+  </script>
 
   <section class="story-section detail-card share-memory-highlight" id="share-memory">
     <h2>שתפו זיכרונות</h2>

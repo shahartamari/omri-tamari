@@ -27,9 +27,7 @@ relative: מחנך של עומרי ומנהל בית הספר
  ותהיה מורשתך ודמותך נר תמיד של אור וטוב. <br>
 
  <picture>
-  <source srcset="/assets/hespedim/others/yedidya_etzion/yedidya1.jpeg">
-  <picture>
-  <source srcset="/assets/hespedim/others/yedidya_etzion/yedidya1.jpeg">
-  <img src="/assets/hespedim/others/yedidya_etzion/yedidya1.jpeg" alt="image info" loading="lazy" />
+  
+  <img src="/assets/hespedim/others/yedidya_etzion/yedidya1.avif" alt="image info" loading="lazy" />
 </picture>
-</picture>
+
