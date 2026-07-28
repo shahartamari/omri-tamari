@@ -292,9 +292,88 @@ position: absolute;
   border-color: #6f90bf;
 }
 
+.spotify-section {
+  margin-top: 1.5rem;
+}
+
+.spotify-embed {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 1rem 0;
+  max-width: 100%;
+}
+
+.spotify-embed__player {
+  flex: 0 1 400px;
+  min-width: 280px;
+  overflow: hidden;
+  border: 1px solid #1db954;
+  border-right: 0;
+  border-radius: 8px 0 0 8px;
+}
+
+.spotify-embed__header {
+  background: #1db954;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
+
+.spotify-embed__frame {
+  height: 100px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.spotify-embed__iframe {
+  display: block;
+  border: 0;
+}
+
+.spotify-embed__cover {
+  flex: 0 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid #1db954;
+  border-left: 0;
+  border-radius: 0 8px 8px 0;
+  padding: 0;
+}
+
+.spotify-embed__cover-img {
+  display: block;
+  height: 104px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  background: transparent;
+  margin-top: auto;
+  margin-bottom: -2px;
+}
+
+.project-card .instagram-media {
+  width: 100% !important;
+  max-width: 400px !important;
+  min-width: 0 !important;
+  margin: 0 auto !important;
+}
+
+.project-card:has(.instagram-media) {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
 @media (max-width: 720px) {
   .hero {
     border-radius: 0.9rem;
+  }
+
+  .project-card:has(.instagram-media) {
+    padding: 0.6rem;
   }
 
   .hero-content {

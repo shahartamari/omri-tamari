@@ -36,7 +36,7 @@ permalink: /hespedim/
       {% assign author_id = group.name | slugify %}
       {% assign items = group.items | sort: "event" %}
       {% assign seen_events = "" | split: "" %}
-      <div id="panel-{{ author_id }}" class="author-panel" style="display:none;">
+      <div id="panel-{{ author_id }}" class="author-panel">
         <div class="author-panel-header">
           <h2>{{ group.name }}</h2>
           <button class="close-panel" onclick="closeAuthor()">&times;</button>
@@ -61,35 +61,5 @@ permalink: /hespedim/
     <p>בחר/י שם מלמעלה כדי לראות את ההספדים</p>
   </div>
 
-  <script>
-    function showAuthor(event, id) {
-      event.preventDefault();
-
-      document.querySelectorAll('.author-panel').forEach(function(panel) {
-        panel.style.display = 'none';
-      });
-
-      const panel = document.getElementById('panel-' + id);
-      if (panel) {
-        panel.style.display = 'block';
-      }
-
-      document.getElementById('empty-state').style.display = 'none';
-
-      document.querySelectorAll('.author-link').forEach(function(link) {
-        link.classList.remove('active');
-      });
-      event.target.classList.add('active');
-    }
-
-    function closeAuthor() {
-      document.querySelectorAll('.author-panel').forEach(function(panel) {
-        panel.style.display = 'none';
-      });
-      document.getElementById('empty-state').style.display = 'block';
-      document.querySelectorAll('.author-link').forEach(function(link) {
-        link.classList.remove('active');
-      });
-    }
-  </script>
+  <script src="{{ '/script/hespedim.js' | relative_url }}"></script>
 </div>

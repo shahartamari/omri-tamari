@@ -96,62 +96,39 @@ title: "עמוד הבית"
       </article>
   </section>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      document.querySelectorAll('.home-slideshow').forEach(function (slideshow) {
-        const images = slideshow.querySelectorAll('.home-slideshow__image');
-        const prevButton = slideshow.querySelector('.home-slideshow__button.prev');
-        const nextButton = slideshow.querySelector('.home-slideshow__button.next');
-        let currentIndex = 0;
-
-        function showImage(index) {
-          images.forEach(function (img, i) {
-            img.classList.toggle('active', i === index);
-          });
-        }
-
-        let autoplayTimer;
-
-        function restartAutoplay() {
-          clearTimeout(autoplayTimer);
-          autoplayTimer = setTimeout(function () {
-            currentIndex = (currentIndex + 1) % images.length;
-            showImage(currentIndex);
-            restartAutoplay();
-          }, 3000);
-        }
-
-        prevButton.addEventListener('click', function () {
-          currentIndex = (currentIndex - 1 + images.length) % images.length;
-          showImage(currentIndex);
-          restartAutoplay();
-        });
-
-        nextButton.addEventListener('click', function () {
-          currentIndex = (currentIndex + 1) % images.length;
-          showImage(currentIndex);
-          restartAutoplay();
-        });
-
-        slideshow.addEventListener('mouseenter', function () {
-          clearTimeout(autoplayTimer);
-        });
-
-        slideshow.addEventListener('mouseleave', function () {
-          restartAutoplay();
-        });
-
-        showImage(0);
-        restartAutoplay();
-      });
-    });
-  </script>
+  <script src="{{ '/script/home-slideshow.js' | relative_url }}"></script>
 
   <section class="story-section detail-card share-memory-highlight" id="share-memory">
     <h2>שתפו זיכרונות</h2>
     <p>אם יש לכם תמונה, סיפור או מחשבה על עמרי, נשמח שתשתפו. זה המקום לתעד את השפעתו, את הרגעים הקטנים ואת הרוח הספורטיבית שהפכה לחלק מההיסטוריה שלנו.</p>
     <p>כתבו פוסט, צרפו תמונה והיו חלק מהאתגר שממשיך לזכור אותו בדרך חיובית.</p>
     <a href="/share-memory/" class="cta-button cta-clean">לעמוד שיתוף הזיכרונות</a>
+  </section>
+
+  <section class="story-section detail-card spotify-section">
+    <h2>שחר קרמר בפרוייקט ״קשר הירח״</h2>
+    <p>שחר קרמר בביצוע לשיר ״קשר הירח״ לזכרו של עומרי  </p>
+    <p>שחר בת כיתה של עומרי ממזכרת בתיה שרה את השיר מעל קיברו ב30, מאוחר יותר הקליטה והוציאה את השיר במסגרת פרוייקט שעבדה עליו להנצחת נופלי המושבה</p>
+    <div class="spotify-embed">
+      <div class="spotify-embed__player">
+        <div class="spotify-embed__header">קשר הירח – Spotify</div>
+        <div class="spotify-embed__frame">
+          <iframe
+            src="https://open.spotify.com/embed/track/4eg5jBQcr4EoxZgXf2OBlx?flow_ctx=68d8af87-85ed-4d66-b89b-7de6e3a5d83e%3A1785291805&autoplay_ok=1"
+            width="100%"
+            height="100"
+            class="spotify-embed__iframe"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+            title="Spotify – קשר הירח">
+          </iframe>
+        </div>
+      </div>
+      <div class="spotify-embed__cover">
+        <img src="/assets/main/inx-transparent.png" alt="קשר הירח" class="spotify-embed__cover-img" />
+      </div>
+    </div>
   </section>
 
 
