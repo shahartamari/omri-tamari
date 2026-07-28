@@ -7,15 +7,62 @@ title: "עמוד הבית"
 
 <div dir="rtl" lang="he" class="memorial-page">
   <section class="hero">
-    <img src="/assets/main/omri-hero.jpg" alt="תמונה של עמרי" class="hero-image" />
+    <img src="/assets/main/omri-hero.avif" alt="תמונה של עמרי" class="hero-image" />
     <div class="hero-content">
       <p class="eyebrow">אתר זיכרון לעומרי תמרי</p>
       <div class="hero-links">
         <a href="/hespedim/">הספדים</a>
         <a href="/share-memory/">שתפו זיכרון</a>
       </div>
+      <a href="/about/" class="hero-image-link" aria-label="על הפרויקט">
+        <img src="/assets/main/glufa.png" alt="על הפרויקט" />
+      </a>
       <h1>אתר להנצחת ולהנכחת עומרי </h1>
-      <p class="hero-description">.האתר ישאיר את עומרי איתנו בעשייה בזכרונות ובתמונות</p>
+      <p class="hero-description">האתר ישאיר את עומרי איתנו בעשייה בזכרונות ובתמונות</p>
+    </div>
+  </section>
+
+   <section class="omri-figure">
+   <h2>על עומרי</h2>
+   <p class="section-lead"> 
+   <a href="/about-omri/">לקרוא על עומרי</a>
+   </p>
+    <div class="project-grid">
+    <article class="project-card">
+          <picture>
+            <img src="/assets/images/army.JPG" alt="image info" 
+            class="uniform-gallery-img" 
+                alt="Gallery item" 
+                width="140" 
+                height="170" 
+            loading="lazy" />
+          </picture>
+          <picture>
+            <img src="/assets/images/ez.JPG" alt="image info" 
+            class="uniform-gallery-img" 
+                alt="Gallery item" 
+                width="140" 
+                height="170" 
+            loading="lazy" />
+          </picture>
+          <picture>
+            <img src="/assets/images/hamus.JPG" alt="image info" 
+            class="uniform-gallery-img" 
+                alt="Gallery item" 
+                width="140" 
+                height="170" 
+            loading="lazy" />
+          </picture>
+          <picture>
+            <img src="/assets/images/mishkefet.jpg" alt="image info" 
+            class="uniform-gallery-img" 
+                alt="Gallery item" 
+                width="140" 
+                height="170" 
+            loading="lazy" />
+          </picture>
+        <p>אמור מעט ועשה הרבה</p>
+      </article>
     </div>
   </section>
 
