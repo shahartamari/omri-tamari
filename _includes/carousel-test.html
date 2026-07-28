@@ -13,7 +13,11 @@
     {% if folder_path != "" %}
       {% for file in site.static_files %}
         {% assign ext = file.extname | downcase %}
-        {% if file.path contains folder_path and ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.avif' or ext == '.webp' or  ext == '.JPG'%}
+        {% assign is_image_ext = false %}
+        {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.avif' or ext == '.webp' %}
+          {% assign is_image_ext = true %}
+        {% endif %}
+        {% if file.path contains folder_path and is_image_ext %}
           {% assign image_list = image_list | push: file.path %}
         {% endif %}
       {% endfor %}

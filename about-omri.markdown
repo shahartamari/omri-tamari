@@ -4,7 +4,7 @@ title:  דמותו של עומרי
 permalink: /about-omri/
 ---
 
-<link rel="stylesheet" href="{{ '/style/carousel-test.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/style/about-omri.css' | relative_url }}" />
 
 <style>
 .about-actions {
