@@ -1,0 +1,38 @@
+{% assign image_list = include.images | split: "," %}
+{% assign size_mode = include.size_mode | default: include.size | default: "default" %}
+{% assign image_width = 300 %}
+{% if size_mode == 'large' %}
+  {% assign image_width = 600 %}
+{% endif %}
+
+<div class="carousel-container{% if size_mode == 'large' %} carousel-large{% endif %}">
+  <div class="carousel-fade">
+    {% for img in image_list %}
+      <div class="carousel-fade__slide {% if forloop.first %}active{% endif %}">
+        <img src="{{ img | strip }}" alt="Slide {{ forloop.index }}" loading="lazy" decoding="async" width="{{ image_width }}" height="400">
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const containers = document.querySelectorAll(".carousel-container");
+
+  containers.forEach((container) => {
+    const slides = container.querySelectorAll(".carousel-fade__slide");
+    if (slides.length <= 1) return;
+
+    let currentIndex = 0;
+    const intervalTime = 3000; 
+
+    function nextImage() {
+      slides[currentIndex].classList.remove("active");
+      currentIndex = (currentIndex + 1) % slides.length;
+      slides[currentIndex].classList.add("active");
+    }
+
+    setInterval(nextImage, intervalTime);
+  });
+});
+</script>
