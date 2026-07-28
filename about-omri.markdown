@@ -51,7 +51,7 @@ permalink: /about-omri/
 הם הפכו לזוג, הקשר צלח את המרחק בשנת השירות והתחזק אל תוך השירות הצבאי
 עד לנפילתו.
 <p>
-{% include carousel-test.html images="/assets/images/salt.jpg, /assets/images/freinds.jpg, /assets/images/home.jpg " size_mode="large" %}
+{% include carousel-test.html folder="/assets/images/wide/highschool, /assets/images/wide/childhood, /assets/images/wide/family " size_mode="large" %}
 
 <h2>שנת שירות</h2>
 עומרי סיים את לימודיו בבית הספר ״קשת״ ביוני 2023 <br>
@@ -68,7 +68,7 @@ permalink: /about-omri/
 הוא היה משמעותי מאוד גם בתוך קבוצת הש״שינים.<br>
 והיה מוערך מאוד על ידי הצוות המקצועי בחווה.<br>
 </p>
-{% include carousel-test.html images="/assets/images/dog.jpg, /assets/images/gez.jpg, /assets/images/donkeys.jpg, /assets/images/komuna.jpg, /assets/images/komuna1.jpg, /assets/images/komuna2.jpg ,/assets/images/komuna3.jpg ,/assets/images/omri-nevo.jpg , /assets/images/omri-omri.jpg, /assets/images/omri-omri-ez.jpg, /assets/images/tiul-komuna.jpg"   size_mode="large" %}
+{% include carousel-test.html folder="/assets/images/wide/komuna" size_mode="large" %}
 <h1>נפילתו</h1>
 עומרי נאלץ להפסיק את שנת השירות שלו.<br>
 הצבא גייס אותו באמצע שנת השירות והוא שובץ לחטיבת גולני בגדוד 51<br>
@@ -79,7 +79,7 @@ permalink: /about-omri/
 עומרי ועוד 3 חיילים - יואב אגמון, יוסף הייב, ואמיתי אלון -נהרגו כ70 נוספים נפצעו.<br>
 עומרי נפטר מפצעיו במסוק שפינה אותו לבית החולים.<br>
 
-{% include carousel-test.html images="/assets/images/ez.JPG, /assets/images/mishkefet.JPG, /assets/images/hamus.JPG, /assets/images/meshushim.JPG, /assets/images/army.JPG, /assets/images/mishkefet.JPG" size_mode="small"%}
+{% include carousel-test.html folder="/assets/images/long/army " size_mode="small" %}
 
 
 

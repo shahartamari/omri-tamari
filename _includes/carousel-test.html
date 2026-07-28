@@ -1,8 +1,24 @@
-{% assign image_list = include.images | split: "," %}
 {% assign size_mode = include.size_mode | default: include.size | default: "default" %}
 {% assign image_width = 300 %}
 {% if size_mode == 'large' %}
   {% assign image_width = 600 %}
+{% endif %}
+
+{% assign image_list = include.images | split: "," %}
+{% if include.folder %}
+  {% assign folder_list = include.folder | split: "," %}
+  {% assign image_list = "" | split: "" %}
+  {% for folder in folder_list %}
+    {% assign folder_path = folder | strip %}
+    {% if folder_path != "" %}
+      {% for file in site.static_files %}
+        {% assign ext = file.extname | downcase %}
+        {% if file.path contains folder_path and ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.avif' or ext == '.webp' %}
+          {% assign image_list = image_list | push: file.path %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
 
 <div class="carousel-container{% if size_mode == 'large' %} carousel-large{% endif %}">

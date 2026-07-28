@@ -4,8 +4,25 @@ title: על הפרויקט
 permalink: /about/
 ---
 
+<style>
+.about-actions {
+  margin: 1.25rem 0 1.75rem;
+}
+
+.about-actions .cta-button {
+  margin-top: 0;
+}
+
+.about-actions .cta-button:hover {
+  transform: translateY(-2px);
+}
+</style>
+
 <div dir="rtl" lang="he" class="about-page">
   <h1>על הפרויקט</h1>
+  <div class="about-actions">
+    <a href="/hespedim/" class="cta-button cta-clean">לקרוא הספדים</a>
+  </div>
   <p>זהו אתר זיכרון לעומרי תמרי, נער גבוה, יפה ולבבי שאהב ספורט. האתר נבנה כדי לשמור על שמו, לספר על הישגיו ולחבר בין משפחה וחברים באמצעות זיכרונות, סיפורים ואתגר ייחודי.</p>
   <p>עומרי היה אתלט מצטיין: הוא זכה במספר מרוצי רגל ושיחק כדורסל עם תשוקה ורוח קבוצה. המטרה כאן היא לכבד אותו בדרך כנה ופשוטה, בשפה העברית, עם דגש על הקשר האנושי והכוח להשאיר חותם.</p>
   <h2>מה נמצא באתר</h2>
