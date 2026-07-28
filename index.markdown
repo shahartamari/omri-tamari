@@ -96,56 +96,7 @@ title: "עמוד הבית"
       </article>
   </section>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      document.querySelectorAll('.home-slideshow').forEach(function (slideshow) {
-        const images = slideshow.querySelectorAll('.home-slideshow__image');
-        const prevButton = slideshow.querySelector('.home-slideshow__button.prev');
-        const nextButton = slideshow.querySelector('.home-slideshow__button.next');
-        let currentIndex = 0;
-
-        function showImage(index) {
-          images.forEach(function (img, i) {
-            img.classList.toggle('active', i === index);
-          });
-        }
-
-        let autoplayTimer;
-
-        function restartAutoplay() {
-          clearTimeout(autoplayTimer);
-          autoplayTimer = setTimeout(function () {
-            currentIndex = (currentIndex + 1) % images.length;
-            showImage(currentIndex);
-            restartAutoplay();
-          }, 3000);
-        }
-
-        prevButton.addEventListener('click', function () {
-          currentIndex = (currentIndex - 1 + images.length) % images.length;
-          showImage(currentIndex);
-          restartAutoplay();
-        });
-
-        nextButton.addEventListener('click', function () {
-          currentIndex = (currentIndex + 1) % images.length;
-          showImage(currentIndex);
-          restartAutoplay();
-        });
-
-        slideshow.addEventListener('mouseenter', function () {
-          clearTimeout(autoplayTimer);
-        });
-
-        slideshow.addEventListener('mouseleave', function () {
-          restartAutoplay();
-        });
-
-        showImage(0);
-        restartAutoplay();
-      });
-    });
-  </script>
+  <script src="{{ '/script/home-slideshow.js' | relative_url }}"></script>
 
   <section class="story-section detail-card share-memory-highlight" id="share-memory">
     <h2>שתפו זיכרונות</h2>
@@ -154,19 +105,19 @@ title: "עמוד הבית"
     <a href="/share-memory/" class="cta-button cta-clean">לעמוד שיתוף הזיכרונות</a>
   </section>
 
-  <section class="story-section detail-card" style="margin-top:1.5rem;">
+  <section class="story-section detail-card spotify-section">
     <h2>שחר קרמר בפרוייקט ״קשר הירח״</h2>
     <p>שחר קרמר בביצוע לשיר ״קשר הירח״ לזכרו של עומרי  </p>
     <p>שחר בת כיתה של עומרי ממזכרת בתיה שרה את השיר מעל קיברו ב30, מאוחר יותר הקליטה והוציאה את השיר במסגרת פרוייקט שעבדה עליו להנצחת נופלי המושבה</p>
-    <div style="display:flex; flex-wrap:wrap; align-items:stretch; margin:1rem 0; max-width:100%;">
-      <div style="flex:0 1 400px; min-width:280px; overflow:hidden; border:1px solid #1db954; border-right:0; border-radius:8px 0 0 8px;">
-        <div style="background:#1db954; color:#fff; padding:0.75rem 1rem; font-weight:600;">קשר הירח – Spotify</div>
-        <div style="height:100px; overflow:hidden; background:#fff;">
+    <div class="spotify-embed">
+      <div class="spotify-embed__player">
+        <div class="spotify-embed__header">קשר הירח – Spotify</div>
+        <div class="spotify-embed__frame">
           <iframe
             src="https://open.spotify.com/embed/track/4eg5jBQcr4EoxZgXf2OBlx?flow_ctx=68d8af87-85ed-4d66-b89b-7de6e3a5d83e%3A1785291805&autoplay_ok=1"
             width="100%"
             height="100"
-            style="display:block; border:0;"
+            class="spotify-embed__iframe"
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
@@ -174,8 +125,8 @@ title: "עמוד הבית"
           </iframe>
         </div>
       </div>
-      <div style="flex:0 0 auto; overflow:hidden; display:flex; align-items:flex-end; border:1px solid #1db954; border-left:0; border-radius:0 8px 8px 0; padding:0;">
-        <img src="/assets/main/inx-transparent.png" alt="קשר הירח" style="display:block; height:104px; width:auto; max-width:220px; object-fit:contain; background:transparent; margin-top:auto; margin-bottom:-2px;" />
+      <div class="spotify-embed__cover">
+        <img src="/assets/main/inx-transparent.png" alt="קשר הירח" class="spotify-embed__cover-img" />
       </div>
     </div>
   </section>
