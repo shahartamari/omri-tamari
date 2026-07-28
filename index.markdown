@@ -154,4 +154,30 @@ title: "עמוד הבית"
     <a href="/share-memory/" class="cta-button cta-clean">לעמוד שיתוף הזיכרונות</a>
   </section>
 
+  <section class="story-section detail-card" style="margin-top:1.5rem;">
+    <h2>שחר קרמר בפרוייקט ״קשר הירח״</h2>
+    <p>שחר קרמר בביצוע לשיר ״קשר הירח״ לזכרו של עומרי  </p>
+    <p>שחר בת כיתה של עומרי ממזכרת בתיה שרה את השיר מעל קיברו ב30, מאוחר יותר הקליטה והוציאה את השיר במסגרת פרוייקט שעבדה עליו להנצחת נופלי המושבה</p>
+    <div style="display:flex; flex-wrap:wrap; align-items:stretch; margin:1rem 0; max-width:100%;">
+      <div style="flex:0 1 400px; min-width:280px; overflow:hidden; border:1px solid #1db954; border-right:0; border-radius:8px 0 0 8px;">
+        <div style="background:#1db954; color:#fff; padding:0.75rem 1rem; font-weight:600;">קשר הירח – Spotify</div>
+        <div style="height:100px; overflow:hidden; background:#fff;">
+          <iframe
+            src="https://open.spotify.com/embed/track/4eg5jBQcr4EoxZgXf2OBlx?flow_ctx=68d8af87-85ed-4d66-b89b-7de6e3a5d83e%3A1785291805&autoplay_ok=1"
+            width="100%"
+            height="100"
+            style="display:block; border:0;"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+            title="Spotify – קשר הירח">
+          </iframe>
+        </div>
+      </div>
+      <div style="flex:0 0 auto; overflow:hidden; display:flex; align-items:flex-end; border:1px solid #1db954; border-left:0; border-radius:0 8px 8px 0; padding:0;">
+        <img src="/assets/main/inx-transparent.png" alt="קשר הירח" style="display:block; height:104px; width:auto; max-width:220px; object-fit:contain; background:transparent; margin-top:auto; margin-bottom:-2px;" />
+      </div>
+    </div>
+  </section>
+
 
