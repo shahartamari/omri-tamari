@@ -44,6 +44,76 @@ title: "עמוד הבית"
     </div>
   </section>
 
+<section class="story-section detail-card upcoming-events-card">
+    <div class="upcoming-events-header">
+      <h2>אירועים קרובים</h2>
+      <button class="manager-event-toggle cta-button cta-clean" type="button" data-manager-toggle>הוספת אירוע למנהלים</button>
+    </div>
+    <p class="section-lead">לוח קצר של אירועים והתכנסויות</p>
+    <div class="manager-event-form-panel" hidden>
+      <form class="manager-event-form">
+        <label class="manager-event-field">
+          <span>תאריך</span>
+          <input type="text" name="date" placeholder="לדוגמה: 09.10.26" required />
+        </label>
+        <label class="manager-event-field">
+          <span>מיקום</span>
+          <input type="text" name="location" placeholder="לדוגמה: מזכרת בתיה" required />
+        </label>
+        <label class="manager-event-field">
+          <span>כותרת</span>
+          <input type="text" name="title" placeholder="לדוגמה: טורניר כדורסל" required />
+        </label>
+        <label class="manager-event-field">
+          <span>שעת התחלה</span>
+          <input type="time" name="startTime" />
+        </label>
+        <label class="manager-event-field">
+          <span>שעת סיום</span>
+          <input type="time" name="endTime" />
+        </label>
+        <label class="manager-event-field">
+          <span>תיאור</span>
+          <textarea name="description" rows="3" placeholder="פרטים נוספים על האירוע"></textarea>
+        </label>
+        <div class="manager-event-form__actions">
+          <button type="submit" class="cta-button">שמור אירוע</button>
+          <button type="button" class="cta-button cta-clean manager-event-cancel">ביטול</button>
+        </div>
+      </form>
+    </div>
+    <div class="upcoming-events-list" data-upcoming-events-list>
+      <article class="upcoming-event">
+        <div class="upcoming-event__date">09.10.26</div>
+        <div>
+          <h3>אזכרה</h3>
+          <p>אזכרה - כבר שנתיים.</p>
+        </div>
+      </article>
+      <article class="upcoming-event">
+        <div class="upcoming-event__date">09.10.26</div>
+        <div>
+          <h3>טורניר כדורסל לזכרו</h3>
+          <p>הטורניר השנתי ייערך במגרש הכדורסל של בית ספר רבין במזכרת בתיה בסמוך לאזכרה.</p>
+        </div>
+      </article>
+      <article class="upcoming-event">
+        <div class="upcoming-event__date">ספט׳ 2026</div>
+        <div>
+          <h3>אבני דרך ללוחם</h3>
+          <p>הפרויקט יתחיל עם שיתוף לוחמים ופעילויות ליווי לקראת האזרחות.</p>
+        </div>
+      </article>
+      <article class="upcoming-event">
+        <div class="upcoming-event__date">2027 מאי׳</div>
+        <div>
+          <h3>אתגר הסוכר</h3>
+          <p>פרטים על האתגר בהמשך, שיתופים והזמנות להצטרפות.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
   <section class="project-links">
     <h2>פרויקטים לזכרו</h2>
     <p class="section-lead">הצצה מהירה לכל פרויקט. לחצו על כרטיס כדי לעבור לפרטים המלאים בהמשך העמוד.</p>
@@ -65,6 +135,8 @@ title: "עמוד הבית"
       </article>
     </div>
   </section>
+
+  
 
   <section class="details-intro">
     <h2>פירוט הפרויקטים</h2>
