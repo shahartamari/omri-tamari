@@ -72,6 +72,13 @@ relative: דוד
 
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/segev_rosenstadt/with_shir.jpeg" alt="image info" />
+=======
+<picture>
+  <img src="/assets/hespedim/family/segev_rosenstadt/with_shir.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 

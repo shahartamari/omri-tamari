@@ -27,5 +27,16 @@ relative: אח
 עוד נצחק שם על הכל, <br>
 לא תהיה לנו ברירה״.<br>
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/amit_tamari/amit_omri_kineret.jpg" alt="kineret" />
+=======
+
+  <picture>
+  <img src="/assets/hespedim/family/amit_tamari/amit_omri_kineret.avif" alt="kineret" loading="lazy" />
+</picture>
+
+  <picture>
+  <img src="/assets/hespedim/family/amit_tamari/georgia.avif" alt="kineret" loading="lazy" />
+</picture>
+>>>>>>> main
 

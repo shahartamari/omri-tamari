@@ -42,6 +42,14 @@ relative: אח
 <br>
 עומרי תמרי. כל פעם שאני אחשוב עליך יעלה בי חיוך. אגדה בעודו חי. ואגדה בעודו מת. אני אוהב אותך אחי. <br>גיבור שלי.<br>
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/amit_tamari/georgia.png" alt="image info" />
+=======
+
+
+<picture>
+  <img src="{{ '/assets/hespedim/family/amit_tamari/hand.avif' | relative_url }}" alt="Site banner" loading="lazy" />
+</picture>
+>>>>>>> main
 
 

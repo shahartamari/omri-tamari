@@ -29,6 +29,13 @@ relative: אח
  מבטיח לך שאתה איתי בכל מקום. אוהב מאוד, עמית אחיך.<br>
  
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/amit_tamari/romania.jpg" alt="image info" />
+=======
+
+<picture>
+  <img src="{{ '/assets/hespedim/family/amit_tamari/romania.avif' | relative_url }}" alt="Site banner" loading="lazy" />
+</picture>
+>>>>>>> main
 
 

@@ -24,7 +24,17 @@ It breaks my heart that we were robbed of this chance. <br>
 Until we meet again brother. <br>
 We love you forever<br>
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/nathan_tamari/match.jpeg" alt="image info" />
 
 
 <img src="/assets/hespedim/family/nathan_tamari/river.jpeg" alt="image info" />
+=======
+<picture>
+  <img src="/assets/hespedim/family/nathan_tamari/match.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/family/nathan_tamari/river.avif" alt="image info" loading="lazy" />
+</picture>
+>>>>>>> main

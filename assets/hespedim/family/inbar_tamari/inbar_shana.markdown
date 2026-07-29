@@ -17,9 +17,30 @@ relative: אחות
 
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/inbar_tamari/kids.JPG" alt="image info" />
 <img src="/assets/hespedim/family/inbar_tamari/bakum.png" alt="image info" />
 <img src="/assets/hespedim/family/inbar_tamari/dinner.png" alt="image info" />
 <img src="/assets/hespedim/family/inbar_tamari/earing.png" alt="image info" />
+=======
+<picture>
+  <img src="/assets/hespedim/family/inbar_tamari/kids.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/family/inbar_tamari/bakum.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+ 
+  <img src="/assets/hespedim/family/inbar_tamari/dinner.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  
+  <img src="/assets/hespedim/family/inbar_tamari/earing.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 

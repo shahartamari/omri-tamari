@@ -63,4 +63,11 @@ relative: אבא
 <br>
 הבקשה שלנו, בני המשפחות השכולות, מכם, היא תוודאו שהילדים שלנו לא מתו לשווא.<br>
 תוודאו שהמדינה שלנו תהיה ראויה לאהבתם.<br>
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/elad_tamari/greece.png" alt="greece" />
+=======
+<picture>
+  <img src="/assets/hespedim/family/elad_tamari/greece.avif" alt="greece" loading="lazy" />
+</picture>
+
+>>>>>>> main

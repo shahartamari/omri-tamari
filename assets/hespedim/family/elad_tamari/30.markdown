@@ -70,7 +70,14 @@ relative: אבא
 תגיד לו שיחזיר את החטופים, שיחזיר את האור, כי מחיר המלחמה הוא נורא.<br>
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/elad_tamari/farm.png" alt="greece" />
+=======
+<picture>
+  <img src="/assets/hespedim/family/elad_tamari/farm.avif" alt="greece" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 
 

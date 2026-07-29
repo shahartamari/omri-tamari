@@ -85,7 +85,15 @@ relative: ססבתא
 לילה טוב חיים של סבתא💖💖💖💫<br>
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/moshe_rosenstadt/safta.jpeg" alt="image info" />
+=======
+<picture>
+  
+  <img src="/assets/hespedim/family/ruth_rosenstadt/safta.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 
 

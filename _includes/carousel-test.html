@@ -1,0 +1,58 @@
+{% assign size_mode = include.size_mode | default: include.size | default: "default" %}
+{% assign image_width = 300 %}
+{% if size_mode == 'large' %}
+  {% assign image_width = 600 %}
+{% endif %}
+
+{% assign image_list = include.images | split: "," %}
+{% if include.folder %}
+  {% assign folder_list = include.folder | split: "," %}
+  {% assign image_list = "" | split: "" %}
+  {% for folder in folder_list %}
+    {% assign folder_path = folder | strip %}
+    {% if folder_path != "" %}
+      {% for file in site.static_files %}
+        {% assign ext = file.extname | downcase %}
+        {% assign is_image_ext = false %}
+        {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.avif' or ext == '.webp' %}
+          {% assign is_image_ext = true %}
+        {% endif %}
+        {% if file.path contains folder_path and is_image_ext %}
+          {% assign image_list = image_list | push: file.path %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<div class="carousel-container{% if size_mode == 'large' %} carousel-large{% endif %}">
+  <div class="carousel-fade">
+    {% for img in image_list %}
+      <div class="carousel-fade__slide {% if forloop.first %}active{% endif %}">
+        <img src="{{ img | strip }}" alt="Slide {{ forloop.index }}" loading="lazy" decoding="async" width="{{ image_width }}" height="400">
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const containers = document.querySelectorAll(".carousel-container");
+
+  containers.forEach((container) => {
+    const slides = container.querySelectorAll(".carousel-fade__slide");
+    if (slides.length <= 1) return;
+
+    let currentIndex = 0;
+    const intervalTime = 3000; 
+
+    function nextImage() {
+      slides[currentIndex].classList.remove("active");
+      currentIndex = (currentIndex + 1) % slides.length;
+      slides[currentIndex].classList.add("active");
+    }
+
+    setInterval(nextImage, intervalTime);
+  });
+});
+</script>

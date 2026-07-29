@@ -39,5 +39,17 @@ relative:  בת דודה
 
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/neta_haim/saba_80.png" alt="image info" />
 <img src="/assets/hespedim/family/neta_haim/with_tamari_us.png" alt="image info" />
+=======
+<picture>
+ 
+  <img src="/assets/hespedim/family/neta_haim/saba_80.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+ 
+  <img src="/assets/hespedim/family/neta_haim/with_tamari_us.avif" alt="image info" loading="lazy" />
+</picture>
+>>>>>>> main

@@ -56,5 +56,17 @@ si=3nabujQmNCyaj1az<br>
 https://www.instagram.com/remember_omri_tamari?igsh=ZGs5bHl6aWcwcTAz<br>
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/chen_rosenstadt/bakum.jpeg" alt="image info" />
+=======
+<picture>
+  <img src="/assets/hespedim/family/chen_rosenstadt/bakum.avif" alt="image info" 
+   class="uniform-gallery-img" 
+       alt="Gallery item" 
+       width="300" 
+       height="250" 
+  loading="lazy" />
+</picture>
+
+>>>>>>> main
 

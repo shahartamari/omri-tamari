@@ -81,10 +81,33 @@ relative: סבא
 יהי זכרך ברוך.<br>
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/moshe_rosenstadt/romania.jpeg" alt="image info" />
 <img src="/assets/hespedim/family/moshe_rosenstadt/omri_and_inba.jpeg" alt="image info" />
 <img src="/assets/hespedim/family/moshe_rosenstadt/kita_alef.jpeg" alt="image info" />
 <img src="/assets/hespedim/family/moshe_rosenstadt/hashbaa.jpeg" alt="image info" />
+=======
+<picture>
+  
+  <img src="/assets/hespedim/family/moshe_rosenstadt/romania.avif" alt="image info" loading="lazy" />
+</picture>
+</picture>
+<picture>
+  
+  <img src="/assets/hespedim/family/moshe_rosenstadt/omri_and_inba.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+ 
+  <img src="/assets/hespedim/family/moshe_rosenstadt/kita_alef.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+ 
+  <img src="/assets/hespedim/family/moshe_rosenstadt/hashbaa.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 
 

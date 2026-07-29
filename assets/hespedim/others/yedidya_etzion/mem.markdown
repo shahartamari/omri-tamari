@@ -16,7 +16,15 @@ relative: מחנך של עומרי ומנהל בית הספר
 אוהב ומתגעגע <br>
 ידידיה<br>
 
+<<<<<<< HEAD
  <img src="/assets/hespedim/others/yedidya_etzion/yedidya2.jpeg" alt="image info" />
+=======
+ <picture>
+  
+  <img src="/assets/hespedim/others/yedidya_etzion/yedidya2.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 
    

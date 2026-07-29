@@ -39,7 +39,15 @@ relative: סבא
 
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/moshe_rosenstadt/kids.jpeg" alt="image info" />
+=======
+<picture>
+
+  <img src="/assets/hespedim/family/moshe_rosenstadt/kids.avif" alt="image info" loading="lazy" />
+</picture>
+</picture>
+>>>>>>> main
 
 
 

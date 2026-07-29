@@ -46,11 +46,39 @@ relative: חבר ילדות
 
 אני אוהב אותך עומרי, כל כך! אתה מי שאנחנו היום ולנצח תישאר.<br>
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/freinds/yonatan_ravel/empatigo.JPG" alt="image info" />
 <img src="/assets/hespedim/freinds/yonatan_ravel/itraining.JPEG" alt="image info" />
 <img src="/assets/hespedim/freinds/yonatan_ravel/kineret.JPEG" alt="image info" />
 <img src="/assets/hespedim/freinds/yonatan_ravel/nahal_hakibuzim.JPG" alt="image info" />
 <img src="/assets/hespedim/freinds/yonatan_ravel/yud_bet_sium.JPEG" alt="image info" />
+=======
+<picture>
+ 
+  <img src="/assets/hespedim/freinds/yonatan_ravel/empatigo.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  
+  <img src="/assets/hespedim/freinds/yonatan_ravel/itraining.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+ 
+  <img src="/assets/hespedim/freinds/yonatan_ravel/kineret.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  
+  <img src="/assets/hespedim/freinds/yonatan_ravel/nahal_hakibuzim.avif" alt="image info" loading="lazy" />
+</picture>
+
+
+
+  <img src="/assets/hespedim/freinds/yonatan_ravel/yud_bet_sium.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 
 

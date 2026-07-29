@@ -30,6 +30,14 @@ relative:  אמא
 אין מילים להסביר כמה אני אוהבת אותך,  <br>
 אמא <br>
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/sharon_tamari/omri_sharon.jpeg" alt="image info" />
+=======
+<picture>
+
+  <img src="/assets/hespedim/family/sharon_tamari/omri_sharon.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 

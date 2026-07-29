@@ -22,7 +22,15 @@ relative: אחות
 אתה תמיד תהיה איתי, תמיד תהיה הגאווה שלי ולכל מקום שאני אלך אני אזכיר שאני אחותך.<br>
 אני אוהבת אותך הכי בעולם, אחותך ענבר<br>
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/inbar_tamari/arema.JPG" alt="image info" />
+=======
+<picture>
+
+  <img src="/assets/hespedim/family/inbar_tamari/arema.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 
 

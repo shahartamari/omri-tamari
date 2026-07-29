@@ -35,4 +35,12 @@ relative: חבר ילדות
 על הזכות לגדול יחד איתך מכיתה ג׳ - ולא להיפרד לרגע. <br>
 היית ותמיד תהיה החבר הכי טוב של כל אחד ואחד מאיתנו .<br>
 שלך תמיד, כל החברים<br>
+<<<<<<< HEAD
 <img src="/assets/hespedim/freinds/itay_suchar/itay_suchar.jpg" alt="image info" />
+=======
+<picture>
+  
+  <img src="/assets/hespedim/freinds/itay_suchar/itay_suchar.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main

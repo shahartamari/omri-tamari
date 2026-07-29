@@ -35,5 +35,19 @@ relative: דודה של עומרי
 @sharon_tamari@tamarielad‬ad⁩‬‬<br>
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/chen_rosenstadt/chen_sharon.jpeg" alt="image info" />
+=======
+
+  <picture>
+ 
+  <img src="/assets/hespedim/family/chen_rosenstadt/chen_sharon.avif" alt="image info" 
+   class="uniform-gallery-img" 
+       alt="Gallery item" 
+       width="300" 
+       height="250" 
+  loading="lazy" />
+</picture>
+
+>>>>>>> main
 

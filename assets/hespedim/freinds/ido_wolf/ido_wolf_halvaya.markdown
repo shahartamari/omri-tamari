@@ -12,7 +12,14 @@ relative: חבר ילדות
 כדרכך לא היית צריך לדבר הרבה כדי להנחיל לנו את הדברים האלה: פשוט היית עושה אותם בעצמך ואנחנו כבר <br>היינו מסתכלים בהערצה.<br>
 בין אם זה על האינטליגנציה הרגשית שגרמה לך לראות כל אחד מאיתנו, השקט, הענווה או כל דבר אחר שאפיין את <br>הדמות המיוחדת שלך.<br>
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/freinds/ido_wolf/ido_wolf.jpg" alt="image info" />
+=======
+<picture>
+  <img src="/assets/hespedim/freinds/ido_wolf/ido_wolf.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 
 

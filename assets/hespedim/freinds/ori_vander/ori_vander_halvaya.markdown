@@ -46,7 +46,15 @@ relative: חבר ילדות
 אבל בחור אחר שאתה מכיר טוב אומר דבר ממש יפה, הוא אומר ש"חבר זה מישהו שיעשה הכל כדי להרים￼ אותך כשאתה <br>למטה, ואם הוא לא יצליח, הוא ישכב לידך". הבחור הזה הוא פו הדוב ולא אחר שכל כך אהבת.<br>
 אני בחיים לא אשכח אותך עומרי ואני מבטיח לעשות הכל כדי שיזכרו אותך ולנסות לעשות אפילו קצת מכל הטוב <br>שהיית אמור לעשות.
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/freinds/ori_vander/ori.jpg" alt="image info" />
+=======
+<picture>
+  
+  <img src="/assets/hespedim/freinds/ori_vander/ori.avif" alt="image info" loading="lazy" />
+</picture>
+</picture>
+>>>>>>> main
 
 
 

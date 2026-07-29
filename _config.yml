@@ -20,7 +20,8 @@
 
 title: "עומרי תמרי"
 email: "admin@omritamari.com"
-description:
+description: "אתר להנצחת ולהנכחת עומרי"
+
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://omritamari.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: "eladtamari"

@@ -18,6 +18,14 @@ relative:  בת דודה
 שאם רק תגיע שוב, נעשה את הכול מחדש. נברא מציאות אחרת. נתקרב עוד מההתחלה.<br>
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/neta_haim/bnei_dodim.png" alt="image info" />
+=======
+<picture>
+ 
+  <img src="/assets/hespedim/family/neta_haim/bnei_dodim.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 

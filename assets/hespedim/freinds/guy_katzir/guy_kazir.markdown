@@ -18,5 +18,17 @@ relative: חבר אקספרט
 ״איך מתארים במילים בן אדם שעשה הכל בלי מילים״(משפט הכתוב במדבקה לזכרו)<br>
 עומרי תמרי נהרג באסון הכטב״מ בבא״ח גולני בתאריך 13.10.2024 . בן לאלעד ושרון , אח של עמית וענבר.<br>
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/freinds/guy_katzir/guy_kazir.jpeg" alt="image info" />
 <img src="/assets/hespedim/freinds/guy_katzir/18.jpeg" alt="image info" />
+=======
+<picture>
+  
+  <img src="/assets/hespedim/freinds/guy_katzir/guy_kazir.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+ 
+  <img src="/assets/hespedim/freinds/guy_katzir/18.avif" alt="image info" loading="lazy" />
+</picture>
+>>>>>>> main

@@ -96,5 +96,16 @@ relative: דודה של עומרי
 
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/chen_rosenstadt/chen.jpeg" alt="image info" />
+=======
+<picture>
+  <img src="/assets/hespedim/family/chen_rosenstadt/chen.avif" alt="image info" 
+   class="uniform-gallery-img" 
+       alt="Gallery item" 
+       width="300" 
+       height="250" 
+  loading="lazy" />
+</picture>
+>>>>>>> main
 

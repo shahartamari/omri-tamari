@@ -38,4 +38,10 @@ relative: אבא
 אוהבים אותך לנצח ילד יפה ואהוב שלנו.<br>
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/elad_tamari/elad_omri.jpg" alt="image info" />
+=======
+<picture>
+  <img src="/assets/hespedim/family/elad_tamari/elad_omri.avif" alt="image info" loading="lazy" />
+</picture>
+>>>>>>> main

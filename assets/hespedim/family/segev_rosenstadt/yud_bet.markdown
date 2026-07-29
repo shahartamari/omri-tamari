@@ -33,6 +33,14 @@ relative: דוד
 
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/segev_rosenstadt/wedding.jpeg" alt="image info" />
+=======
+<picture>
+  
+  <img src="/assets/hespedim/family/segev_rosenstadt/wedding.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 

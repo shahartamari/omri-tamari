@@ -50,7 +50,15 @@ relative: מאמן אקספרט
 ״אם אי פעם יגיע יום שבו לא נוכל להיות ביחד, תשאיר אותי בליבך, שם נוכל להיות ביחד לנצח״.<br>
 <br>
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/others/amit_leopold/leo.jpeg" alt="image info" />
+=======
+<picture>
+ 
+  <img src="/assets/hespedim/others/amit_leopold/leo.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
 
 
 

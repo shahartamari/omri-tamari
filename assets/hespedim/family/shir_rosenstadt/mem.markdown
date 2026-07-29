@@ -33,4 +33,10 @@ relative: דודה
 שלח לנו דרישת שלום מעת לעת ושלח למשפחתך כוחות להתמודד ובבקשה תגיד לו שם למעלה שדי, זה כואב מדי.<br>
 
 
+<<<<<<< HEAD
 <img src="/assets/hespedim/family/shir_rosenstadt/wedding.jpeg" alt="image info" />
+=======
+<picture>
+  <img src="/assets/hespedim/family/shir_rosenstadt/wedding.avif" alt="image info" loading="lazy" />
+</picture>
+>>>>>>> main

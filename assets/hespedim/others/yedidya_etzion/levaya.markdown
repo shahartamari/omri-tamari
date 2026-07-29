@@ -26,4 +26,12 @@ relative: מחנך של עומרי ומנהל בית הספר
 נוח בשלום על משכבך עומרי היקר שלח לכולנו כוחות משם למעלה כמו הבחור החזק שתמיד היית <br>
  ותהיה מורשתך ודמותך נר תמיד של אור וטוב. <br>
 
+<<<<<<< HEAD
  <img src="/assets/hespedim/others/yedidya_etzion/yedidya1.jpeg" alt="image info" />
+=======
+ <picture>
+  
+  <img src="/assets/hespedim/others/yedidya_etzion/yedidya1.avif" alt="image info" loading="lazy" />
+</picture>
+
+>>>>>>> main
