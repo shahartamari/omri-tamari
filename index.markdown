@@ -34,7 +34,7 @@ title: "עמוד הבית"
           <div class="home-slideshow__viewport">
             <img src="/assets/images/long/army/army.JPG" alt="תמונה 1" class="home-slideshow__image active" loading="lazy" />
             <img src="/assets/images/long/komuna/ez.JPG" alt="תמונה 2" class="home-slideshow__image" loading="lazy" />
-            <img src="/assets/images/long/komuna/hamus.JPG" alt="תמונה 3" class="home-slideshow__image" loading="lazy" />
+            <img src="/assets/images/long/komuna/hamus.jpg" alt="תמונה 3" class="home-slideshow__image" loading="lazy" />
             <img src="/assets/images/long/childhood/mishkefet.jpg" alt="תמונה 4" class="home-slideshow__image" loading="lazy" />
           </div>
           <button class="home-slideshow__button next" type="button" aria-label="תמונה הבאה">&#10095;</button>
