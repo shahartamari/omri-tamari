@@ -1,6 +1,6 @@
 ---
 layout: hesped
-author: נבו ירדן
+author:     קומונה מגל
 event: שלושים
 relative: חבר מהקומונה
 ---

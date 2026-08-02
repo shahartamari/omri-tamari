@@ -1,8 +1,8 @@
 ---
 layout: hesped
-author: עומר גמליאל
+author: עומר גמליאל וגיא הירשפלד
 event: שבעה
-relative: אבא
+relative:  חברי ילדות
 ---
 
 אנחנו לא שלמים עומרי

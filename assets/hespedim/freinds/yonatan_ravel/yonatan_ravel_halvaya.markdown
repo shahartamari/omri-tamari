@@ -71,10 +71,4 @@ relative: חבר ילדות
   <img src="/assets/hespedim/freinds/yonatan_ravel/yud_bet_sium.avif" alt="image info" loading="lazy" />
 </picture>
 
-
-
-
-
-
-
-
+{% include hespedim-carousel.html %}

@@ -52,9 +52,4 @@ relative: חבר ילדות
 </picture>
 </picture>
 
-
-
-
-
-
-
+{% include hespedim-carousel.html %}
