@@ -1,0 +1,102 @@
+{% assign image_list = "" | split: "" %}
+{% assign explicit_images = include.images | default: "" %}
+
+{% if explicit_images != "" %}
+  {% assign raw_images = explicit_images | split: "," %}
+  {% for img in raw_images %}
+    {% assign trimmed_img = img | strip %}
+    {% if trimmed_img != "" %}
+      {% assign image_list = image_list | push: trimmed_img %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% assign folder_path = include.folder | strip %}
+
+  {% if folder_path == "" %}
+    {% assign page_path = page.path | default: '' %}
+    {% assign page_name = page.name | default: '' %}
+    {% if page_name != '' and page_path != '' %}
+      {% assign folder_path = page_path | replace: page_name, '' %}
+    {% endif %}
+  {% endif %}
+
+  {% if folder_path != "" %}
+    {% for file in site.static_files %}
+      {% assign ext = file.extname | downcase %}
+      {% assign is_image_ext = false %}
+      {% if ext == '.JPG' or ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.avif' or ext == '.webp' %}
+        {% assign is_image_ext = true %}
+      {% endif %}
+      {% if file.path contains folder_path and is_image_ext %}
+        {% assign image_list = image_list | push: file.path %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
+
+{% if image_list.size > 0 %}
+  <style>
+    .hespedim-carousel {
+      position: relative;
+      width: min(100%, 700px);
+      max-width: 100%;
+      margin: 1.5rem auto;
+      border-radius: 24px 24px 24px 0;
+      overflow: hidden;
+      background: #f6f3eb;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hespedim-carousel__slide {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      transition: opacity 0.8s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hespedim-carousel__slide.active {
+      opacity: 1;
+    }
+
+    .hespedim-carousel__slide img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      max-height: 100%;
+      object-fit: contain;
+      object-position: center;
+      display: block;
+    }
+  </style>
+
+  <div class="hespedim-carousel" role="region" aria-label="גלריית תמונות">
+    {% for img in image_list %}
+      <div class="hespedim-carousel__slide {% if forloop.first %}active{% endif %}">
+        <img src="{{ img | relative_url }}" alt="תמונה {{ forloop.index }}" loading="lazy" decoding="async">
+      </div>
+    {% endfor %}
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const carousels = document.querySelectorAll('.hespedim-carousel');
+      carousels.forEach(function (carousel) {
+        const slides = carousel.querySelectorAll('.hespedim-carousel__slide');
+        if (slides.length <= 1) return;
+
+        let currentIndex = 0;
+        setInterval(function () {
+          slides[currentIndex].classList.remove('active');
+          currentIndex = (currentIndex + 1) % slides.length;
+          slides[currentIndex].classList.add('active');
+        }, 3000);
+      });
+    });
+  </script>
+{% endif %}
