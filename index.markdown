@@ -203,4 +203,32 @@ title: "עמוד הבית"
     </div>
   </section>
 
+  <section class="story-section detail-card" id="ynet-embed">
+    <h2>מהרשת</h2>
+    <p>להצגה ישירה של הסרטון, ראו למטה.</p>
+    <article class="project-card">
+      <picture>
+        <img src="/assets/main/galhed.png" alt="image info" loading="lazy" />
+      </picture>
+      <p style="margin-top: 0.75rem; margin-bottom: 0.75rem;">
+        <a href="https://www.ynet.co.il/gal-hed/article/s1aruof1fe" target="_blank" rel="noopener noreferrer">לפתוח את הכתבה גל-הד</a>
+      </p>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px;">
+        <iframe
+          src="https://www.youtube.com/embed/eoDXBRWwH70"
+          title="YouTube video"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+        ></iframe>
+      </div>
+      <p style="margin-top: 0.75rem; margin-bottom: 0;">
+        <a href="https://www.youtube.com/watch?v=eoDXBRWwH70" target="_blank" rel="noopener noreferrer">לחץ על כפתור כדי לראות
+        </a>
+      </p>
+   
+    </article>
+  </section>
+
 

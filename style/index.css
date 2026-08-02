@@ -257,14 +257,6 @@ position: absolute;
   padding: 0.55rem 0.75rem;
   border-radius: 999px;
   text-align: center;
-  display: inline-block;
-  margin-bottom: 0.25rem;
-}
-
-.upcoming-event__hebrew-date {
-  font-size: 0.9rem;
-  color: #5f6c7d;
-  margin: 0 0 0.6rem;
 }
 
 .upcoming-event h3 {
