@@ -22,11 +22,55 @@ relative: חבר מהקומונה
  קומונה ש״ש יד – חוות ״תלמים״ מגל<br>
 
 
- <picture>
-  <source srcset="https://photos.fife.usercontent.google.com/pw/AP1GczNkB6QItotEX9rgG9XW2uQawU-x_tJAikKTPOOPSYUaJJ7GtYTZMV9CUQ=w1600-h1200-s-no-gm?authuser=0">
+ 
   <picture>
-  <source srcset="https://photos.fife.usercontent.google.com/pw/AP1GczNkB6QItotEX9rgG9XW2uQawU-x_tJAikKTPOOPSYUaJJ7GtYTZMV9CUQ=w1600-h1200-s-no-gm?authuser=0">
-  <img src="https://photos.fife.usercontent.google.com/pw/AP1GczNkB6QItotEX9rgG9XW2uQawU-x_tJAikKTPOOPSYUaJJ7GtYTZMV9CUQ=w1600-h1200-s-no-gm?authuser=0" alt="komuna" loading="lazy" />
+  <img src="/assets/images/long/komuna/rooster.jpg" alt="komuna"
+   loading="lazy" />
 </picture>
+
+ <picture>
+  <img src="/assets/images/long/komuna/maayan.jpg" alt="komuna" 
+  loading="lazy" />
 </picture>
+
+ <picture>
+  <img src="/assets/images/long/komuna/nevo_donkey.jpg" alt="komuna" 
+  loading="lazy" />
+</picture>
+
+ <picture>
+  <img src="/assets/images/long/komuna/nevo_rooster.jpg" alt="komuna" loading="lazy" />
+</picture>
+
+ <picture>
+  <img src="/assets/images/long/komuna/zoom_out.jpg" alt="komuna" loading="lazy" />
+</picture>
+
+ <picture>
+  <img src="/assets/images/long/komuna/krav_tarnegol.jpg" alt="komuna" loading="lazy" />
+</picture>
+
+ <picture>
+  <img src="/assets/images/long/komuna/ez_vinder.jpg" alt="komuna" loading="lazy" />
+</picture>
+
+
+<picture>
+  <img src="/assets/images/wide/komuna/dog.jpg" alt="komuna" loading="lazy" />
+</picture>
+
+
+<picture>
+  <img src="/assets/images/wide/komuna/all.JPG" alt="komuna" loading="lazy" />
+</picture>
+
+
+<picture>
+  <img src="/assets/images/wide/komuna/tiul.jpg" alt="komuna" loading="lazy" />
+</picture>
+
+
+
+
+
 
