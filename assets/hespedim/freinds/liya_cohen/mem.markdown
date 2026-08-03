@@ -37,18 +37,12 @@ relative:  בת זוג
 
 
 <picture>
-  <source srcset="/assets/hespedim/freinds/liya_cohen/green_hat.jpeg">
-  <picture>
-  <source srcset="/assets/hespedim/freinds/liya_cohen/green_hat.jpeg">
-  <img src="/assets/hespedim/freinds/liya_cohen/green_hat.jpeg" alt="image info" loading="lazy" />
+  <img src="/assets/images/long/highschool/green_hat.avif" alt="image info" loading="lazy" />
 </picture>
-</picture>
+
 <picture>
-  <source srcset="/assets/hespedim/freinds/liya_cohen/hug.jpeg">
-  <picture>
-  <source srcset="/assets/hespedim/freinds/liya_cohen/hug.jpeg">
-  <img src="/assets/hespedim/freinds/liya_cohen/hug.jpeg" alt="image info" loading="lazy" />
+  <img src="/assets/images/long/highschool/hug.avif" alt="image info" loading="lazy" />
 </picture>
-</picture>
+
 
 
