@@ -35,8 +35,7 @@ relative: סבא
 
 
 <picture>
- 
-  <img src="/assets/hespedim/family/moshe_rosenstadt/bakum.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/wide/family/bakum.avif" alt="image info" loading="lazy" />
 </picture>
 
 
