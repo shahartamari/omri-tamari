@@ -47,9 +47,8 @@ relative: חבר ילדות
 אני בחיים לא אשכח אותך עומרי ואני מבטיח לעשות הכל כדי שיזכרו אותך ולנסות לעשות אפילו קצת מכל הטוב <br>שהיית אמור לעשות.
 
 <picture>
-  
   <img src="/assets/hespedim/freinds/ori_vander/ori.avif" alt="image info" loading="lazy" />
 </picture>
-</picture>
 
-{% include hespedim-carousel.html %}
+
+
