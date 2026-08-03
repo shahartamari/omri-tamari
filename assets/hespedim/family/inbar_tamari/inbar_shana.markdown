@@ -18,21 +18,21 @@ relative: אחות
 
 
 <picture>
-  <img src="/assets/hespedim/family/inbar_tamari/kids.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/wide/family/kids_sucaria.avif" alt="image info" loading="lazy" />
 </picture>
 
 <picture>
-  <img src="/assets/hespedim/family/inbar_tamari/bakum.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/wide/family/bakum_inbar.avif" alt="image info" loading="lazy" />
 </picture>
 
 <picture>
- 
-  <img src="/assets/hespedim/family/inbar_tamari/dinner.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/wide/family/dinner.avif" alt="image info"
+   loading="lazy" />
 </picture>
 
 <picture>
-  
-  <img src="/assets/hespedim/family/inbar_tamari/earing.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/wide/family/earing.avif" alt="image info"
+   loading="lazy" />
 </picture>
 
 
