@@ -47,34 +47,24 @@ relative: חבר ילדות
 אני אוהב אותך עומרי, כל כך! אתה מי שאנחנו היום ולנצח תישאר.<br>
 
 <picture>
- 
-  <img src="/assets/hespedim/freinds/yonatan_ravel/empatigo.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/long/highschool/empatigo.avif" alt="image info" loading="lazy" />
 </picture>
 
 <picture>
-  
-  <img src="/assets/hespedim/freinds/yonatan_ravel/itraining.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/long/highschool/itraining.avif" alt="image info" loading="lazy" />
 </picture>
 
 <picture>
- 
-  <img src="/assets/hespedim/freinds/yonatan_ravel/kineret.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/long/highschool/kineret.avif" alt="image info" loading="lazy" />
 </picture>
 
 <picture>
-  
-  <img src="/assets/hespedim/freinds/yonatan_ravel/nahal_hakibuzim.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/long/highschool/nahal_hakibuzim.avif" alt="image info" loading="lazy" />
 </picture>
 
 
-
-  <img src="/assets/hespedim/freinds/yonatan_ravel/yud_bet_sium.avif" alt="image info" loading="lazy" />
+<picture>
+  <img src="/assets/images/long/highschool/yud_bet_sium.avif" alt="image info" loading="lazy" />
 </picture>
-
-
-
-
-
-
 
 

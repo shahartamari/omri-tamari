@@ -82,23 +82,19 @@ relative: סבא
 
 
 <picture>
-  
-  <img src="/assets/hespedim/family/moshe_rosenstadt/romania.avif" alt="image info" loading="lazy" />
-</picture>
-</picture>
-<picture>
-  
-  <img src="/assets/hespedim/family/moshe_rosenstadt/omri_and_inba.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/wide/family/romania.avif" alt="image info" loading="lazy" />
 </picture>
 
 <picture>
- 
-  <img src="/assets/hespedim/family/moshe_rosenstadt/kita_alef.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/wide/family/omri_and_inba.avif" alt="image info" loading="lazy" />
 </picture>
 
 <picture>
- 
-  <img src="/assets/hespedim/family/moshe_rosenstadt/hashbaa.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/wide/family/kita_alef.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/images/wide/family/hashbaa.avif" alt="image info" loading="lazy" />
 </picture>
 
 

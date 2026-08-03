@@ -178,6 +178,117 @@ position: absolute;
   font-weight: 600;
 }
 
+.upcoming-events-card {
+  margin: 1.4rem 0 1.6rem;
+  background: linear-gradient(180deg, #f9fcff 0%, #eef6ff 100%);
+  border-color: #c9dff4;
+}
+
+.upcoming-events-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.25rem;
+}
+
+.manager-event-toggle {
+  margin-top: 0;
+  padding: 0.6rem 1rem;
+}
+
+.manager-event-form-panel {
+  margin: 0.85rem 0 1rem;
+  padding: 1rem;
+  border: 1px solid #dce8f6;
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.manager-event-form {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.manager-event-field {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 600;
+  color: #223047;
+}
+
+.manager-event-field input,
+.manager-event-field textarea {
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #cfdbe9;
+  border-radius: 0.6rem;
+  font: inherit;
+  resize: vertical;
+}
+
+.manager-event-form__actions {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.upcoming-events-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.upcoming-event {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1rem 1.1rem;
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #dce8f6;
+}
+
+.upcoming-event__date {
+  font-weight: 800;
+  color: #1e4d9a;
+  font-size: 0.95rem;
+  background: #eaf2ff;
+  padding: 0.55rem 0.75rem;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.upcoming-event h3 {
+  margin: 0 0 0.35rem;
+}
+
+.upcoming-event p {
+  margin: 0;
+  color: #516073;
+}
+
+.upcoming-event__actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.upcoming-event__actions button {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #cfdbe9;
+  border-radius: 999px;
+  background: #fff;
+  color: #1e4d9a;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.upcoming-event__actions button:hover {
+  background: #eaf2ff;
+}
+
 .home-slideshow {
   display: flex;
   align-items: center;

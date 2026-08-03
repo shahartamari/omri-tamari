@@ -23,8 +23,7 @@ relative: אחות
 אני אוהבת אותך הכי בעולם, אחותך ענבר<br>
 
 <picture>
-
-  <img src="/assets/hespedim/family/inbar_tamari/arema.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/wide/family/arema.avif" alt="image info" loading="lazy" />
 </picture>
 
 

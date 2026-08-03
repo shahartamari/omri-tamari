@@ -34,12 +34,82 @@ title: "עמוד הבית"
           <div class="home-slideshow__viewport">
             <img src="/assets/images/long/army/army.JPG" alt="תמונה 1" class="home-slideshow__image active" loading="lazy" />
             <img src="/assets/images/long/komuna/ez.JPG" alt="תמונה 2" class="home-slideshow__image" loading="lazy" />
-            <img src="/assets/images/long/komuna/hamus.JPG" alt="תמונה 3" class="home-slideshow__image" loading="lazy" />
+            <img src="/assets/images/long/komuna/hamus.jpg" alt="תמונה 3" class="home-slideshow__image" loading="lazy" />
             <img src="/assets/images/long/childhood/mishkefet.jpg" alt="תמונה 4" class="home-slideshow__image" loading="lazy" />
           </div>
           <button class="home-slideshow__button next" type="button" aria-label="תמונה הבאה">&#10095;</button>
         </div>
         <p>אמור מעט ועשה הרבה</p>
+      </article>
+    </div>
+  </section>
+
+<section class="story-section detail-card upcoming-events-card">
+    <div class="upcoming-events-header">
+      <h2>אירועים קרובים</h2>
+      <button class="manager-event-toggle cta-button cta-clean" type="button" data-manager-toggle>הוספת אירוע למנהלים</button>
+    </div>
+    <p class="section-lead">לוח קצר של אירועים והתכנסויות</p>
+    <div class="manager-event-form-panel" hidden>
+      <form class="manager-event-form">
+        <label class="manager-event-field">
+          <span>תאריך</span>
+          <input type="text" name="date" placeholder="לדוגמה: 09.10.26" required />
+        </label>
+        <label class="manager-event-field">
+          <span>מיקום</span>
+          <input type="text" name="location" placeholder="לדוגמה: מזכרת בתיה" required />
+        </label>
+        <label class="manager-event-field">
+          <span>כותרת</span>
+          <input type="text" name="title" placeholder="לדוגמה: טורניר כדורסל" required />
+        </label>
+        <label class="manager-event-field">
+          <span>שעת התחלה</span>
+          <input type="time" name="startTime" />
+        </label>
+        <label class="manager-event-field">
+          <span>שעת סיום</span>
+          <input type="time" name="endTime" />
+        </label>
+        <label class="manager-event-field">
+          <span>תיאור</span>
+          <textarea name="description" rows="3" placeholder="פרטים נוספים על האירוע"></textarea>
+        </label>
+        <div class="manager-event-form__actions">
+          <button type="submit" class="cta-button">שמור אירוע</button>
+          <button type="button" class="cta-button cta-clean manager-event-cancel">ביטול</button>
+        </div>
+      </form>
+    </div>
+    <div class="upcoming-events-list" data-upcoming-events-list>
+      <article class="upcoming-event">
+        <div class="upcoming-event__date">09.10.26</div>
+        <div>
+          <h3>אזכרה</h3>
+          <p>אזכרה - כבר שנתיים.</p>
+        </div>
+      </article>
+      <article class="upcoming-event">
+        <div class="upcoming-event__date">09.10.26</div>
+        <div>
+          <h3>טורניר כדורסל לזכרו</h3>
+          <p>הטורניר השנתי ייערך במגרש הכדורסל של בית ספר רבין במזכרת בתיה בסמוך לאזכרה.</p>
+        </div>
+      </article>
+      <article class="upcoming-event">
+        <div class="upcoming-event__date">ספט׳ 2026</div>
+        <div>
+          <h3>אבני דרך ללוחם</h3>
+          <p>הפרויקט יתחיל עם שיתוף לוחמים ופעילויות ליווי לקראת האזרחות.</p>
+        </div>
+      </article>
+      <article class="upcoming-event">
+        <div class="upcoming-event__date">2027 מאי׳</div>
+        <div>
+          <h3>אתגר הסוכר</h3>
+          <p>פרטים על האתגר בהמשך, שיתופים והזמנות להצטרפות.</p>
+        </div>
       </article>
     </div>
   </section>
@@ -65,6 +135,8 @@ title: "עמוד הבית"
       </article>
     </div>
   </section>
+
+  
 
   <section class="details-intro">
     <h2>פירוט הפרויקטים</h2>
@@ -129,6 +201,34 @@ title: "עמוד הבית"
         <img src="/assets/main/inx-transparent.png" alt="קשר הירח" class="spotify-embed__cover-img" />
       </div>
     </div>
+  </section>
+
+  <section class="story-section detail-card" id="ynet-embed">
+    <h2>מהרשת</h2>
+    <p>להצגה ישירה של הסרטון, ראו למטה.</p>
+    <article class="project-card">
+      <picture>
+        <img src="/assets/main/galhed.png" alt="image info" loading="lazy" />
+      </picture>
+      <p style="margin-top: 0.75rem; margin-bottom: 0.75rem;">
+        <a href="https://www.ynet.co.il/gal-hed/article/s1aruof1fe" target="_blank" rel="noopener noreferrer">לפתוח את הכתבה גל-הד</a>
+      </p>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px;">
+        <iframe
+          src="https://www.youtube.com/embed/eoDXBRWwH70"
+          title="YouTube video"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+        ></iframe>
+      </div>
+      <p style="margin-top: 0.75rem; margin-bottom: 0;">
+        <a href="https://www.youtube.com/watch?v=eoDXBRWwH70" target="_blank" rel="noopener noreferrer">לחץ על כפתור כדי לראות
+        </a>
+      </p>
+   
+    </article>
   </section>
 
 

@@ -44,13 +44,11 @@ relative:  בת זוג
 "משהו שממש חשוב לי שאני אומרת לאנשיפ מאז ההפסד שהקראתי בהלוויה שלו זאת שורה קטנה. 'אני רוצה לבקש <br>מכולכם להיות קצת יותר כמו עומרי, תהיו אנשים נעימים עם כוונות טובות. תשתדלו לעשות את הכי טוב <br>שלכם, תשאפו להצטיין. תאכלו טוב ותהנו מהחיים'."<br>
 
 <picture>
- 
-  <img src="/assets/hespedim/freinds/liya_cohen/bunnys.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/long/highschool/bunnys.avif" alt="image info" loading="lazy" />
 </picture>
 
 <picture>
- 
-  <img src="/assets/hespedim/freinds/liya_cohen/duck.avif" alt="image info" loading="lazy" />
+  <img src="/assets/images/long/highschool/duck.avif" alt="image info" loading="lazy" />
 </picture>
 
 
