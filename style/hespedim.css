@@ -142,34 +142,73 @@
 .author-cloud {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 26px;
   justify-content: center;
   margin: 30px 0;
 }
 
 .hespedim-page .author-link,
 .hespedim-page a.author-link {
-  font-size: 1.4rem;
-  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 140px;
   color: #333;
   text-decoration: none !important;
-  padding-bottom: 2px;
-  display: inline-block;
-  transition: color 0.2s, transform 0.2s;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.author-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  background: linear-gradient(135deg, #7c93c3 0%, #4a617d 100%);
+  box-shadow: 0 10px 20px rgba(74, 97, 125, 0.2);
+  border: 4px solid #fff;
+  user-select: none;
+}
+
+.author-avatar-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.author-name {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  color: #333;
 }
 
 .hespedim-page .author-link:hover,
 .hespedim-page a.author-link:hover {
   color: #000;
   text-decoration: none !important;
-  transform: translateY(-3px);
+  transform: translateY(-4px);
 }
 
 .hespedim-page .author-link.active,
 .hespedim-page a.author-link.active {
   color: #000;
   text-decoration: none !important;
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+}
+
+.hespedim-page .author-link:hover .author-avatar,
+.hespedim-page a.author-link:hover .author-avatar,
+.hespedim-page .author-link.active .author-avatar,
+.hespedim-page a.author-link.active .author-avatar {
+  box-shadow: 0 12px 22px rgba(74, 97, 125, 0.28);
 }
 
 .author-panel {

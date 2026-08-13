@@ -25,8 +25,31 @@ permalink: /hespedim/
   <div class="author-cloud">
     {% for group in grouped_by_author %}
       {% assign author_id = group.name | slugify %}
+      {% assign first_relative = group.items | first | default: nil %}
+      {% assign first_item = group.items | first | default: nil %}
+      {% assign author_display = group.name %}
+      {% if first_relative and first_relative.relative %}
+        {% assign author_display = group.name | append: ' (' | append: first_relative.relative | strip | append: ')' %}
+      {% endif %}
+      {% assign author_image = nil %}
+      {% if first_item and first_item.image %}
+        {% assign author_image = first_item.image %}
+      {% endif %}
+      {% assign name_words = group.name | split: ' ' %}
+      {% assign initials = '' %}
+      {% if name_words.size > 0 %}
+        {% assign initials = name_words[0] | slice: 0, 1 %}
+      {% endif %}
+      {% if name_words.size > 1 %}
+        {% assign initials = initials | append: name_words[last] | slice: 0, 1 %}
+      {% endif %}
       <a href="#" class="author-link" onclick="showAuthor(event, '{{ author_id }}')">
-        {{ group.name }}
+        {% if author_image %}
+          <img class="author-avatar" src="{{ author_image | relative_url }}" alt="{{ group.name }}" loading="lazy" />
+        {% else %}
+          <span class="author-avatar author-avatar-fallback" aria-label="{{ group.name }}">{{ initials }}</span>
+        {% endif %}
+        <span class="author-name">{{ author_display }}</span>
       </a>
     {% endfor %}
   </div>
@@ -36,9 +59,14 @@ permalink: /hespedim/
       {% assign author_id = group.name | slugify %}
       {% assign items = group.items | sort: "event" %}
       {% assign seen_events = "" | split: "" %}
+      {% assign first_relative = group.items | first | default: nil %}
+      {% assign author_display = group.name %}
+      {% if first_relative and first_relative.relative %}
+        {% assign author_display = group.name | append: ' (' | append: first_relative.relative | strip | append: ')' %}
+      {% endif %}
       <div id="panel-{{ author_id }}" class="author-panel">
         <div class="author-panel-header">
-          <h2>{{ group.name }}</h2>
+          <h2>{{ author_display }}</h2>
           <button class="close-panel" onclick="closeAuthor()">&times;</button>
         </div>
         {% for item in items %}

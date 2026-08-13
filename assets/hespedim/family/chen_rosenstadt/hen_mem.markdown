@@ -3,6 +3,7 @@ layout: hesped
 author: רוזנשטט חן
 event:   זכרונות
 relative: דודה של עומרי
+image: /assets/hespedim/family/chen_rosenstadt/bakum.avif
 ---
 
 
