@@ -17,8 +17,8 @@ title: "עמוד הבית"
       <a href="/about/" class="hero-image-link" aria-label="על הפרויקט">
         <img src="/assets/main/glufa.png" alt="על הפרויקט" />
       </a>
-      <h1>אתר להנצחת ולהנכחת עומרי </h1>
-      <p class="hero-description">האתר ישאיר את עומרי איתנו בעשייה בזכרונות ובתמונות</p>
+      <p class="hero-description"><br><br><br><br>13.10.2024  יום לאחר יום כיפור נפל יקירינו עומרי בשעה שנקרא להגן על המדינה<br>עומרי השאיר אחריו חברים רבים ומשפחה שבורים וגאים שהוא היה חלק מחייהם <br>עומרי היה איש של חתירה למצויינות אהבת הארץ והאדם<br>וכך חי את חייו </p>
+     <h2> ״תהנה מכל רגע, כדי שלא תתחרט על מה שלא עשית״</h2>
     </div>
   </section>
 
@@ -182,51 +182,42 @@ title: "עמוד הבית"
           <img src="/assets/main/white_shirt.jpeg" alt="gadgets" loading="lazy" class="store-photo store-photo--small" />
         </button>
         <a href="https://links.payboxapp.com/UeBToVP4OUb" target="_blank" rel="noopener noreferrer" class="cta-button cta-clean">טריקו לבן 23שח</a>
-        
       </div>
-
       <div class="store-item">
         <button class="store-photo-button store-photo-button--small" type="button" data-store-image="/assets/main/girl_bez.jpeg" aria-label="הגדלת תמונת חווה">
           <img src="/assets/main/girl_bez.jpeg" alt="חווה" loading="lazy" class="store-photo store-photo--small" />
         </button>
         <a href="https://links.payboxapp.com/ayQXLSP4OUb" target="_blank" rel="noopener noreferrer" class="cta-button cta-clean">בז׳ חווה 26 שח</a>
       </div>
-
       <div class="store-item">
         <button class="store-photo-button store-photo-button--small" type="button" data-store-image="/assets/main/dryfit_front.jpeg" aria-label="הגדלת תמונת חווה">
           <img src="/assets/main/dryfit_front.jpeg" alt="חווה" loading="lazy" class="store-photo store-photo--small" />
         </button>
         <a href="https://links.payboxapp.com/ejesdRP4OUb" target="_blank" rel="noopener noreferrer" class="cta-button cta-clean">דרייפיט כחולה 23שח</a>
       </div>
-
       <div class="store-item">
         <button class="store-photo-button store-photo-button--small" type="button" data-store-image="/assets/main/dryfit_back.jpeg" aria-label="הגדלת תמונת חווה">
           <img src="/assets/main/dryfit_back.jpeg" alt="חווה" loading="lazy" class="store-photo store-photo--small" />
-        </button>
-        
+        </button>      
       </div>
-
       <div class="store-item">
         <button class="store-photo-button store-photo-button--small" type="button" data-store-image="/assets/main/white_sweetshirt.jpeg" aria-label="הגדלת תמונת חווה">
           <img src="/assets/main/white_sweetshirt.jpeg" alt="חווה" loading="lazy" class="store-photo store-photo--small" />
         </button>
         <a href="https://links.payboxapp.com/GPT1tPiaPUb" target="_blank" rel="noopener noreferrer" class="cta-button cta-clean">קפוצ׳ון לבן 52שח</a>
       </div>
-
       <div class="store-item">
         <button class="store-photo-button store-photo-button--small" type="button" data-store-image="/assets/main/black sweetshirt.jpeg" aria-label="הגדלת תמונת חווה">
           <img src="/assets/main/black sweetshirt.jpeg" alt="חווה" loading="lazy" class="store-photo store-photo--small" />
         </button>
         <a href="https://links.payboxapp.com/0b7UMShePUb" target="_blank" rel="noopener noreferrer" class="cta-button cta-clean">קפוצ׳ון שחור 52שח</a>
       </div>
-
       <div class="store-item">
         <button class="store-photo-button store-photo-button--small" type="button" data-store-image="/assets/main/blackshirt.jpeg" aria-label="הגדלת תמונת חווה">
           <img src="/assets/main/blackshirt.jpeg" alt="חווה" loading="lazy" class="store-photo store-photo--small" />
         </button>
         <a href="https://links.payboxapp.com/9gPvrgFePUb" target="_blank" rel="noopener noreferrer" class="cta-button cta-clean">חולצה שחורה 23שח</a>
       </div>
-
       <div class="store-item">
         <button class="store-photo-button store-photo-button--small" type="button" data-store-image="/assets/main/hat_green.jpeg" aria-label="הגדלת תמונת חווה">
           <img src="/assets/main/hat_green.jpeg" alt="חווה" loading="lazy" class="store-photo store-photo--small" />
@@ -235,7 +226,6 @@ title: "עמוד הבית"
       </div>
     </div>
   </section>
-
   <div class="store-photo-modal" id="store-photo-modal" aria-hidden="true">
     <button class="store-photo-modal__close" type="button" aria-label="סגירה">×</button>
     <img id="store-photo-modal-image" src="" alt="תמונת מוצרים" />
@@ -333,10 +323,8 @@ title: "עמוד הבית"
         ></iframe>
       </div>
       <p style="margin-top: 0.75rem; margin-bottom: 0;">
-        <a href="https://www.youtube.com/watch?v=eoDXBRWwH70" target="_blank" rel="noopener noreferrer">לחץ על כפתור כדי לראות
-        </a>
-      </p>
-   
+        <a href="https://www.youtube.com/watch?v=eoDXBRWwH70" target="_blank" rel="noopener noreferrer">לחץ על כפתור כדי לראות</a>
+      </p>  
     </article>
   </section>
 
