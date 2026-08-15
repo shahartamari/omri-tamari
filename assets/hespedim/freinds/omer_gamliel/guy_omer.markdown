@@ -3,6 +3,7 @@ layout: hesped
 author: עומר גמליאל וגיא הירשפלד
 event: שבעה
 relative:  חברי ילדות
+image: /assets/images/wide/highschool/omer_gamliel.jpeg
 ---
 
 אנחנו לא שלמים עומרי

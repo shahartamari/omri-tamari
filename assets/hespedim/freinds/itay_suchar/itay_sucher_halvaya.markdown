@@ -3,6 +3,7 @@ layout: hesped
 author: סוכר איתי
 event: הלוויה
 relative: חבר ילדות
+image: /assets/hespedim/freinds/itay_suchar/itay_suchar.avif
 ---
 
 

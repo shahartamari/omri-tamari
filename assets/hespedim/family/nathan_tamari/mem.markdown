@@ -3,6 +3,7 @@ layout: hesped
 author:    נתן תמרי
 event: זכרון
 relative:   בן דוד
+image: /assets/hespedim/family/nathan_tamari/river.avif
 ---
 
 

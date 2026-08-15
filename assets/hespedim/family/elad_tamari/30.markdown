@@ -3,6 +3,7 @@ layout: hesped
 author: אלעד תמרי
 event: שלושים
 relative: אבא
+image: /assets/hespedim/family/elad_tamari/greece.avif
 ---
 
 עומריק, הזמן עצר מלכת לפני כחודש, אנחנו חיים את אותו הלילה שוב ושוב.<br>

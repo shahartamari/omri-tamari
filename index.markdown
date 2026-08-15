@@ -133,6 +133,11 @@ title: "עמוד הבית"
         <p>  השנה יתקיים הטורניר ב9.10.26</p>
         <a href="#basketball">קראו עוד</a>
       </article>
+      <article class="project-card">
+        <h3>לרכישת כובעים וחולצות</h3>
+        <p>חולצות כובעים וצמידים</p>
+        <a href="#store">קראו עוד</a>
+      </article>
     </div>
   </section>
 
@@ -168,7 +173,64 @@ title: "עמוד הבית"
       </article>
   </section>
 
+  <section class="story-section detail-card" id="store">
+    <h2>לינקים לרכישת חולצות וכובעים</h2>
+    <p>לחצו על הכפתור כדי להגיע לעמוד הרכישה של פריטי הזיכרון.</p>
+    <div class="store-photo-grid">
+      <button class="store-photo-button store-photo-button--large" type="button" data-store-image="/assets/main/gadgets.jpeg" aria-label="הגדלת תמונת מוצרים">
+        <img src="/assets/main/white_shirt.jpeg" alt="gadgets" loading="lazy" class="store-photo store-photo--large" />
+      </button>
+      <button class="store-photo-button store-photo-button--small" type="button" data-store-image="/assets/main/girl_bez.jpeg" aria-label="הגדלת תמונת חווה">
+        <img src="/assets/main/girl_bez.jpeg" alt="חווה" loading="lazy" class="store-photo store-photo--small" />
+      </button>
+    </div>
+    <p style="margin-top: 1rem;">
+      <a href="https://links.payboxapp.com/9gPvrgFePUb" target="_blank" rel="noopener noreferrer" class="cta-button cta-clean">לקנייה דרך Paybox</a>
+    </p>
+  </section>
+
+  <div class="store-photo-modal" id="store-photo-modal" aria-hidden="true">
+    <button class="store-photo-modal__close" type="button" aria-label="סגירה">×</button>
+    <img id="store-photo-modal-image" src="" alt="תמונת מוצרים" />
+  </div>
+
   <script src="{{ '/script/home-slideshow.js' | relative_url }}"></script>
+  <script>
+    const storePhotoButtons = document.querySelectorAll('.store-photo-button');
+    const storePhotoModal = document.getElementById('store-photo-modal');
+    const storePhotoModalImage = document.getElementById('store-photo-modal-image');
+    const storePhotoModalClose = document.querySelector('.store-photo-modal__close');
+
+    storePhotoButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        const imageSrc = button.getAttribute('data-store-image');
+        if (!imageSrc) return;
+
+        storePhotoModalImage.src = imageSrc;
+        storePhotoModal.classList.add('is-visible');
+        storePhotoModal.setAttribute('aria-hidden', 'false');
+      });
+    });
+
+    function hideStorePhotoModal() {
+      storePhotoModal.classList.remove('is-visible');
+      storePhotoModal.setAttribute('aria-hidden', 'true');
+    }
+
+    storePhotoModalClose.addEventListener('click', hideStorePhotoModal);
+
+    storePhotoModal.addEventListener('click', function(event) {
+      if (event.target === storePhotoModal) {
+        hideStorePhotoModal();
+      }
+    });
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape' && storePhotoModal.classList.contains('is-visible')) {
+        hideStorePhotoModal();
+      }
+    });
+  </script>
 
   <section class="story-section detail-card share-memory-highlight" id="share-memory">
     <h2>שתפו זיכרונות</h2>

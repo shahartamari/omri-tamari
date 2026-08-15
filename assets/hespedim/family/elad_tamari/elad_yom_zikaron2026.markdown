@@ -3,6 +3,7 @@ layout: hesped
 author:  אלעד תמרי
 event: יום הזיכרון 2026
 relative: אבא
+image: /assets/hespedim/family/elad_tamari/greece.avif
 ---
 
 בשם המשפחות השכולות התבקשתי לדבר.<br>

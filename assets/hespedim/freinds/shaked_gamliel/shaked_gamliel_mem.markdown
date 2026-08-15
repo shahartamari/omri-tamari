@@ -3,6 +3,7 @@ layout: hesped
 author:    שקד גמליאל
 event: ספר זכרון
 relative:   חברה מהכיתה
+image: /assets/images/wide/highschool/shaked_gamliel.jpeg
 ---
 
 עומרי<br>

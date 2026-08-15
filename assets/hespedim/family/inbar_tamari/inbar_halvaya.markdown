@@ -3,6 +3,7 @@ layout: hesped
 author: ענבר תמרי
 event: הלוויה
 relative: אחות
+image: /assets/images/wide/family/dinner.avif
 ---
 
 לעומריקוש שלי האח הגדול שלי,<br>

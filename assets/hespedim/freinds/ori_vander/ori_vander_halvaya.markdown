@@ -3,6 +3,7 @@ layout: hesped
 author: ונדר אורי
 event: הלוויה
 relative: חבר ילדות
+image: /assets/hespedim/freinds/ori_vander/ori.avif
 ---
 
 הספד מאת אורי ונדר חבר בחבורה של עומרי ממזכרת בתיה <br>

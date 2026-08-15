@@ -1,11 +1,3 @@
----
-layout: hesped
-author: אלעד תמרי
-event: הושענה רבה 2024
-relative: אבא
-image: /assets/hespedim/family/elad_tamari/greece.avif
----
-
 מהי הנצחה?<br>
 אנחנו לומדים כעת הרבה מושגים חדשים שעד היום היו סתם מילים<br>
 ריקות בשבילנו:<br>

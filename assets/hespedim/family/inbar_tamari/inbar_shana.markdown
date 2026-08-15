@@ -3,6 +3,7 @@ layout: hesped
 author: ענבר תמרי
 event: שנה
 relative: אחות
+image: /assets/images/wide/family/dinner.avif
 ---
 
 עומרי, אח שלי הגדול. <br>
