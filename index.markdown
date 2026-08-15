@@ -17,15 +17,14 @@ title: "עמוד הבית"
       <a href="/about/" class="hero-image-link" aria-label="על הפרויקט">
         <img src="/assets/main/glufa.png" alt="על הפרויקט" />
       </a>
-      <p class="hero-description"><br><br><br><br>13.10.2024  יום לאחר יום כיפור נפל יקירינו עומרי בשעה שנקרא להגן על המדינה<br>עומרי השאיר אחריו חברים רבים ומשפחה שבורים וגאים שהוא היה חלק מחייהם <br>עומרי היה איש של חתירה למצויינות אהבת הארץ והאדם<br>וכך חי את חייו </p>
+      <p class="hero-description"><br><br><br><br> </p>
      <h2> ״תהנה מכל רגע, כדי שלא תתחרט על מה שלא עשית״</h2>
     </div>
   </section>
 
    <section class="omri-figure">
-   <h2>על עומרי</h2>
    <p class="section-lead"> 
-   <a href="/about-omri/">לקרוא על עומרי</a>
+   <a href="/about-omri/"><h1>>לקרוא על עומרי </h1></a>
    </p>
     <div class="project-grid">
       <article class="project-card">
@@ -39,7 +38,7 @@ title: "עמוד הבית"
           </div>
           <button class="home-slideshow__button next" type="button" aria-label="תמונה הבאה">&#10095;</button>
         </div>
-        <p>אמור מעט ועשה הרבה</p>
+        <p>13.10.2024  יום לאחר יום כיפור נפל יקירינו עומרי בשעה שנקרא להגן על המדינה<br>עומרי השאיר אחריו חברים רבים ומשפחה שבורים וגאים שהוא היה חלק מחייהם <br>עומרי היה איש של חתירה למצויינות אהבת הארץ והאדם<br>וכך חי את חייו </p>
       </article>
     </div>
   </section>
