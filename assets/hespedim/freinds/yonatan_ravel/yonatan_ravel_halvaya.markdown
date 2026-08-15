@@ -3,6 +3,7 @@ layout: hesped
 author: רבל יונתן
 event: הלוויה
 relative: חבר ילדות
+image: /assets/images/wide/highschool/yonatan_omri.jpeg
 ---
 
 הספד מאת יונתן רבל חבר בחבורה של עומרי ממזכרת בתיה <br>

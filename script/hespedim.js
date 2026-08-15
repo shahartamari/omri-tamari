@@ -1,21 +1,27 @@
 function showAuthor(event, id) {
   event.preventDefault();
 
-  document.querySelectorAll('.author-panel').forEach(function(panel) {
-    panel.style.display = 'none';
+  const link = event.currentTarget;
+  const panel = document.getElementById('panel-' + id);
+
+  document.querySelectorAll('.author-panel').forEach(function(panelEl) {
+    panelEl.style.display = 'none';
   });
 
-  const panel = document.getElementById('panel-' + id);
   if (panel) {
     panel.style.display = 'block';
+    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   document.getElementById('empty-state').style.display = 'none';
 
-  document.querySelectorAll('.author-link').forEach(function(link) {
-    link.classList.remove('active');
+  document.querySelectorAll('.author-link').forEach(function(authorLink) {
+    authorLink.classList.remove('active');
   });
-  event.target.classList.add('active');
+
+  if (link) {
+    link.classList.add('active');
+  }
 }
 
 function closeAuthor() {

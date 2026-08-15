@@ -3,6 +3,7 @@ layout: hesped
 author:     קומונה מגל
 event: שלושים
 relative: חבר מהקומונה
+image: /assets/images/wide/komuna/krav.jpg
 ---
 
 תמרי, כשעזבת באמצע השנת שירות חשבנו הקומונה, שזו תהיה הפרידה שלנו ממך.<br>

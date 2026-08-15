@@ -3,6 +3,7 @@ layout: hesped
 author:    ירין קינן
 event: שלושים
 relative: חבר מהקומונה
+image: /assets/images/wide/komuna/arucha.jpg
 ---
 
 מכתב לאחי - מתוך כאב וגעגוע אינסופי<br>

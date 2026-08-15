@@ -3,6 +3,7 @@ layout: hesped
 author:    נטע חיים
 event:  חצי שנה
 relative:  בת דודה
+image: /assets/hespedim/family/neta_haim/saba_80.avif
 ---
 
 

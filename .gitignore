@@ -5,3 +5,6 @@ _admin
 .jekyll-metadata
 vendor
 Gemfile.lock
+.DS_Store
+**/.DS_Store
+

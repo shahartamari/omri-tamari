@@ -3,6 +3,7 @@ layout: hesped
 author: סגל ארבל
 event: שלושים
 relative:  חבר ילדות
+image: /assets/images/wide/highschool/kibuzim_arbel.jpg
 ---
 
 עומרי<br>

@@ -3,6 +3,7 @@ layout: hesped
 author: גיא קציר
 event: ספר הזכרון
 relative: חבר אקספרט
+image: /assets/hespedim/freinds/guy_katzir/guy_kazir.avif
 ---
 
 * קטע לזכרו של עומרי תמרי ז״ל:<br>

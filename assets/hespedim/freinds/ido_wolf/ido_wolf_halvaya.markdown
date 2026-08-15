@@ -3,6 +3,7 @@ layout: hesped
 author: וולף עידו
 event: הלוויה
 relative: חבר ילדות
+image: /assets/hespedim/freinds/ido_wolf/ido_wolf.avif
 ---
 
 הספד של עידו וולף חבר בחבורה של עומרי ממזכרת בתיה<br>

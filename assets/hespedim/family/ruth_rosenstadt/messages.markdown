@@ -3,6 +3,7 @@ layout: hesped
 author: רותי רוזנשטט
 event:   תכתובות
 relative: ססבתא
+image: /assets/images/wide/family/ruthi.jpg
 ---
 
 

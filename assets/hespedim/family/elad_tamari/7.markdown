@@ -3,6 +3,7 @@ layout: hesped
 author:  אלעד תמרי
 event: שבעה
 relative: אבא
+image: /assets/hespedim/family/elad_tamari/greece.avif
 ---
 
 

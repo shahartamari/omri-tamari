@@ -3,6 +3,7 @@ layout: hesped
 author: עציון ידידיה
 event: יום הזיכרון 2025
 relative: מחנך של עומרי ומנהל בית הספר
+image: /assets/images/wide/highschool/yedidya.jpeg
 ---
 
 יום הזכרון תשפה<br>

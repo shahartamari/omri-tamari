@@ -3,6 +3,7 @@ layout: hesped
 author: כהן ליה
 event: ראיון לאשה
 relative:  בת זוג
+image: /assets/images/long/highschool/hug.avif
 ---
 
 "קוראים לי גיבורה. אנשים לא רואים את הימים שאני לא מצליחה לצאת מהמיטה"<br>

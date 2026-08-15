@@ -3,6 +3,7 @@ layout: hesped
 author: משה רוזנשטט
 event:  מכתב
 relative: סבא
+image: /assets/images/wide/family/kita_alef.avif
 ---
 
 משה רוזנשטט סבא – מכתב לעומרי<br>

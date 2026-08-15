@@ -3,6 +3,7 @@ layout: hesped
 author: שרון תמרי
 event: הלוויה
 relative:  אמא
+image: /assets/hespedim/family/sharon_tamari/omri_sharon.avif
 ---
 
 עומרי אהוב שלי, נשמה ענקית, לב ענק מלא בנתינה ואהבה. <br>
