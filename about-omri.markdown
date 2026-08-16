@@ -51,7 +51,7 @@ permalink: /about-omri/
 הם הפכו לזוג, הקשר צלח את המרחק בשנת השירות והתחזק אל תוך השירות הצבאי
 עד לנפילתו.
 <p>
-{% include carousel-test.html folder="/assets/images/wide/highschool, /assets/images/wide/childhood, /assets/images/wide/family " size_mode="large" %}
+{% include carousel-test.html folder="/assets/images/wide/highschool, /assets/images/wide/childhood, /assets/images/wide/family " size_mode="small" %}
 
 <h2>שנת שירות</h2>
 עומרי סיים את לימודיו בבית הספר ״קשת״ ביוני 2023 <br>
@@ -68,7 +68,7 @@ permalink: /about-omri/
 הוא היה משמעותי מאוד גם בתוך קבוצת הש״שינים.<br>
 והיה מוערך מאוד על ידי הצוות המקצועי בחווה.<br>
 </p>
-{% include carousel-test.html folder="/assets/images/wide/komuna" size_mode="large" %}
+{% include carousel-test.html folder="/assets/images/komuna" size_mode="small" %}
 <h1>נפילתו</h1>
 עומרי נאלץ להפסיק את שנת השירות שלו.<br>
 הצבא גייס אותו באמצע שנת השירות והוא שובץ לחטיבת גולני בגדוד 51<br>

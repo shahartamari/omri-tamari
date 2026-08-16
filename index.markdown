@@ -28,16 +28,7 @@ title: "עמוד הבית"
    </p>
     <div class="project-grid">
       <article class="project-card">
-        <div class="home-slideshow">
-          <button class="home-slideshow__button prev" type="button" aria-label="תמונה קודמת">&#10094;</button>
-          <div class="home-slideshow__viewport">
-            <img src="/assets/images/long/army/army.JPG" alt="תמונה 1" class="home-slideshow__image active" loading="lazy" />
-            <img src="/assets/images/long/komuna/ez.JPG" alt="תמונה 2" class="home-slideshow__image" loading="lazy" />
-            <img src="/assets/images/long/komuna/hamus.jpg" alt="תמונה 3" class="home-slideshow__image" loading="lazy" />
-            <img src="/assets/images/long/childhood/mishkefet.JPG" alt="תמונה 4" class="home-slideshow__image" loading="lazy" />
-          </div>
-          <button class="home-slideshow__button next" type="button" aria-label="תמונה הבאה">&#10095;</button>
-        </div>
+        {% include home-slideshow.html folder="/assets/images/omri" limit="100" %}
         <p>13.10.2024  יום לאחר יום כיפור נפל יקירינו עומרי בשעה שנקרא להגן על המדינה<br>עומרי השאיר אחריו חברים רבים ומשפחה שבורים וגאים שהוא היה חלק מחייהם <br>עומרי היה איש של חתירה למצויינות אהבת הארץ והאדם<br>וכך חי את חייו </p>
       </article>
     </div>
