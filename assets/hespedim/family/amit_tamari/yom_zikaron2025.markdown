@@ -3,6 +3,7 @@ layout: hesped
 author: עמית תמרי
 event: יום הזיכרון 2025
 relative: אח
+image: /assets/hespedim/family/amit_tamari/IMG_9071.jpg
 ---
 
 מהי הנצחה? ישנן מספר מחשבות שמלוות אותי ביום-יום וביניהן העיסוק בשאלות:<br>
