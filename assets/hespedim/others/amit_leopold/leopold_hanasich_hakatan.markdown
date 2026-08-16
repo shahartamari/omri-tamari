@@ -3,6 +3,7 @@ layout: hesped
 author: עמית לאופולד
 event:  יומן מלחמה
 relative: מאמן אקספרט
+image: /assets/hespedim/others/amit_leopold/al-haktefaim.jpeg
 ---
 
 *יומן מלחמה*/ על הנסיך הקטן.<br>

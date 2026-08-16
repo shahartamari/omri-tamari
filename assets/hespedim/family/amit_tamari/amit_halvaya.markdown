@@ -3,7 +3,7 @@ layout: hesped
 author: עמית תמרי
 event: הלוויה
 relative: אח
-image: /assets/hespedim/family/amit_tamari/amit_omri_kineret.avif
+image: /assets/hespedim/family/amit_tamari/IMG_9071.jpg
 ---
 
 הספד בהלוויה מאת עמית תמרי אח של עומרי:<br>

@@ -3,6 +3,7 @@ layout: hesped
 author: עמית תמרי
 event:  שנה
 relative: אח
+image: /assets/hespedim/family/amit_tamari/IMG_9071.jpg
 ---
 
  אזכרת שנה<br>
