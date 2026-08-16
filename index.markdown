@@ -24,7 +24,7 @@ title: "עמוד הבית"
 
    <section class="omri-figure">
    <p class="section-lead"> 
-   <a href="/about-omri/"><h1>>לקרוא על עומרי </h1></a>
+   <a href="/about-omri/"><h1>לקרוא על עומרי </h1></a>
    </p>
     <div class="project-grid">
       <article class="project-card">
