@@ -68,7 +68,7 @@ permalink: /about-omri/
 הוא היה משמעותי מאוד גם בתוך קבוצת הש״שינים.<br>
 והיה מוערך מאוד על ידי הצוות המקצועי בחווה.<br>
 </p>
-{% include carousel-test.html folder="/assets/images/komuna" size_mode="large" %}
+{% include carousel-test.html folder="/assets/images/komuna" size_mode="small" %}
 <h1>נפילתו</h1>
 עומרי נאלץ להפסיק את שנת השירות שלו.<br>
 הצבא גייס אותו באמצע שנת השירות והוא שובץ לחטיבת גולני בגדוד 51<br>

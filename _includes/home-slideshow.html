@@ -1,0 +1,31 @@
+{% assign folder_list = include.folder | default: '/assets/images/omri' | split: ',' %}
+{% assign slideshow_images = '' | split: '' %}
+{% assign image_limit = include.limit | default: 4 | plus: 0 %}
+
+{% for folder in folder_list %}
+  {% assign folder_path = folder | strip %}
+  {% if folder_path != '' %}
+    {% for file in site.static_files %}
+      {% assign ext = file.extname | downcase %}
+      {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.avif' or ext == '.webp' %}
+        {% if file.path contains folder_path %}
+          {% assign slideshow_images = slideshow_images | push: file.path %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% if slideshow_images.size > image_limit %}
+  {% assign slideshow_images = slideshow_images | slice: 0, image_limit %}
+{% endif %}
+
+<div class="home-slideshow">
+  <button class="home-slideshow__button prev" type="button" aria-label="תמונה קודמת">&#10094;</button>
+  <div class="home-slideshow__viewport">
+    {% for img in slideshow_images %}
+      <img src="{{ img | relative_url }}" alt="תמונה {{ forloop.index }}" class="home-slideshow__image {% if forloop.first %}active{% endif %}" loading="lazy" />
+    {% endfor %}
+  </div>
+  <button class="home-slideshow__button next" type="button" aria-label="תמונה הבאה">&#10095;</button>
+</div>
