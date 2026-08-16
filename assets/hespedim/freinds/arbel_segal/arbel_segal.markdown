@@ -32,4 +32,39 @@ image: /assets/images/wide/highschool/kibuzim_arbel.jpg
 ארבל.<br>
  <br>
 
+<picture>
+  <img src="/assets/hespedim/freinds/arbel_segal/arbel.jpg" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/freinds/arbel_segal/beach.jpg" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/freinds/arbel_segal/cyprus.jpg" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/freinds/arbel_segal/kids.JPG" alt="image info" loading="lazy" />
+</picture>
+<picture>
+  <img src="/assets/hespedim/freinds/arbel_segal/kineret.JPG" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/freinds/arbel_segal/misaada.jpg" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/freinds/arbel_segal/nahal.jpg" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/freinds/arbel_segal/pool.JPG" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/freinds/arbel_segal/sinteti.jpg" alt="image info" loading="lazy" />
+</picture>
+
 
