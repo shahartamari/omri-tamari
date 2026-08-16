@@ -3,7 +3,7 @@ layout: hesped
 author: עומר גמליאל וגיא הירשפלד
 event: שבעה
 relative:  חברי ילדות
-image: /assets/images/wide/highschool/omer_gamliel.jpeg
+image: /assets/hespedim/freinds/omer_gamliel/tiul.jpg
 ---
 
 אנחנו לא שלמים עומרי
@@ -42,3 +42,18 @@ image: /assets/images/wide/highschool/omer_gamliel.jpeg
 אנחנו לא שלמים עומרי
 וגם לא נהיה
 החברים
+
+
+<picture> 
+  <img src="/assets/hespedim/freinds/omer_gamliel/tiul.jpg" alt="image info" loading="lazy" />
+</picture>
+<picture> 
+  <img src="/assets/hespedim/freinds/omer_gamliel/ski.jpg" alt="image info" loading="lazy" />
+</picture>
+<picture> 
+  <img src="/assets/hespedim/freinds/omer_gamliel/omer.jpeg" alt="image info" loading="lazy" />
+</picture>
+
+
+
+
