@@ -7,7 +7,7 @@
   {% if folder_path != '' %}
     {% for file in site.static_files %}
       {% assign ext = file.extname | downcase %}
-      {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.avif' or ext == '.webp' %}
+      {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.avif' or ext == '.webp' or ext == '.JPG' %}
         {% if file.path contains folder_path %}
           {% assign slideshow_images = slideshow_images | push: file.path %}
         {% endif %}
