@@ -3,7 +3,7 @@ layout: hesped
 author:    שיר רוזנשטט
 event: זכרון
 relative: דודה
-image: /assets/hespedim/family/shir_rosenstadt/wedding.avif
+image: /assets/hespedim/family/shir_rosenstadt/omri.jpeg
 ---
 20:18 , 13.10- חודש עבר מאז אותה שיחת טלפון משגב שאמר לי שרון פה מתעלפת תורידי כוס מים. באותו רגע לא <br>קישרתי בין האסון עליו דיווחו בחדשות לבינך. <br>
 חודש שמרגיש כמו שנה עצובה וארוכה.  <br>
