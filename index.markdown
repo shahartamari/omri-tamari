@@ -7,16 +7,9 @@ title: "עמוד הבית"
 
 <div dir="rtl" lang="he" class="memorial-page">
   <section class="hero">
-    <img src="/assets/main/omri-hero.avif" alt="תמונה של עמרי" class="hero-image" />
+    <img src="/assets/main/white_hat.jpeg" alt="תמונה של עמרי" class="hero-image" />
     <div class="hero-content">
       <p class="eyebrow">אתר זיכרון לעומרי תמרי</p>
-      <div class="hero-links">
-        <a href="/hespedim/">הספדים</a>
-        <a href="/share-memory/">שתפו זיכרון</a>
-      </div>
-      <a href="/about/" class="hero-image-link" aria-label="על הפרויקט">
-        <img src="/assets/main/glufa.png" alt="על הפרויקט" />
-      </a>
       <p class="hero-description"><br><br><br><br> </p>
      <h2> ״תהנה מכל רגע, כדי שלא תתחרט על מה שלא עשית״</h2>
     </div>
@@ -34,8 +27,8 @@ title: "עמוד הבית"
     </div>
   </section>
 
-<section class="story-section detail-card upcoming-events-card">
-    <div class="upcoming-events-header">
+<section class="story-section detail-card upcoming-events-card" id="upcoming">
+    <div class="upcoming-events-header" id="upcoming">
       <h2>אירועים קרובים</h2>
       <button class="manager-event-toggle cta-button cta-clean" type="button" data-manager-toggle>הוספת אירוע למנהלים</button>
     </div>
@@ -222,6 +215,7 @@ title: "עמוד הבית"
   </div>
 
   <script src="{{ '/script/home-slideshow.js' | relative_url }}"></script>
+  <script src="{{ '/script/eyebrow-scroll.js' | relative_url }}"></script>
   <script>
     const storePhotoButtons = document.querySelectorAll('.store-photo-button');
     const storePhotoModal = document.getElementById('store-photo-modal');
