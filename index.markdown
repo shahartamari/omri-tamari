@@ -7,10 +7,9 @@ title: "עמוד הבית"
 
 <div dir="rtl" lang="he" class="memorial-page">
   <section class="hero">
-    <img src="/assets/main/white_hat.jpeg" alt="תמונה של עמרי" class="hero-image" />
+    <img src="/assets/main/front.jpeg" alt="תמונה של עמרי" class="hero-image" />
     <div class="hero-content">
-      <p class="hero-description"><br><br><br><br> </p>
-     <h2> ״תהנה מכל רגע, כדי שלא תתחרט על מה שלא עשית״</h2>
+     <h2> <br><br><br><br><br><br><br><br>״תהנה מכל רגע, כדי שלא תתחרט על מה שלא עשית״</h2>
      <p class="eyebrow">אתר זיכרון לעומרי תמרי</p>
     </div>
   </section>
