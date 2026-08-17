@@ -91,6 +91,9 @@
   position: fixed;
   left: 1.25rem;
   bottom: 1.25rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
   width: 48px;
   height: 48px;
   border: none;
@@ -106,12 +109,15 @@
   visibility: hidden;
   transform: translateY(12px);
   transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+  pointer-events: none;
 }
 
 .back-to-top.visible {
+  display: flex;
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+  pointer-events: auto;
 }
 
 @media (max-width: 720px) {

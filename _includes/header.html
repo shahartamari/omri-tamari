@@ -50,7 +50,9 @@
     if (!backToTopButton) return;
 
     function updateBackToTopButton() {
-      if (window.scrollY > 240) {
+      const threshold = window.innerWidth <= 720 ? 80 : 240;
+
+      if (window.scrollY > threshold) {
         backToTopButton.classList.add('visible');
       } else {
         backToTopButton.classList.remove('visible');
