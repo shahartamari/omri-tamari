@@ -3,7 +3,7 @@ layout: hesped
 author: שגב רוזנשטט
 event:  ליל ירח
 relative: דוד 
-image: /assets/images/wide/family/segev_shir.JPG
+image: /assets/hespedim/family/segev_rosenstadt/omri_bar_mitzva.jpeg
 ---
 
 
