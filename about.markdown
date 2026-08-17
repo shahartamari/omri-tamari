@@ -20,9 +20,6 @@ permalink: /about/
 
 <div dir="rtl" lang="he" class="about-page">
   <h1>על האתר</h1>
-  <div class="about-actions">
-    <a href="/hespedim/" class="cta-button cta-clean">לקריאת זכרונות והספדים</a>
-  </div>
   <p>זהו אתר זיכרון לעומרי תמרי, אהובנו שנפל באסון הכטב״מ בבא״ח גולני.</p>
   <h2>מה אפשר למצוא כאן ?</h2>
   <ul>
@@ -31,6 +28,7 @@ permalink: /about/
     לזכרו</li>
     <li><strong>טורניר הכדורסל לזכרו</strong> — מידי שנה נערך טרוניר סטריטבול</li>
     <li><strong>זכרונות והספדים</strong> — וכל מה שנכתב ונאמר</li>
+    <li><strong>ארועים קרובים</strong> — כאן יופיעו ארועים קרובים לזכרו</li>
 
     
   </ul>

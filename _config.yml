@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "עומרי תמרי"
+title: "עמוד ראשי"
 email: "admin@omritamari.com"
 description: "אתר להנצחת ולהנכחת עומרי"
 

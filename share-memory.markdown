@@ -15,8 +15,8 @@ permalink: /share-memory/
 
   <!-- Submission Section -->
   <section class="submission-section">
-    <h2>הגישו זיכרון</h2>
-    <p>לחצו על הקישור כדי לפתוח את הטופס בחלון ממוקד. נבדוק את ההגשה ונוסיף אותה לאתר.</p>
+    <h2>צור זכרון</h2>
+    <p>לחצו על הקישור כדי לפתוח את הטופס . נבדוק את הזכרון ונוסיף אותו לאתר.</p>
     <a href="#memory-form-lightbox" class="open-form-link" onclick="openMemoryFormLightbox(event)">פתחו את טופס השיתוף</a>
   </section>
 
@@ -97,7 +97,7 @@ permalink: /share-memory/
 
   <!-- Posts Grid -->
   <section class="posts-section">
-    <h2>זיכרונות משותפים</h2>
+   
     {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     
     {% if sorted_posts.size > 0 %}
