@@ -14,7 +14,7 @@ title: עמוד הבית
     </div>
   </section>
 
-   <section class="omri-figure" id=about_omri>
+   <section class="omri-figure" id=read_omri>
    <p class="section-lead"> 
    <a href="/about-omri/"><h1>לקרוא על עומרי </h1></a>
    </p>
