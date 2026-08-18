@@ -3,7 +3,7 @@ layout: hesped
 author:  קובי רוזנשטט
 event: זכרון
 relative:  דוד
-image: /assets/images/wide/family/kobi.jpg
+image: /assets/hespedim/family/kobi_rosenstadt/IMG_6132.JPG
 ---
 
 

@@ -3,7 +3,7 @@ layout: hesped
 author: מבצרי בר
 event: יום השנה
 relative: חבר של עומרי
-image: /assets/images/long/highschool/lizard.jpg
+image: /assets/hespedim/freinds/bar_mivtzari/lizard.JPG
 ---
 
 
@@ -22,5 +22,4 @@ image: /assets/images/long/highschool/lizard.jpg
 אני פונה לכולנו שנדע לקבל כוחות מעומרי ברגעים הקשים, שנדע לזכור אותו ברגעים הטובים, ושהוא ימשיך ללוות אותנו.
 
 
-{% include carousel-test.html images="/assets/images/long/highschool/bar.jpg, /assets/images/long/highschool/lizard.jpg, /assets/images/long/highschool/giha.jpg, /assets/images/long/highschool/rock.jpg"  %}
 

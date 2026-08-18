@@ -3,7 +3,7 @@ layout: hesped
 author: משה רוזנשטט
 event:  מכתב
 relative: סבא
-image: /assets/images/wide/family/kita_alef.avif
+image: /assets/hespedim/family/moshe_rosenstadt/IMG_1024.jpg
 ---
 
 משה רוזנשטט סבא – מכתב לעומרי<br>
@@ -32,12 +32,6 @@ image: /assets/images/wide/family/kita_alef.avif
 אבל אני יודע דבר אחד: אתה תמיד תהיה חלק ממני - מהלב שלי; מהחיים שלי.<br>
  <br>
 אוהב אותך כל כך<br>
-
-
-
-<picture>
-  <img src="/assets/images/wide/family/bakum.avif" alt="image info" loading="lazy" />
-</picture>
 
 
 

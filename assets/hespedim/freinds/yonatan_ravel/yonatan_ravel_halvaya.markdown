@@ -3,7 +3,7 @@ layout: hesped
 author: רבל יונתן
 event: הלוויה
 relative: חבר ילדות
-image: /assets/images/wide/highschool/yonatan_omri.jpeg
+image: /assets/hespedim/freinds/yonatan_ravel/kash.jpeg
 ---
 
 הספד מאת יונתן רבל חבר בחבורה של עומרי ממזכרת בתיה <br>
@@ -47,25 +47,5 @@ image: /assets/images/wide/highschool/yonatan_omri.jpeg
 
 אני אוהב אותך עומרי, כל כך! אתה מי שאנחנו היום ולנצח תישאר.<br>
 
-<picture>
-  <img src="/assets/images/long/highschool/empatigo.avif" alt="image info" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/long/highschool/itraining.avif" alt="image info" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/long/highschool/kineret.avif" alt="image info" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/long/highschool/nahal_hakibuzim.avif" alt="image info" loading="lazy" />
-</picture>
-
-
-<picture>
-  <img src="/assets/images/long/highschool/yud_bet_sium.avif" alt="image info" loading="lazy" />
-</picture>
 
 

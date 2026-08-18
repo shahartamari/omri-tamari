@@ -3,7 +3,7 @@ layout: hesped
 author: ענבר תמרי
 event: הלוויה
 relative: אחות
-image: /assets/images/wide/family/dinner.avif
+image: /assets/hespedim/family/inbar_tamari/misaada.jpeg
 ---
 
 לעומריקוש שלי האח הגדול שלי,<br>
@@ -23,9 +23,6 @@ image: /assets/images/wide/family/dinner.avif
 אתה תמיד תהיה איתי, תמיד תהיה הגאווה שלי ולכל מקום שאני אלך אני אזכיר שאני אחותך.<br>
 אני אוהבת אותך הכי בעולם, אחותך ענבר<br>
 
-<picture>
-  <img src="/assets/images/wide/family/arema.avif" alt="image info" loading="lazy" />
-</picture>
 
 
 

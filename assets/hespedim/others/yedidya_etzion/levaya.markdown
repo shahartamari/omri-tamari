@@ -3,7 +3,7 @@ layout: hesped
 author: עציון ידידיה
 event: לוויה
 relative: מחנך של עומרי ומנהל בית הספר
-image: /assets/images/wide/highschool/yedidya.jpeg
+image: /assets/hespedim/others/yedidya_etzion/hadar.JPG
 ---
 
 ידידיה עציון מנהל תיכון ״קשת״ והמחנך של עומרי<br>

@@ -3,7 +3,7 @@ layout: hesped
 author:    שקד גמליאל
 event: ספר זכרון
 relative:   חברה מהכיתה
-image: /assets/images/wide/highschool/shaked_gamliel.jpeg
+image: /assets/hespedim/freinds/shaked_gamliel/mishkefet.jpeg
 ---
 
 עומרי<br>
@@ -30,18 +30,3 @@ image: /assets/images/wide/highschool/shaked_gamliel.jpeg
 עומרי. אני לא אשכח אותך בחיים.<br>
 שקד גמליאל<br>
  
- <picture>
-  <img src="/assets/images/wide/highschool/giha_mapal.jpg" alt="image info" loading="lazy" />
-</picture>
-
- <picture>
-  <img src="/assets/images/wide/highschool/giha_shaked.jpg" alt="image info" loading="lazy" />
-</picture>
-
- <picture>
-  <img src="/assets/images/wide/highschool/shaked_omri.jpg" alt="image info" loading="lazy" />
-</picture>
-
- <picture>
-  <img src="/assets/images/wide/highschool/shaked_omri_guy.jpg" alt="image info" loading="lazy" />
-</picture>

@@ -39,9 +39,6 @@ relative: סבא
 
 
 
-<picture>
-  <img src="/assets/images/wide/family/kids.avif" alt="image info" loading="lazy" />
-</picture>
 
 
 

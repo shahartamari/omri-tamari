@@ -3,7 +3,7 @@ layout: hesped
 author: ענבר תמרי
 event: קמפ טימברליין - קנדה
 relative: אחות
-image: /assets/images/wide/family/dinner.avif
+image: /assets/hespedim/family/inbar_tamari/misaada.jpeg
 ---
 
 Hi, I'm Inbar, and I'm 16 years old. I lost my brother, Omri, on October 13, 2024, in a Hezbollah drone attack at a Golani Training Base. He was only 19 years old.<br>
@@ -23,9 +23,6 @@ I feel like I wasn't the only one who lost Omri...The world also lost everything
 A sentence he once told me was:<br>
 "Take advantage of every moment, so that you don't regret what you didn't do."<br> I want to ask all of you to be a little more like Omri.<br> Please be pleasant people with good intentions.<br>
 Try to do your best Strive to excel. And enjoy life. Thank you Timberlane and OneFamily.<br>
-<picture>
-  <img src="/assets/images/wide/family/earing.avif" alt="image info" loading="lazy" />
-</picture>
 
 
 

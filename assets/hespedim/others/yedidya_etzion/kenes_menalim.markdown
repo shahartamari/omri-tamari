@@ -3,7 +3,7 @@ layout: hesped
 author: עציון ידידיה
 event:  כנס מנהלים
 relative: מחנך של עומרי ומנהל בית הספר
-image: /assets/images/wide/highschool/yedidya.jpeg
+image: /assets/hespedim/others/yedidya_etzion/hadar.JPG
 ---
 
 bנשות ואנשי החינוך של ברנקו וייס במכתב לזכר התלמיד שזכו לחנך ולהכיר, בוגרי בתי הספר שנפלו <br>במערכות ישראל. <br>

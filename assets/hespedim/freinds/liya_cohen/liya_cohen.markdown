@@ -3,7 +3,7 @@ layout: hesped
 author: כהן ליה
 event: ראיון לאשה
 relative:  בת זוג
-image: /assets/images/long/highschool/hug.avif
+image: /assets/hespedim/freinds/liya_cohen/hug.jpg
 ---
 
 "קוראים לי גיבורה. אנשים לא רואים את הימים שאני לא מצליחה לצאת מהמיטה"<br>
@@ -43,14 +43,6 @@ image: /assets/images/long/highschool/hug.avif
 מה היית רוצה שאנשים יזכרו מעומרי?<br>
 <br>
 "משהו שממש חשוב לי שאני אומרת לאנשיפ מאז ההפסד שהקראתי בהלוויה שלו זאת שורה קטנה. 'אני רוצה לבקש <br>מכולכם להיות קצת יותר כמו עומרי, תהיו אנשים נעימים עם כוונות טובות. תשתדלו לעשות את הכי טוב <br>שלכם, תשאפו להצטיין. תאכלו טוב ותהנו מהחיים'."<br>
-
-<picture>
-  <img src="/assets/images/long/highschool/bunnys.avif" alt="image info" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/long/highschool/duck.avif" alt="image info" loading="lazy" />
-</picture>
 
 
 
