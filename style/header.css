@@ -2,6 +2,17 @@
   position: relative;
 }
 
+.site-title--logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-title--logo img {
+  display: block;
+  height: 44px;
+  width: auto;
+}
+
 .events-ticker {
   overflow: hidden;
   background: #a08c78;

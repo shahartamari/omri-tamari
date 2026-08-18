@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "עמוד הבית"
+title: עמוד הבית
 ---
 
 <link rel="stylesheet" href="{{ '/style/index.css' | relative_url }}" />
@@ -14,7 +14,7 @@ title: "עמוד הבית"
     </div>
   </section>
 
-   <section class="omri-figure">
+   <section class="omri-figure" id=about_omri>
    <p class="section-lead"> 
    <a href="/about-omri/"><h1>לקרוא על עומרי </h1></a>
    </p>
@@ -184,37 +184,40 @@ title: "עמוד הבית"
   <script src="{{ '/script/home-slideshow.js' | relative_url }}"></script>
   <script src="{{ '/script/eyebrow-scroll.js' | relative_url }}"></script>
   <script>
-    const storePhotoButtons = document.querySelectorAll('.store-photo-button');
-    const storePhotoModal = document.getElementById('store-photo-modal');
-    const storePhotoModalImage = document.getElementById('store-photo-modal-image');
-    const storePhotoModalClose = document.querySelector('.store-photo-modal__close');
-    storePhotoButtons.forEach(function(button) {
-      button.addEventListener('click', function() {
-        const imageSrc = button.getAttribute('data-store-image');
-        if (!imageSrc) return;
-        storePhotoModalImage.src = imageSrc;
-        storePhotoModal.classList.add('is-visible');
-        storePhotoModal.setAttribute('aria-hidden', 'false');
+    // Wait for full DOM parse so buttons rendered later (e.g. the gallery) are included.
+    document.addEventListener('DOMContentLoaded', function() {
+      const storePhotoButtons = document.querySelectorAll('.store-photo-button');
+      const storePhotoModal = document.getElementById('store-photo-modal');
+      const storePhotoModalImage = document.getElementById('store-photo-modal-image');
+      const storePhotoModalClose = document.querySelector('.store-photo-modal__close');
+      storePhotoButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+          const imageSrc = button.getAttribute('data-store-image');
+          if (!imageSrc) return;
+          storePhotoModalImage.src = imageSrc;
+          storePhotoModal.classList.add('is-visible');
+          storePhotoModal.setAttribute('aria-hidden', 'false');
+        });
       });
-    });
 
-    function hideStorePhotoModal() {
-      storePhotoModal.classList.remove('is-visible');
-      storePhotoModal.setAttribute('aria-hidden', 'true');
-    }
-
-    storePhotoModalClose.addEventListener('click', hideStorePhotoModal);
-
-    storePhotoModal.addEventListener('click', function(event) {
-      if (event.target === storePhotoModal) {
-        hideStorePhotoModal();
+      function hideStorePhotoModal() {
+        storePhotoModal.classList.remove('is-visible');
+        storePhotoModal.setAttribute('aria-hidden', 'true');
       }
-    });
 
-    document.addEventListener('keydown', function(event) {
-      if (event.key === 'Escape' && storePhotoModal.classList.contains('is-visible')) {
-        hideStorePhotoModal();
-      }
+      storePhotoModalClose.addEventListener('click', hideStorePhotoModal);
+
+      storePhotoModal.addEventListener('click', function(event) {
+        if (event.target === storePhotoModal) {
+          hideStorePhotoModal();
+        }
+      });
+
+      document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && storePhotoModal.classList.contains('is-visible')) {
+          hideStorePhotoModal();
+        }
+      });
     });
   </script>
 
@@ -225,7 +228,7 @@ title: "עמוד הבית"
     <a href="/share-memory/" class="cta-button cta-clean">לעמוד שיתוף הזיכרונות</a>
   </section>
 
-  <section class="story-section detail-card spotify-section">
+  <section class="story-section detail-card spotify-section" id="spotify">
     <h2>שחר קרמר בפרוייקט ״קשר הירח״</h2>
     <p>שחר קרמר בביצוע לשיר ״קשר הירח״ לזכרו של עומרי  </p>
     <p>שחר בת כיתה של עומרי ממזכרת בתיה שרה את השיר מעל קיברו ב30, מאוחר יותר הקליטה והוציאה את השיר במסגרת פרוייקט שעבדה עליו להנצחת נופלי המושבה</p>
