@@ -20,8 +20,12 @@ title: "עמוד הבית"
    </p>
     <div class="project-grid">
       <article class="project-card">
+      <div>
         {% include home-slideshow.html folder="/assets/images/omri" limit="100" %}
+        </div>
+        <div>
         <p>13.10.2024  יום לאחר יום כיפור נפל יקירינו עומרי בשעה שנקרא להגן על המדינה<br>עומרי השאיר אחריו חברים רבים ומשפחה שבורים וגאים שהוא היה חלק מחייהם <br>עומרי היה איש של חתירה למצויינות אהבת הארץ והאדם<br>וכך חי את חייו </p>
+        </div>
       </article>
     </div>
   </section>
@@ -29,70 +33,24 @@ title: "עמוד הבית"
 <section class="story-section detail-card upcoming-events-card" id="upcoming">
     <div class="upcoming-events-header" id="upcoming">
       <h2>אירועים קרובים</h2>
-      <button class="manager-event-toggle cta-button cta-clean" type="button" data-manager-toggle>הוספת אירוע למנהלים</button>
     </div>
     <p class="section-lead">לוח קצר של אירועים והתכנסויות</p>
-    <div class="manager-event-form-panel" hidden>
-      <form class="manager-event-form">
-        <label class="manager-event-field">
-          <span>תאריך</span>
-          <input type="text" name="date" placeholder="לדוגמה: 09.10.26" required />
-        </label>
-        <label class="manager-event-field">
-          <span>מיקום</span>
-          <input type="text" name="location" placeholder="לדוגמה: מזכרת בתיה" required />
-        </label>
-        <label class="manager-event-field">
-          <span>כותרת</span>
-          <input type="text" name="title" placeholder="לדוגמה: טורניר כדורסל" required />
-        </label>
-        <label class="manager-event-field">
-          <span>שעת התחלה</span>
-          <input type="time" name="startTime" />
-        </label>
-        <label class="manager-event-field">
-          <span>שעת סיום</span>
-          <input type="time" name="endTime" />
-        </label>
-        <label class="manager-event-field">
-          <span>תיאור</span>
-          <textarea name="description" rows="3" placeholder="פרטים נוספים על האירוע"></textarea>
-        </label>
-        <div class="manager-event-form__actions">
-          <button type="submit" class="cta-button">שמור אירוע</button>
-          <button type="button" class="cta-button cta-clean manager-event-cancel">ביטול</button>
-        </div>
-      </form>
-    </div>
     <div class="upcoming-events-list" data-upcoming-events-list>
+      {% for e in site.data.events %}
       <article class="upcoming-event">
-        <div class="upcoming-event__date">09.10.26</div>
+        <div class="upcoming-event__date">{{ e.date }}</div>
         <div>
-          <h3>אזכרה</h3>
-          <p>אזכרה - כבר שנתיים.</p>
+          <h3>{{ e.event }}</h3>
+          <p>מיקום: {{ e.location }}</p>
+          {% if e.start_time or e.end_time %}
+          <p>{{ e.start_time }}{% if e.start_time and e.end_time %} – {% endif %}{{ e.end_time }}</p>
+          {% endif %}
+          {% if e.details %}
+          <p>{{ e.details }}</p>
+          {% endif %}
         </div>
       </article>
-      <article class="upcoming-event">
-        <div class="upcoming-event__date">09.10.26</div>
-        <div>
-          <h3>טורניר כדורסל לזכרו</h3>
-          <p>הטורניר השנתי ייערך במגרש הכדורסל של בית ספר רבין במזכרת בתיה בסמוך לאזכרה.</p>
-        </div>
-      </article>
-      <article class="upcoming-event">
-        <div class="upcoming-event__date">ספט׳ 2026</div>
-        <div>
-          <h3>אבני דרך ללוחם</h3>
-          <p>הפרויקט יתחיל עם שיתוף לוחמים ופעילויות ליווי לקראת האזרחות.</p>
-        </div>
-      </article>
-      <article class="upcoming-event">
-        <div class="upcoming-event__date">2027 מאי׳</div>
-        <div>
-          <h3>אתגר הסוכר</h3>
-          <p>פרטים על האתגר בהמשך, שיתופים והזמנות להצטרפות.</p>
-        </div>
-      </article>
+      {% endfor %}
     </div>
   </section>
 
@@ -220,12 +178,10 @@ title: "עמוד הבית"
     const storePhotoModal = document.getElementById('store-photo-modal');
     const storePhotoModalImage = document.getElementById('store-photo-modal-image');
     const storePhotoModalClose = document.querySelector('.store-photo-modal__close');
-
     storePhotoButtons.forEach(function(button) {
       button.addEventListener('click', function() {
         const imageSrc = button.getAttribute('data-store-image');
         if (!imageSrc) return;
-
         storePhotoModalImage.src = imageSrc;
         storePhotoModal.classList.add('is-visible');
         storePhotoModal.setAttribute('aria-hidden', 'false');
