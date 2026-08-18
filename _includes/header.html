@@ -108,5 +108,17 @@
 
       updateBackToTopButton();
     }
+
+    const tickerTrack = document.querySelector('.events-ticker__track');
+    const tickerGroup = document.querySelector('.events-ticker__group');
+    if (tickerTrack && tickerGroup) {
+      function syncTickerDistance() {
+        // Animate by the exact pixel width of one group so the loop is seamless.
+        tickerTrack.style.setProperty('--ticker-distance', tickerGroup.getBoundingClientRect().width + 'px');
+      }
+
+      syncTickerDistance();
+      window.addEventListener('resize', syncTickerDistance);
+    }
   });
 </script>
