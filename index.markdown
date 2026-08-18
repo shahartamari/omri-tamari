@@ -83,6 +83,8 @@ title: "עמוד הבית"
 
   
 
+  
+
   <section class="details-intro">
     <h2>פירוט הפרויקטים</h2>
     <p>כאן תמצאו את הסיפורים המלאים מאחורי כל יוזמה, כולל רגעים אישיים ושיתופים.</p>
@@ -112,6 +114,14 @@ title: "עמוד הבית"
         {% include instagram-embed.html %}
       </article>
   </section>
+
+  <section class="story-section detail-card" id="mitzpe">
+    <h2>מצפה לזכרו</h2>
+   <p>מצפה שהקימו החברים מהמחלקה</p>
+    <article class="project-card">
+        בזמן שהיו פצועים מהארוע שבו נהרג עומרי, יזמו כמה חברים הקמה של מצפה לזכר ההרוגים<br>הם נעזרו בחבריו של עומרי ובנו מצפה מעל הכנרת בחוות ״עז ותעצומות״<br>הגעה: ״מצפה הבוקעים״ בעמוד ענן<br>הגעה מיבניאל או ממנחמיה דרך נוף מנחמיה-יבניאל
+        <img src="/assets/main/mizpe.jpeg" alt="תמונה של עמרי" loading="lazy" />
+      </article>
 
   <section class="story-section detail-card" id="store">
     <h2>לינקים לרכישת חולצות וכובעים</h2>
@@ -265,6 +275,28 @@ title: "עמוד הבית"
         <a href="https://www.youtube.com/watch?v=eoDXBRWwH70" target="_blank" rel="noopener noreferrer">לחץ על כפתור כדי לראות</a>
       </p>  
     </article>
+  </section>
+
+  <section class="story-section detail-card gallery-section" id="gallery">
+    <h2>רגעים</h2>
+    <p class="section-lead">רגעים.</p>
+    {% assign gallery_folder = '/assets/images/gallery' %}
+    {% assign gallery_images = '' | split: '' %}
+    {% for file in site.static_files %}
+      {% assign ext = file.extname | downcase %}
+      {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.avif' or ext == '.webp' or ext == '.GIF' or ext == '.JPG' or ext == '.PNG' %}
+        {% if file.path contains gallery_folder %}
+          {% assign gallery_images = gallery_images | push: file.path %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    <div class="gallery-grid">
+      {% for img in gallery_images %}
+        <button class="gallery-photo-button store-photo-button" type="button" data-store-image="{{ img | relative_url }}" aria-label="הגדלת תמונה">
+          <img src="{{ img | relative_url }}" alt="תמונה מהקומונה" loading="lazy" class="gallery-photo" />
+        </button>
+      {% endfor %}
+    </div>
   </section>
 
 
