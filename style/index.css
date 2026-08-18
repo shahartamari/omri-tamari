@@ -56,7 +56,7 @@
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.85rem;
-  color: #c5d2ff;
+  color: #8d8f97;
   opacity: 0;
   transform: translateY(18px);
   transition: opacity 0.7s ease, transform 0.7s ease;
@@ -157,7 +157,7 @@
 .project-card {
   padding: 1.75rem;
   border-radius: 1rem;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  background: linear-gradient(180deg, #f4e2d5 0%, #f4e2d5 100%);
   border: 1px solid #d9e3ef;
   box-shadow: 0 8px 22px rgba(13, 38, 76, 0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -200,46 +200,6 @@
   margin-bottom: 0.25rem;
 }
 
-.manager-event-toggle {
-  margin-top: 0;
-  padding: 0.6rem 1rem;
-}
-
-.manager-event-form-panel {
-  margin: 0.85rem 0 1rem;
-  padding: 1rem;
-  border: 1px solid #dce8f6;
-  border-radius: 0.9rem;
-  background: rgba(255, 255, 255, 0.92);
-}
-
-.manager-event-form {
-  display: grid;
-  gap: 0.8rem;
-}
-
-.manager-event-field {
-  display: grid;
-  gap: 0.35rem;
-  font-weight: 600;
-  color: #223047;
-}
-
-.manager-event-field input,
-.manager-event-field textarea {
-  padding: 0.7rem 0.8rem;
-  border: 1px solid #cfdbe9;
-  border-radius: 0.6rem;
-  font: inherit;
-  resize: vertical;
-}
-
-.manager-event-form__actions {
-  display: flex;
-  gap: 0.7rem;
-  flex-wrap: wrap;
-}
-
 .upcoming-events-list {
   display: grid;
   gap: 0.9rem;
@@ -260,7 +220,7 @@
   font-weight: 800;
   color: #1e4d9a;
   font-size: 0.95rem;
-  background: #eaf2ff;
+  background: #f4e2d5;
   padding: 0.55rem 0.75rem;
   border-radius: 999px;
   text-align: center;
@@ -372,27 +332,6 @@
 .upcoming-event p {
   margin: 0;
   color: #516073;
-}
-
-.upcoming-event__actions {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 0.7rem;
-  flex-wrap: wrap;
-}
-
-.upcoming-event__actions button {
-  padding: 0.4rem 0.7rem;
-  border: 1px solid #cfdbe9;
-  border-radius: 999px;
-  background: #fff;
-  color: #1e4d9a;
-  cursor: pointer;
-  font-size: 0.85rem;
-}
-
-.upcoming-event__actions button:hover {
-  background: #eaf2ff;
 }
 
 .home-slideshow {
