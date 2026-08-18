@@ -51,7 +51,7 @@ permalink: /about-omri/
 הם הפכו לזוג, הקשר צלח את המרחק בשנת השירות והתחזק אל תוך השירות הצבאי<br>
 עד לנפילתו.<br>
 <p>
-{% include carousel-test.html folder="/assets/images/wide/highschool, /assets/images/wide/childhood, /assets/images/wide/family " size_mode="small" %}
+{% include carousel-test.html folder="/assets/images/gallery" size_mode="small" %}
 
 <h2>שנת שירות</h2>
 עומרי סיים את לימודיו בבית הספר ״קשת״ ביוני 2023 <br>
@@ -79,7 +79,7 @@ permalink: /about-omri/
 עומרי ועוד 3 חיילים - יואב אגמון, יוסף הייב, ואמיתי אלון -נהרגו.<br> כ70 נוספים נפצעו.<br>
 עומרי נפטר מפצעיו במסוק שפינה אותו לבית החולים.<br>
 
-{% include carousel-test.html folder="/assets/images/long/army " size_mode="small" %}
+{% include carousel-test.html folder="/assets/images/army" size_mode="small" %}
 
 
 
