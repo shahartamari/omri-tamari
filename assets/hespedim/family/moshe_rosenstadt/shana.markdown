@@ -81,27 +81,3 @@ relative: סבא
 יהי זכרך ברוך.<br>
 
 
-<picture>
-  <img src="/assets/images/wide/family/romania.avif" alt="image info" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/wide/family/omri_and_inba.avif" alt="image info" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/wide/family/kita_alef.avif" alt="image info" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/wide/family/hashbaa.avif" alt="image info" loading="lazy" />
-</picture>
-
-
-
-
-
-
-
-
-

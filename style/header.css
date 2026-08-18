@@ -2,6 +2,66 @@
   position: relative;
 }
 
+.events-ticker {
+  overflow: hidden;
+  background: #a08c78;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.events-ticker__link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.events-ticker__track {
+  display: flex;
+  width: max-content;
+  animation: events-ticker-scroll 28s linear infinite;
+}
+
+.events-ticker:hover .events-ticker__track {
+  animation-play-state: paused;
+}
+
+.events-ticker__group {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.events-ticker__item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  white-space: nowrap;
+  padding: 0.55rem 1.5rem;
+  font-size: 0.85rem;
+}
+
+.events-ticker__item strong {
+  font-weight: 700;
+}
+
+.events-ticker__meta {
+  color: #c5d2ff;
+  font-size: 0.8rem;
+}
+
+@keyframes events-ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .events-ticker__track {
+    animation: none;
+  }
+}
+
 .site-nav__menu {
   display: flex;
   flex-wrap: wrap;

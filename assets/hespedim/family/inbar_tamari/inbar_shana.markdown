@@ -3,7 +3,7 @@ layout: hesped
 author: ענבר תמרי
 event: שנה
 relative: אחות
-image: /assets/images/wide/family/dinner.avif
+image: /assets/hespedim/family/inbar_tamari/misaada.jpeg
 ---
 
 עומרי, אח שלי הגדול. <br>
@@ -17,24 +17,6 @@ image: /assets/images/wide/family/dinner.avif
 ענבר, אחותך הקטנה <br>
 
 
-
-<picture>
-  <img src="/assets/images/wide/family/kids_sucaria.avif" alt="image info" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/wide/family/bakum_inbar.avif" alt="image info" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/wide/family/dinner.avif" alt="image info"
-   loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/wide/family/earing.avif" alt="image info"
-   loading="lazy" />
-</picture>
 
 
 

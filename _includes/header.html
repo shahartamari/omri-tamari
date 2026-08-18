@@ -29,10 +29,11 @@
           <a href="/#sugar-challenge">אתגר הסוכר</a>
           <a href="/#running">אבני דרך ללוחם</a>
           <a href="/#basketball">טורניר כדורסל</a>
-          <a href="/#store">כובעים וחולצות</a>
+          <a href="/#store">לקחת אתכם</a>
           <a href="/hespedim/">הספדים</a>
           <a href="/share-memory/">שתפו זיכרון</a>
           <a href="/#upcoming">אירועים קרובים</a>
+          <a href="/#gallery">רגעים</a>
           <a class="header-about-link" href="{{ '/about/' | relative_url }}" aria-label="אודות">
             <img src="{{ '/assets/main/glufa-round.png' | relative_url }}" alt="אודות" />
             <span class="header-about-link__text">אודות האתר</span>
@@ -42,6 +43,25 @@
     </nav>
   </div>
 </header>
+
+{%- if site.data.events and site.data.events.size > 0 -%}
+<div class="events-ticker" dir="rtl" aria-label="אירועים קרובים">
+  <a class="events-ticker__link" href="{{ '/#upcoming' | relative_url }}">
+    <div class="events-ticker__track">
+      {%- for i in (1..2) -%}
+        <div class="events-ticker__group" aria-hidden="{% if i == 2 %}true{% else %}false{% endif %}">
+          {%- for event in site.data.events -%}
+            <span class="events-ticker__item">
+              <strong>{{ event.event }}</strong>
+              <span class="events-ticker__meta">{{ event.date }}{% if event.location %} · {{ event.location }}{% endif %}{% if event.start_time %} · {{ event.start_time }}{% if event.end_time %}–{{ event.end_time }}{% endif %}{% endif %}</span>
+            </span>
+          {%- endfor -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </a>
+</div>
+{%- endif -%}
 
 <button class="back-to-top" type="button" aria-label="חזרה לראש העמוד">↑</button>
 

@@ -3,7 +3,7 @@ layout: hesped
 author:    עומר רוזנשטט
 event:  השנה
 relative:   בן דוד
-image: /assets/images/wide/family/omer_amit_omri.jpg
+image: /assets/hespedim/family/omer_rosenstadt/romania.jpg
 ---
 
 לפני שאני מספר לאנשים איזה בן אדם ואיזה בן דוד עומרי היה – רץ לי בראש המשפט ''איך לתאר במילים אדם שעשה הכל בלי מילים''.<br>

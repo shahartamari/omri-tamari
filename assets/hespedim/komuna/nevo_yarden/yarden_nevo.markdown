@@ -3,7 +3,7 @@ layout: hesped
 author:     קומונה מגל
 event: שלושים
 relative: חבר מהקומונה
-image: /assets/images/wide/komuna/krav.jpg
+image: /assets/images/komuna/krav_tarnegolim.jpg
 ---
 
 תמרי, כשעזבת באמצע השנת שירות חשבנו הקומונה, שזו תהיה הפרידה שלנו ממך.<br>
@@ -24,54 +24,5 @@ image: /assets/images/wide/komuna/krav.jpg
 
 
  
-  <picture>
-  <img src="/assets/images/long/komuna/rooster.jpg" alt="komuna"
-   loading="lazy" />
-</picture>
-
- <picture>
-  <img src="/assets/images/long/komuna/maayan.jpg" alt="komuna" 
-  loading="lazy" />
-</picture>
-
- <picture>
-  <img src="/assets/images/long/komuna/nevo_donkey.jpg" alt="komuna" 
-  loading="lazy" />
-</picture>
-
- <picture>
-  <img src="/assets/images/long/komuna/nevo_rooster.jpg" alt="komuna" loading="lazy" />
-</picture>
-
- <picture>
-  <img src="/assets/images/long/komuna/zoom_out.jpg" alt="komuna" loading="lazy" />
-</picture>
-
- <picture>
-  <img src="/assets/images/long/komuna/krav_tarnegol.jpg" alt="komuna" loading="lazy" />
-</picture>
-
- <picture>
-  <img src="/assets/images/long/komuna/ez_vinder.jpg" alt="komuna" loading="lazy" />
-</picture>
-
-
-<picture>
-  <img src="/assets/images/wide/komuna/dog.jpg" alt="komuna" loading="lazy" />
-</picture>
-
-
-<picture>
-  <img src="/assets/images/wide/komuna/all.JPG" alt="komuna" loading="lazy" />
-</picture>
-
-
-<picture>
-  <img src="/assets/images/wide/komuna/tiul.jpg" alt="komuna" loading="lazy" />
-</picture>
-
-
-
-
-
+  
 

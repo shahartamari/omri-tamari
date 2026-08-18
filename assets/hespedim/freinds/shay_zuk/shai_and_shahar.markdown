@@ -3,7 +3,7 @@ layout: hesped
 author: שי צוק
 event: שלושים
 relative: חבר ילדות
-image: /assets/images/wide/childhood/shay.JPG
+image: /assets/hespedim/freinds/shay_zuk/fire.JPG
 ---
 
 שי צוק ושחר קרמר מבצעים את ״קשר הירח״ מעל קברו של עומרי<br>

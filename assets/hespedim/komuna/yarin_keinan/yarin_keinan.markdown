@@ -3,7 +3,7 @@ layout: hesped
 author:    ירין קינן
 event: שלושים
 relative: חבר מהקומונה
-image: /assets/images/wide/komuna/arucha.jpg
+image: /assets/hespedim/komuna/yarin_keinan/boys.jpg
 ---
 
 מכתב לאחי - מתוך כאב וגעגוע אינסופי<br>
@@ -62,15 +62,3 @@ image: /assets/images/wide/komuna/arucha.jpg
 שבאמת ובתמים מלא בכוונות טובות, ובחיוך שיכול להמיס את הלבבות הכי בודדים<br>
 הלב נשבר. <br>
 
-<picture>
-  <img src="/assets/images/wide/komuna/misaada.jpg" alt="komuna" loading="lazy" />
-</picture>
-
-
-<picture>
-  <img src="/assets/images/wide/komuna/no_shirt.jpg" alt="komuna" loading="lazy" />
-</picture>
-
-<picture>
-  <img src="/assets/images/wide/komuna/aruha.jpg" alt="komuna" loading="lazy" />
-</picture>

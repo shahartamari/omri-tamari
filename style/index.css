@@ -283,6 +283,50 @@
   text-align: center;
 }
 
+.gallery-grid {
+  column-count: 2;
+  column-gap: 12px;
+  margin-top: 1rem;
+}
+
+.gallery-photo-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  break-inside: avoid;
+}
+
+.gallery-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(20, 35, 60, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-photo-button:hover .gallery-photo,
+.gallery-photo-button:focus-visible .gallery-photo {
+  transform: scale(1.03);
+  box-shadow: 0 10px 24px rgba(20, 35, 60, 0.14);
+}
+
+@media (min-width: 560px) {
+  .gallery-grid {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 900px) {
+  .gallery-grid {
+    column-count: 4;
+  }
+}
+
 .store-photo-modal {
   position: fixed;
   inset: 0;
