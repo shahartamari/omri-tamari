@@ -378,6 +378,25 @@
   color: #516073;
 }
 
+.add-to-calendar-button {
+  margin-top: 0.7rem;
+  min-height: 44px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #cfdbe9;
+  border-radius: 999px;
+  background: #fff;
+  color: #1e4d9a;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.add-to-calendar-button:hover {
+  background: #eaf2ff;
+  transform: translateY(-1px);
+}
+
 .home-slideshow {
   display: flex;
   align-items: center;

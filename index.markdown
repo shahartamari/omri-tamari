@@ -49,6 +49,17 @@ title: עמוד הבית
           {% if e.details %}
           <p>{{ e.details }}</p>
           {% endif %}
+          <button
+            type="button"
+            class="add-to-calendar-button"
+            data-add-to-calendar
+            data-event-title="{{ e.event }}"
+            data-event-location="{{ e.location }}"
+            data-event-date="{{ e.date }}"
+            data-event-start="{{ e.start_time }}"
+            data-event-end="{{ e.end_time }}"
+            data-event-details="{{ e.details }}"
+          >📅 הוסף ליומן</button>
         </div>
       </article>
       {% endfor %}
@@ -209,6 +220,7 @@ title: עמוד הבית
 
   <script src="{{ '/script/home-slideshow.js' | relative_url }}"></script>
   <script src="{{ '/script/eyebrow-scroll.js' | relative_url }}"></script>
+  <script src="{{ '/script/add-to-calendar.js' | relative_url }}"></script>
   <script>
     // Wait for full DOM parse so buttons rendered later (e.g. the gallery) are included.
     document.addEventListener('DOMContentLoaded', function() {
