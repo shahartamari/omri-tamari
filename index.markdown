@@ -139,14 +139,18 @@ title: עמוד הבית
         אחרי גשם יש מעבר רק לרכב 4x4 בשאר הזמן גישה לרכבים פרטיים לא בעיה
         <img src="/assets/main/mizpe.jpeg" alt="תמונה של עמרי" loading="lazy" />
         <p>מיבניאל איך שנגמר הכביש שחוצה את הישוב ומתחילה דרך עפר(דרך נוף יבניאל מנחניה) עוברים את העץ של גולני ואת המצפה לזכר גידי ונועה פונים שמאלה על דרך עפר עד לחוות עז ותעצומות</p>
-        <img src="/assets/main/yavniel.png" alt="תמונה של עמרי" loading="lazy" />
+        <button class="store-photo-button" type="button" data-store-image="/assets/main/yavniel.png" aria-label="הגדלת מפת הדרך מיבניאל">
+          <img src="/assets/main/yavniel.png" alt="מפת הדרך מיבניאל" loading="lazy" />
+        </button>
         <a href="https://amudanan.co.il{{ '/assets/main/yavniel.twl' | absolute_url }}" 
         target="_blank" 
         class="amud-anan-btn">
         🗺️ Open Route in Amud Anan App
         </a>
-        <p>ממנחמיה: יציאה משער אחורי של היישוב נסיעה על דרך נוף מנחמיה-יבניאל</p>
-        <img src="/assets/main/menachamia.png" alt="תמונה של עמרי" loading="lazy" />
+        <p>ממנחמיה: יציאה משער אחורי של הישוב נסיעה על דרך נוף מנחמיה-יבניאל</p>
+        <button class="store-photo-button" type="button" data-store-image="/assets/main/menachamia.png" aria-label="הגדלת מפת הדרך ממנחמיה">
+          <img src="/assets/main/menachamia.png" alt="מפת הדרך ממנחמיה" loading="lazy" />
+        </button>
         <a href="https://amudanan.co.il{{ '/assets/main/menachamia.twl' | absolute_url }}" 
         target="_blank" 
         class="amud-anan-btn">
