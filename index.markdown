@@ -16,7 +16,7 @@ title: עמוד הבית
 
    <section class="omri-figure" id=read_omri>
    <p class="section-lead"> 
-   <a href="/about-omri/"><h1>לקרוא על עומרי </h1></a>
+   <h1>על עומרי</h1>
    </p>
     <div class="project-grid">
       <article class="project-card">
@@ -24,7 +24,8 @@ title: עמוד הבית
         {% include home-slideshow.html folder="/assets/images/omri" limit="100" %}
         </div>
         <div>
-        <p>13.10.2024  יום לאחר יום כיפור נפל יקירינו עומרי בשעה שנקרא להגן על המדינה<br>עומרי השאיר אחריו חברים רבים ומשפחה שבורים וגאים שהוא היה חלק מחייהם <br>עומרי היה איש של חתירה למצויינות אהבת הארץ והאדם<br>וכך חי את חייו </p>
+        <p>13.10.2024  למחרת יום כיפור, נפל יקירינו עומרי, בשעה שנקרא להגן על המדינה<br>עומרי השאיר אחריו חברים רבים ומשפחה שבורים וגאים שהוא היה חלק מחייהם <br>עומרי היה איש של חתירה למצויינות אהבת הארץ והאדם<br>וכך חי את חייו </p>
+        <a href="/about-omri/">קרא על חייו</a>
         </div>
       </article>
     </div>
@@ -48,15 +49,25 @@ title: עמוד הבית
           {% if e.details %}
           <p>{{ e.details }}</p>
           {% endif %}
+          <button
+            type="button"
+            class="add-to-calendar-button"
+            data-add-to-calendar
+            data-event-title="{{ e.event }}"
+            data-event-location="{{ e.location }}"
+            data-event-date="{{ e.date }}"
+            data-event-start="{{ e.start_time }}"
+            data-event-end="{{ e.end_time }}"
+            data-event-details="{{ e.details }}"
+          >📅 הוסף ליומן</button>
         </div>
       </article>
       {% endfor %}
     </div>
   </section>
 
-  <section class="project-links">
+  <section class="project-links" id="projects">
     <h2>פרויקטים לזכרו</h2>
-    <p class="section-lead">הצצה מהירה לכל פרויקט. לחצו על כרטיס כדי לעבור לפרטים המלאים בהמשך העמוד.</p>
     <div class="project-grid">
       <article class="project-card">
         <h3>אתגר הסוכר</h3>
@@ -78,16 +89,22 @@ title: עמוד הבית
         <p>חולצות כובעים וצמידים</p>
         <a href="#store">קראו עוד</a>
       </article>
+       <article class="project-card">
+        <h3>מצפה הבוקעים</h3>
+        <p>מצפה שהקימו חברים מהפלוגה לזכר עומרי , יואב ויוסף שנהרגו בארוע</p>
+        <a href="#mitzpe">קראו עוד</a>
+      </article>
+        <article class="project-card">
+        <h3>אלבום קשר הירח</h3>
+        <p>שחר קרמר ושי צוק - שרו ב30 לעומרי מעל קברו את ״קשר הירח״ לבקשת אמו<br>שחר הקליטה את הפרוייקט ״קשר הירח״ ובו שירים לכל אחד מנופלי המושבה בחרבות ברזל</p>
+        <a href="#spotify">קראו עוד</a>
+      </article>
+      <article class="project-card">
+      <h3>מהרשת</h3>
+      <p>פרוייקט גלהד של ynet, וסרט בר מצווה של עידו רוזנברג שבחר להנציח את עומרי</p>
+      <a href="#ynet-embed">קראו עוד</a>
+      </article>
     </div>
-  </section>
-
-  
-
-  
-
-  <section class="details-intro">
-    <h2>פירוט הפרויקטים</h2>
-    <p>כאן תמצאו את הסיפורים המלאים מאחורי כל יוזמה, כולל רגעים אישיים ושיתופים.</p>
   </section>
 
   <section class="story-section detail-card" id="sugar-challenge">
@@ -96,7 +113,6 @@ title: עמוד הבית
     <article class="project-card">
         {% include instegram-suchar.html %}
       </article>
-
   </section>
 
   <section class="story-section detail-card" id="running">
@@ -120,7 +136,26 @@ title: עמוד הבית
    <p>מצפה שהקימו החברים מהמחלקה</p>
     <article class="project-card">
         בזמן שהיו פצועים מהארוע שבו נהרג עומרי, יזמו כמה חברים הקמה של מצפה לזכר ההרוגים<br>הם נעזרו בחבריו של עומרי ובנו מצפה מעל הכנרת בחוות ״עז ותעצומות״<br>הגעה: ״מצפה הבוקעים״ בעמוד ענן<br>הגעה מיבניאל או ממנחמיה דרך נוף מנחמיה-יבניאל
+        אחרי גשם יש מעבר רק לרכב 4x4 בשאר הזמן גישה לרכבים פרטיים לא בעיה
         <img src="/assets/main/mizpe.jpeg" alt="תמונה של עמרי" loading="lazy" />
+        <p>מיבניאל איך שנגמר הכביש שחוצה את הישוב ומתחילה דרך עפר(דרך נוף יבניאל מנחניה) עוברים את העץ של גולני ואת המצפה לזכר גידי ונועה פונים שמאלה על דרך עפר עד לחוות עז ותעצומות</p>
+        <button class="store-photo-button" type="button" data-store-image="/assets/main/yavniel.png" aria-label="הגדלת מפת הדרך מיבניאל">
+          <img src="/assets/main/yavniel.png" alt="מפת הדרך מיבניאל" loading="lazy" />
+        </button>
+        <a href="https://amudanan.co.il{{ '/assets/main/yavniel.twl' | absolute_url }}" 
+        target="_blank" 
+        class="amud-anan-btn">
+        🗺️ Open Route in Amud Anan App
+        </a>
+        <p>ממנחמיה: יציאה משער אחורי של הישוב נסיעה על דרך נוף מנחמיה-יבניאל</p>
+        <button class="store-photo-button" type="button" data-store-image="/assets/main/menachamia.png" aria-label="הגדלת מפת הדרך ממנחמיה">
+          <img src="/assets/main/menachamia.png" alt="מפת הדרך ממנחמיה" loading="lazy" />
+        </button>
+        <a href="https://amudanan.co.il{{ '/assets/main/menachamia.twl' | absolute_url }}" 
+        target="_blank" 
+        class="amud-anan-btn">
+        🗺️ Open Route in Amud Anan App
+        </a>
       </article>
 
   <section class="story-section detail-card" id="store">
@@ -183,6 +218,7 @@ title: עמוד הבית
 
   <script src="{{ '/script/home-slideshow.js' | relative_url }}"></script>
   <script src="{{ '/script/eyebrow-scroll.js' | relative_url }}"></script>
+  <script src="{{ '/script/add-to-calendar.js' | relative_url }}"></script>
   <script>
     // Wait for full DOM parse so buttons rendered later (e.g. the gallery) are included.
     document.addEventListener('DOMContentLoaded', function() {
