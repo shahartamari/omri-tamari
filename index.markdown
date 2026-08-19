@@ -34,7 +34,7 @@ title: עמוד הבית
     <div class="upcoming-events-header" id="upcoming">
       <h2>אירועים קרובים</h2>
     </div>
-    <p class="section-lead">לוח קצר של אירועים והתכנסויות</p>
+    <p class="section-lead">לוח אירועים והתכנסויות</p>
     <div class="upcoming-events-list" data-upcoming-events-list>
       {% for e in site.data.events %}
       <article class="upcoming-event">
@@ -223,8 +223,8 @@ title: עמוד הבית
 
   <section class="story-section detail-card share-memory-highlight" id="share-memory">
     <h2>שתפו זיכרונות</h2>
-    <p>אם יש לכם תמונה, סיפור או מחשבה על עמרי, נשמח שתשתפו. זה המקום לתעד את השפעתו, את הרגעים הקטנים ואת הרוח הספורטיבית שהפכה לחלק מההיסטוריה שלנו.</p>
-    <p>כתבו פוסט, צרפו תמונה והיו חלק מהאתגר שממשיך לזכור אותו בדרך חיובית.</p>
+    <p>אם יש לכם תמונה, סיפור או מחשבה על עמרי, נשמח שתשתפו. זה המקום לתעד את השפעתו, את הרגעים הקטנים.</p>
+    <p>העלו פוסט שתפו תמונה, תהיו חלק מההנצחה.</p>
     <a href="/share-memory/" class="cta-button cta-clean">לעמוד שיתוף הזיכרונות</a>
   </section>
 

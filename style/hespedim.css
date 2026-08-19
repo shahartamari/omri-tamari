@@ -239,7 +239,17 @@
 
 .hesped-entry {
   margin-bottom: 25px;
+  padding: 18px 20px;
+  border-radius: 12px;
 }
+
+/* Rotating background colors so consecutive hespedim on the same page stand apart */
+.hesped-color-0 { background-color: #fdf3e7; }
+.hesped-color-1 { background-color: #e9f2fb; }
+.hesped-color-2 { background-color: #eef7ec; }
+.hesped-color-3 { background-color: #f7ecf5; }
+.hesped-color-4 { background-color: #fdeeee; }
+.hesped-color-5 { background-color: #eef1fb; }
 
 .hesped-content {
   direction: rtl;
