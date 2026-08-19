@@ -8,7 +8,7 @@ permalink: /hespedim/
 <div dir="rtl" lang="he" class="hespedim-page">
   <div class="hespedim-header">
     <h1>הספדים לזכרו</h1>
-    <p>מילים מהלב של חברים וקרובים</p>
+    <p>נאמר כבר בכל...</p>
   </div>
 
   {% assign hespedim_pages = "" | split: "" %}

@@ -36,15 +36,14 @@ relative:  בת דודה
 אתה תמיד בליבנו<br>
 לנצח נצחים<br>
 
-
-
+<picture>
+  <img src="/assets/hespedim/family/neta_haim/neta.jpeg" alt="image info" loading="lazy" />
+</picture>
 
 <picture>
- 
   <img src="/assets/hespedim/family/neta_haim/saba_80.avif" alt="image info" loading="lazy" />
 </picture>
 
 <picture>
- 
   <img src="/assets/hespedim/family/neta_haim/with_tamari_us.avif" alt="image info" loading="lazy" />
 </picture>
