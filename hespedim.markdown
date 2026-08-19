@@ -8,7 +8,7 @@ permalink: /hespedim/
 <div dir="rtl" lang="he" class="hespedim-page">
   <div class="hespedim-header">
     <h1>הספדים לזכרו</h1>
-    <p>מילים מהלב של חברים וקרובים</p>
+    <p>נאמר כבר בכל...</p>
   </div>
 
   {% assign hespedim_pages = "" | split: "" %}
@@ -69,16 +69,19 @@ permalink: /hespedim/
           <h2>{{ author_display }}</h2>
           <button class="close-panel" onclick="closeAuthor()">&times;</button>
         </div>
+        {% assign entry_index = 0 %}
         {% for item in items %}
           {% assign event_key = item.event | default: item.title %}
           {% unless seen_events contains event_key %}
             {% assign seen_events = seen_events | push: event_key %}
-            <div class="hesped-entry">
+            {% assign color_index = entry_index | modulo: 6 %}
+            <div class="hesped-entry hesped-color-{{ color_index }}">
               <h3>{{ event_key }}</h3>
               <div class="hesped-content">
                 {{ item.content }}
               </div>
             </div>
+            {% assign entry_index = entry_index | plus: 1 %}
           {% endunless %}
         {% endfor %}
       </div>

@@ -1,6 +1,6 @@
 ---
 layout: hesped
-author:     קומונה מגל
+author:    ירדן נבו
 event: שלושים
 relative: חבר מהקומונה
 image: /assets/images/komuna/krav_tarnegolim.jpg
@@ -21,8 +21,4 @@ image: /assets/images/komuna/krav_tarnegolim.jpg
 אנחנו אוהבים  אותך, מעריצים אותך, ומתגעגעים אלייך. <br>
  תמיד תהיה בליבנו.<br>
  קומונה ש״ש יד – חוות ״תלמים״ מגל<br>
-
-
- 
-  
-
+<br>
