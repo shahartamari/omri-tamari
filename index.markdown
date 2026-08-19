@@ -66,7 +66,7 @@ title: עמוד הבית
     </div>
   </section>
 
-  <section class="project-links">
+  <section class="project-links" id="projects">
     <h2>פרויקטים לזכרו</h2>
     <div class="project-grid">
       <article class="project-card">
@@ -107,18 +107,12 @@ title: עמוד הבית
     </div>
   </section>
 
-
-  <section class="details-intro" id="projects">
-    <h2>פרויקטים לזכרו</h2>
-  </section>
-
   <section class="story-section detail-card" id="sugar-challenge">
     <h2>אתגר הסוכר</h2>
    <p> הזמנה לאתגר הסוכר 2026</p>
     <article class="project-card">
         {% include instegram-suchar.html %}
       </article>
-
   </section>
 
   <section class="story-section detail-card" id="running">
