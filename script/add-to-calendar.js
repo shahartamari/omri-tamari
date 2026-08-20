@@ -100,11 +100,18 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
       }
 
-      // iOS Safari ignores the `download` attribute on blob links, but navigating
-      // directly to a text/calendar data URI opens its native "Add to Calendar" sheet.
+      // iOS Safari blocks `window.location.href = 'data:...'` as an unsafe top-frame
+      // navigation, but clicking a real anchor with that href (within the user gesture)
+      // is allowed and opens the native "Add to Calendar" sheet.
       const isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
       if (isIos) {
-        window.location.href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(icsContent);
+        const iosLink = document.createElement('a');
+        iosLink.href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(icsContent);
+        iosLink.target = '_blank';
+        iosLink.rel = 'noopener';
+        document.body.appendChild(iosLink);
+        iosLink.click();
+        document.body.removeChild(iosLink);
         return;
       }
 

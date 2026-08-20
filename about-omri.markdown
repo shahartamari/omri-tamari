@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title:  דמותו של עומרי
 permalink: /about-omri/
 ---
@@ -21,6 +21,7 @@ permalink: /about-omri/
 </style>
 
 <div dir="rtl" lang="he" class="about-page">
+  <h1>{{ page.title }}</h1>
   <div class="about-actions">
     <a href="/hespedim/" class="cta-button cta-clean">לקרוא זכרונות</a>
   </div>
