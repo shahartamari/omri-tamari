@@ -22,7 +22,7 @@ permalink: /about-omri/
 
 <div dir="rtl" lang="he" class="about-page">
   <div class="about-actions">
-    <a href="/hespedim/" class="cta-button cta-clean">לקרוא זכרונות</a>
+    
   </div>
   <p>
 
