@@ -138,23 +138,25 @@ title: עמוד הבית
         בזמן שהיו פצועים מהארוע שבו נהרג עומרי, יזמו כמה חברים הקמה של מצפה לזכר ההרוגים<br>הם נעזרו בחבריו של עומרי ובנו מצפה מעל הכנרת בחוות ״עז ותעצומות״<br>הגעה: ״מצפה הבוקעים״ בעמוד ענן<br>הגעה מיבניאל או ממנחמיה דרך נוף מנחמיה-יבניאל
         אחרי גשם יש מעבר רק לרכב 4x4 בשאר הזמן גישה לרכבים פרטיים לא בעיה
         <img src="/assets/main/mizpe.jpeg" alt="תמונה של עמרי" loading="lazy" />
-        <p>מיבניאל איך שנגמר הכביש שחוצה את הישוב ומתחילה דרך עפר(דרך נוף יבניאל מנחניה) עוברים את העץ של גולני ואת המצפה לזכר גידי ונועה פונים שמאלה על דרך עפר עד לחוות עז ותעצומות</p>
+        <p>מיבניאל: מדרום, עוברים את כפר קמא, ממשיכים ליבניאל, איך שנגמר הכביש שחוצה את הישוב (יבניאל) ומתחילה דרך עפר(דרך נוף יבניאל מנחניה) עוברים את העץ של גולני ואת המצפה לזכר גידי ונועה פונים שמאלה על דרך עפר עד לחוות עז ותעצומות</p>
+        <p>את הקבצים יש לפתוח באפליקצית עמוד ענן</p>
+        <p>לא לנסות להגיע עם וויז!!! הוא יקח אתכם לדרכים לא עבירות</p>
         <button class="store-photo-button" type="button" data-store-image="/assets/main/yavniel.png" aria-label="הגדלת מפת הדרך מיבניאל">
           <img src="/assets/main/yavniel.png" alt="מפת הדרך מיבניאל" loading="lazy" />
         </button>
-        <a href="https://amudanan.co.il{{ '/assets/main/yavniel.twl' | absolute_url }}" 
-        target="_blank" 
-        class="amud-anan-btn">
-        🗺️ Open Route in Amud Anan App
+        <a href="{{ '/assets/downloads/yavniel.twl' | relative_url }}" 
+          download="yavniel.twl" 
+          class="download-btn">
+          Download yavniel.twl to your phone/PC
         </a>
         <p>ממנחמיה: יציאה משער אחורי של הישוב נסיעה על דרך נוף מנחמיה-יבניאל</p>
         <button class="store-photo-button" type="button" data-store-image="/assets/main/menachamia.png" aria-label="הגדלת מפת הדרך ממנחמיה">
           <img src="/assets/main/menachamia.png" alt="מפת הדרך ממנחמיה" loading="lazy" />
         </button>
-        <a href="https://amudanan.co.il{{ '/assets/main/menachamia.twl' | absolute_url }}" 
-        target="_blank" 
-        class="amud-anan-btn">
-        🗺️ Open Route in Amud Anan App
+        <a href="{{ '/assets/downloads/menachamia.twl' | relative_url }}" 
+          download="menachamia.twl" 
+          class="download-btn">
+          Download menachamia.twl to your phone/PC
         </a>
       </article>
 
