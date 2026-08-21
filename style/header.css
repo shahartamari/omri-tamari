@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.header-quick-links {
+  display: none;
+}
+
 .site-title--logo {
   display: inline-flex;
   align-items: center;
@@ -205,6 +209,28 @@
 }
 
 @media (max-width: 720px) {
+  .header-quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 0.35rem;
+  }
+
+  .header-quick-links a {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #153d75;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .header-quick-links a:hover,
+  .header-quick-links a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 0.18rem;
+  }
+
   .site-nav {
     position: static;
   }
