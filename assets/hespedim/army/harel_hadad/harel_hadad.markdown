@@ -3,7 +3,7 @@ layout: hesped
 author:   הראל חדד
 event: ספר זכרון
 relative: ס״מפ בהכשרה גולני
-image: /assets/images/army/WhatsApp Image 2026-08-18 at 15.15.02.jpeg
+image: /assets/images/army/WhatsApp Image 2026-08-21 at 14.15.33.jpeg
 ---
 
 <picture>
