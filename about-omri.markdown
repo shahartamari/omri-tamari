@@ -22,7 +22,10 @@ permalink: /about-omri/
 
 <div dir="rtl" lang="he" class="about-page">
   <div class="about-actions">
-    
+     <a class="section-icon" href="/hespedim/">
+      <span class="section-icon__glyph">📖</span>
+      <span class="section-icon__label">הספדים</span>
+    </a>
   </div>
   <p>
 
