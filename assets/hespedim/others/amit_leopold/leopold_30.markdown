@@ -3,7 +3,7 @@ layout: hesped
 author: עמית לאופולד
 event: שלושים לעומרי
 relative: מאמן אקספרט
-image: /assets/hespedim/others/amit_leopold/al-haktefaim.jpeg
+image: /assets/hespedim/others/amit_leopold/leo.jpeg
 ---
 
   30  לעומרי / יומן מלחמה<br>

@@ -6,6 +6,8 @@ title: עמוד הבית
 <link rel="stylesheet" href="{{ '/style/index.css' | relative_url }}" />
 
 <div dir="rtl" lang="he" class="memorial-page">
+
+
   <section class="hero">
     <img src="/assets/main/front.jpeg" alt="תמונה של עמרי" class="hero-image" />
     <div class="hero-content">
@@ -159,7 +161,7 @@ title: עמוד הבית
           Download menachamia.twl to your phone/PC
         </a>
       </article>
-
+  </section>
   <section class="story-section detail-card" id="store">
     <h2>לינקים לרכישת חולצות וכובעים</h2>
     <p>לחצו על הכפתור כדי להגיע לעמוד הרכישה של פריטי הזיכרון.</p>

@@ -3,7 +3,7 @@ layout: hesped
 author: עמית לאופולד
 event:  יומן מלחמה
 relative: מאמן אקספרט
-image: /assets/hespedim/others/amit_leopold/al-haktefaim.jpeg
+image: /assets/hespedim/others/amit_leopold/leo.jpeg
 ---
 
 *יומן מלחמה*/ על הנסיך הקטן.<br>
@@ -49,8 +49,11 @@ image: /assets/hespedim/others/amit_leopold/al-haktefaim.jpeg
 מכתב שכתב עומרי ללאופולד לפני הגיוס<br>
 
 <picture>
-  
   <img src="/assets/hespedim/others/amit_leopold/omri.avif" alt="image info" loading="lazy" />
+</picture>
+
+<picture>
+  <img src="/assets/hespedim/others/amit_leopold/run.jpeg" alt="image info" loading="lazy" />
 </picture>
 
 

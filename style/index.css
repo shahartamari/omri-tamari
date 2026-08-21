@@ -142,6 +142,48 @@
   letter-spacing: 0.02em;
 }
 
+.section-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.1rem;
+}
+
+.section-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  width: 84px;
+  text-decoration: none;
+  color: #223047;
+  transition: transform 0.2s ease;
+}
+
+.section-icon:hover,
+.section-icon:focus-visible {
+  transform: translateY(-3px);
+}
+
+.section-icon__glyph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #f4e2d5 0%, #f4e2d5 100%);
+  box-shadow: 0 6px 16px rgba(21, 61, 117, 0.12);
+  font-size: 1.4rem;
+}
+
+.section-icon__label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+}
+
 .section-lead {
   margin: 0 0 1.3rem;
   color: #556173;
