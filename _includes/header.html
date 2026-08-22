@@ -11,6 +11,7 @@
       <a href="/#projects">פרוייקטים</a>
       <a href="/about-omri/">על עומרי</a>
     </div>
+    
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -53,21 +54,36 @@
 </header>
 
 {%- if site.data.events and site.data.events.size > 0 -%}
-<div class="events-ticker" dir="rtl" aria-label="אירועים קרובים">
-  <a class="events-ticker__link" href="{{ '/#upcoming' | relative_url }}">
-    <div class="events-ticker__track">
-      <div class="events-ticker__group">
-        {%- for event in site.data.events -%}
-          <span class="events-ticker__item">
-            <strong>{{ event.event }}</strong>
-            <span class="events-ticker__meta">{{ event.date }}{% if event.location %} · {{ event.location }}{% endif %}{% if event.start_time %} · {{ event.start_time }}{% if event.end_time %}–{{ event.end_time }}{% endif %}{% endif %}</span>
-          </span>
+<div class="events-inline-container">
+  <!-- 1. Hidden Toggle Checkbox -->
+  <input type="checkbox" id="events-banner-toggle" class="events-toggle-input" aria-hidden="true">
+
+  <!-- 2. The Toggle Button (Always visible on the right) -->
+  <label for="events-banner-toggle" class="events-toggle-btn" aria-label="הצג/הסתר אירועים">
+    <span class="btn-icon">📅  קרובים אירועים ״>״</span>
+  </label>
+
+  <!-- 3. The Banner Ticker (Initially width 0, expands left) -->
+  <div class="events-ticker" dir="rtl">
+    <a class="events-ticker__link" href="{{ '/#upcoming' | relative_url }}">
+      <div class="events-ticker__track">
+        {%- for i in (1..4) -%}
+        <div class="events-ticker__group">
+          {%- for event in site.data.events -%}
+            <span class="events-ticker__item">
+              <strong>{{ event.event }}</strong>
+              <span class="events-ticker__meta">{{ event.date }}</span>
+            </span>
+          {%- endfor -%}
+        </div>
         {%- endfor -%}
       </div>
-    </div>
-  </a>
+    </a>
+  </div>
 </div>
 {%- endif -%}
+
+
 
 <button class="back-to-top" type="button" aria-label="חזרה לראש העמוד">↑</button>
 
