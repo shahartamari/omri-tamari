@@ -6,30 +6,8 @@ permalink: /about-omri/
 
 <link rel="stylesheet" href="{{ '/style/about-omri.css' | relative_url }}" />
 
-<style>
-.about-actions {
-  margin: 1.25rem 0 1.75rem;
-}
 
-.about-actions .cta-button {
-  margin-top: 0;
-}
 
-.about-actions .cta-button:hover {
-  transform: translateY(-2px);
-}
-</style>
-
-<div dir="rtl" lang="he" class="about-page">
-  <div class="about-actions">
-     <a class="section-icon" href="/hespedim/">
-      <span class="section-icon__glyph">📖</span>
-      <span class="section-icon__label">הספדים</span>
-    </a>
-  </div>
-  <p>
-
-<br>
 <h1>ילדות</h1>
 עומרי נולד ב19.5.2005
 בן בכור לאלעד ושרון תמרי, אח לעמית וענבר.<br>
