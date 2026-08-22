@@ -43,3 +43,37 @@
   display: block;
   border-radius: 24px 24px 24px 0;
 }
+
+.about-actions {
+  margin: 1.25rem 0 1.75rem;
+}
+
+.about-actions .cta-button {
+  margin-top: 0;
+}
+
+.about-actions .cta-button:hover {
+  transform: translateY(-2px);
+}
+
+
+.page-title {
+  direction: rtl;
+  /*text-align: right;*/ 
+  font-family: system-ui, -apple-system, sans-serif;
+  margin-bottom: 25px;
+}
+
+body {
+  margin: 0; /* Clears default browser gaps */
+  padding: 0 15px; /* Adds a strict 15px safety zone on the left and right edges */
+  box-sizing: border-box; /* Ensures the padding does not break horizontal layouts */
+  direction: rtl;
+}
+
+/* Ensures all elements inherit the secure box-sizing constraint */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
