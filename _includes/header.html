@@ -60,26 +60,27 @@
 
   <!-- 2. The Toggle Button (Always visible on the right) -->
   <label for="events-banner-toggle" class="events-toggle-btn" aria-label="הצג/הסתר אירועים">
-    <span class="btn-icon">📅  קרובים אירועים ״>״</span>
+    <span class="btn-icon">ארועים קרובים ></span>
   </label>
 
   <!-- 3. The Banner Ticker (Initially width 0, expands left) -->
-  <div class="events-ticker" dir="rtl">
-    <a class="events-ticker__link" href="{{ '/#upcoming' | relative_url }}">
-      <div class="events-ticker__track">
-        {%- for i in (1..4) -%}
-        <div class="events-ticker__group">
-          {%- for event in site.data.events -%}
-            <span class="events-ticker__item">
-              <strong>{{ event.event }}</strong>
-              <span class="events-ticker__meta">{{ event.date }}</span>
-            </span>
-          {%- endfor -%}
-        </div>
+  
+{%- if site.data.events and site.data.events.size > 0 -%}
+<div class="events-ticker"  dir=rtl lang="he" aria-label="ארועים קרובים">
+  <a class="events-ticker__link" href="{{ '/#upcoming' | relative_url }}">
+    <div class="events-ticker__track">
+      <div class="events-ticker__group">
+        {%- for event in site.data.events -%}
+          <span class="events-ticker__item">
+            <strong>{{ event.event }}</strong>
+            <span class="events-ticker__meta">{{ event.date }}{% if event.location %} · {{ event.location }}{% endif %}{% if event.start_time %} · {{ event.start_time }}{% if event.end_time %}–{{ event.end_time }}{% endif %}{% endif %}</span>
+          </span>
         {%- endfor -%}
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
+</div>
+{%- endif -%}
 </div>
 {%- endif -%}
 
