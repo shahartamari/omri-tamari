@@ -626,6 +626,13 @@
   margin: 0 auto !important;
 }
 
+#farm {
+  background-color: #f3f0f0; /* Replace with your hex or color variable */
+  padding: 40px 20px;  
+  /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+}
+
+
 .project-card:has(.instagram-media) {
   overflow: hidden;
   display: flex;
@@ -662,3 +669,5 @@
     padding: 1.35rem 1.2rem;
   }
 }
+
+
