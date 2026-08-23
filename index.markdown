@@ -77,6 +77,11 @@ title: עמוד הבית
         <a href="#sugar-challenge">קראו עוד</a>
       </article>
       <article class="project-card">
+        <h3>יום התנדבות בחוות ״תלמים״</h3>
+        <p>יום התנדבות בחווה בקיבוץ מגל - שם התנדב עומרי בשנת שירות טרם גיוסו</p>
+        <a href="#farm">קראו עוד</a>
+      </article>
+      <article class="project-card">
         <h3>אבני דרך ללוחם</h3>
         <p>צוות תמרי יוצא לדרך עיקבו אחרינו כדי לראות את הליווי של לוחמים שיוצאים לאזרחות</p>
         <a href="#running">קראו עוד</a>
@@ -131,6 +136,31 @@ title: עמוד הבית
       <article class="project-card">
         {% include instagram-embed.html %}
       </article>
+  </section>
+
+  <section class="story-section detail-card" id="farm">
+    <h2>יום התנדבות בחוות ״תלמים״ </h2>
+    <h3> ירדן שושני חברו של עומרי שיזם עם חברים יום התנדבות לזכרו כותב:</h3>
+    <p>עומרי, מעבר לחבר הכי טוב או לחייל מצטיין היה איש של עבודה קשה, חריצות ותרומה למדינה. לאחר השבעה עלו עשרות רעיונות מה לעשות בשביל להנציח את עומרי- אנדרטה, מתחם אימונים, הרצאות, מדבקות, מה לא. 
+    אבל ניסינו לחשוב מה עומרי באמת היה רוצה. והתשובה הכנה היא יום שלם שנעבוד ונזיע בין העיזים והסוסים בחווה. אז נענתי לבקשתו.
+    עומרי השתתף בשנת שירות בחוות תלמים בקיבוץ מגל, מרכז עבודה שיקומי. שם עבד עם נערים עם מוגבליות. 
+    את יום העשייה הזה הרמנו בעזרה ובשיתוף של עמותת נירים במדבר תוכנית אבחון לנוער בסיכון שהגיעו לעבוד יחד איתנו. 
+    חוץ מעבודה קשה לעומרי היה עוד איזה תחביב קטן , לאכול. 
+    אז גם היה טאבון פיצות שדאג שיהיה לנו כיף. 
+    עומרי, הבטחנו שנמשיך ונחיה את החיים, כמו שהיית רוצה. ניפגש בשנה הבאה, אותו מקום, אותה שעה.</p>
+    <article class="project-card">
+      <img src="{{ '/assets/main/farm.jpg' | relative_url }}" alt="Image description" loading="lazy">
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px;">
+        <iframe
+          src="https://www.youtube.com/embed/cwGm57ShU6A"
+          title="YouTube video"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+        ></iframe>
+      </div>
+    </article>
   </section>
 
   <section class="story-section detail-card" id="mitzpe">
@@ -304,6 +334,7 @@ title: עמוד הבית
       <p style="margin-top: 0.75rem; margin-bottom: 0.75rem;">
         <a href="https://www.ynet.co.il/gal-hed/article/s1aruof1fe" target="_blank" rel="noopener noreferrer">לפתוח את הכתבה גל-הד</a>
       </p>
+      <br><hr><br>
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px;">
         <iframe
           src="https://www.youtube.com/embed/eoDXBRWwH70"
@@ -317,6 +348,22 @@ title: עמוד הבית
       <p style="margin-top: 0.75rem; margin-bottom: 0;">
         <a href="https://www.youtube.com/watch?v=eoDXBRWwH70" target="_blank" rel="noopener noreferrer">לחץ על כפתור כדי לראות</a>
       </p>  
+      <br><hr><br>
+        <iframe src="https://omny.fm/shows/kan-news/8f988b64-4e9f-479a-813a-b2090095729f/embed?style=Cover&media=Audio&size=Wide" width="100%" height="180" allow="autoplay; clipboard-write; fullscreen" allowfullscreen frameborder="0" title="&quot;עומרי לא היה אמור להיות עכשיו בצבא&quot;"></iframe> 
+      <p>אורי ונדר וגיא הירשפלד אצל קרן נויבך</p>
+       <br><hr><br>
+     
+      <a href="https://www.mako.co.il/mako-vod-keshet/nesli_and_yoav-2024/shorts/Video-796dfeabd4f8291027.htm">
+        <img src="{{ '/assets/main/lia_amit.png' | relative_url }}" alt="Alt text" />
+      </a>
+      <p>ראיון עמית וליה</p>
+       <br><hr><br>
+       
+       <p>סבא אברהם בראיון</p>
+      <iframe src="https://103embed.maariv.co.il/?ZrqvnVq=JJMJIL&c41t4nzVQ=GJL" scrolling="no" marginwidth="0" frameborder="no" ALLOWTRANSPARENCY="true" width="100%" height="290"></IFRAME><script type="text/javascript">(function(){const e=document.querySelector('iframe[src*="103"]');let t=!1;const n={title:document.title,url:window.location.href,referrer:document.referrer};e&&!t&&"postMessage"in window&&(e.onload=function(){e.contentWindow.postMessage(n,"https://103embed.maariv.co.il"),t=!0})})();</iframe>
+      
+       <br><hr><br>  
+      
     </article>
   </section>
 
