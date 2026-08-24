@@ -357,12 +357,7 @@ title: עמוד הבית
         <img src="{{ '/assets/main/lia_amit.png' | relative_url }}" alt="Alt text" />
       </a>
       <p>ראיון עמית וליה</p>
-       <br><hr><br>
-       
-       <p>סבא אברהם בראיון</p>
-      <iframe src="https://103embed.maariv.co.il/?ZrqvnVq=JJMJIL&c41t4nzVQ=GJL" scrolling="no" marginwidth="0" frameborder="no" ALLOWTRANSPARENCY="true" width="100%" height="290"></IFRAME><script type="text/javascript">(function(){const e=document.querySelector('iframe[src*="103"]');let t=!1;const n={title:document.title,url:window.location.href,referrer:document.referrer};e&&!t&&"postMessage"in window&&(e.onload=function(){e.contentWindow.postMessage(n,"https://103embed.maariv.co.il"),t=!0})})();</iframe>
       
-       <br><hr><br>  
       
     </article>
   </section>
@@ -388,5 +383,22 @@ title: עמוד הבית
       {% endfor %}
     </div>
   </section>
+
+
+  <section class="story-section detail-card video-section" id="video">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px;">
+        <iframe
+          src="https://www.youtube.com/embed/CermIt6_AGQ"
+          title="YouTube video"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+        ></iframe>
+      </div>
+    
+  </section>
+
+
 
 
