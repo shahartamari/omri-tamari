@@ -1,14 +1,14 @@
 ---
 layout: default
-title: הספדים 
+title: נכתב לזכרו
 permalink: /hespedim/
 ---
 
 <link rel="stylesheet" href="{{ '/style/hespedim.css' | relative_url }}" />
 <div dir="rtl" lang="he" class="hespedim-page">
   <div class="hespedim-header">
-    <h1>הספדים לזכרו</h1>
-    <p>נאמר כבר בכל...</p>
+    <h1>דברים שנאמרו ונכתבו לזכרו</h1>
+    <p>נאמר כבר הכל...</p>
   </div>
 
   {% assign hespedim_pages = "" | split: "" %}
