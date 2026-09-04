@@ -165,31 +165,47 @@ title: עמוד הבית
 
   <section class="story-section detail-card" id="mitzpe">
     <h2>מצפה לזכרו</h2>
-   <p>מצפה שהקימו החברים מהמחלקה</p>
-    <article class="project-card">
-        בזמן שהיו פצועים מהארוע שבו נהרג עומרי, יזמו כמה חברים הקמה של מצפה לזכר ההרוגים<br>הם נעזרו בחבריו של עומרי ובנו מצפה מעל הכנרת בחוות ״עז ותעצומות״<br>הגעה: ״מצפה הבוקעים״ בעמוד ענן<br>הגעה מיבניאל או ממנחמיה דרך נוף מנחמיה-יבניאל
-        אחרי גשם יש מעבר רק לרכב 4x4 בשאר הזמן גישה לרכבים פרטיים לא בעיה
+   <p>מצפה ״הבוקעים״ שהקימו החברים מהמחלקה</p>
+   <a href="#mitzpe_info" class="mitzpe-info-toggle">קראו על הקמת המצפה</a>
+   <br>
+   <br>
+    <article class="project-card">   
+        <p id="mitzpe_info" class="mitzpe-info">
+        בזמן שהיו פצועים מהארוע שבו נהרג עומרי, יזמו כמה חברים הקמה של מצפה לזכר ההרוגים<br> הם נעזרו בחבריו של עומרי ובנו מצפה מעל הכנרת בחוות ״עז ותעוצומות״ 
+        </p>
         <img src="/assets/main/mizpe.jpeg" alt="תמונה של עמרי" loading="lazy" />
-        <p>מיבניאל: מדרום, עוברים את כפר קמא, ממשיכים ליבניאל, איך שנגמר הכביש שחוצה את הישוב (יבניאל) ומתחילה דרך עפר(דרך נוף יבניאל מנחניה) עוברים את העץ של גולני ואת המצפה לזכר גידי ונועה פונים שמאלה על דרך עפר עד לחוות עז ותעצומות</p>
-        <p>את הקבצים יש לפתוח באפליקצית עמוד ענן</p>
-        <p>לא לנסות להגיע עם וויז!!! הוא יקח אתכם לדרכים לא עבירות</p>
+        <br>
+        <a href="#mitzpe_dir" class="mitzpe-dir-toggle">  לחץ כדי לראות איך מגיעים ולהורדת מפות ניווט למצפה</a>
+         <div id="mitzpe_dir" class="mitzpe-dir">
+         מצפה הבוקעים ממוקם במקום קסום, בצמוד לחוות ״עז ותעצומות״ שברכס סירין - בין יבניאל למנחמיה<br>
+        בסמוך לתוואי ״שביל ישראל״ 
+        והעץ של גולני<br>
+        הגעה ברכב ״רגיל״ תתאפשר רק מדרך נוף ״יבניאל - מנחמיה״<br>
+        <br>
+          סיפור דרך:<br>
+          הגעה מיבניאל - נסיעה על כביש 767 לאורך הרחוב הראשי של יבניאל<br> 
+          ממשיכים ברחוב הראשי ללא פניות עד שמגיעים לדרך עפר בקצה המזרחי של היישוב<br>
+          ממשיכים על דרך העפר (דרך נוף יבניאל - מנחמיה)<br>
+          עוברים את נחל יבניאל ואת ״העץ של גולני״<br>
+         עוברים את מצפה ״גידי ונועה״ ופונים שמאלה ונוסעים עד למצפה ״הבוקעים״
         <button class="store-photo-button" type="button" data-store-image="/assets/main/yavniel.png" aria-label="הגדלת מפת הדרך מיבניאל">
           <img src="/assets/main/yavniel.png" alt="מפת הדרך מיבניאל" loading="lazy" />
         </button>
         <a href="{{ '/assets/downloads/yavniel.twl' | relative_url }}" 
           download="yavniel.twl" 
           class="download-btn">
-          Download yavniel.twl to your phone/PC
+          הורד את הקובץ לטלפון ופתח עם תוכנת ניווט - עמוד ענן
         </a>
-        <p>ממנחמיה: יציאה משער אחורי של הישוב נסיעה על דרך נוף מנחמיה-יבניאל</p>
+        <p>ממנחמיה: יציאה משער אחורי של הישוב נסיעה על דרך נוף מנחמיה-יבניאל ,עוברים את מצפה ״לוי אשכול״ ואת חניון ״האלות״ פונים ימינה אחרי שעוברים מעבר בקר(אם עברתם את מצפה ״גידי ונועה״ תסתובבו , פיספסתם את הפניה), נסיעה עד למצפה ״הבוקעים״</p>
         <button class="store-photo-button" type="button" data-store-image="/assets/main/menachamia.png" aria-label="הגדלת מפת הדרך ממנחמיה">
           <img src="/assets/main/menachamia.png" alt="מפת הדרך ממנחמיה" loading="lazy" />
         </button>
         <a href="{{ '/assets/downloads/menachamia.twl' | relative_url }}" 
           download="menachamia.twl" 
           class="download-btn">
-          Download menachamia.twl to your phone/PC
+           הורד את הקובץ לטלפון ופתח עם תוכנת ניווט - עמוד ענן
         </a>
+        </div>
       </article>
   </section>
   <section class="story-section detail-card" id="store">
@@ -260,6 +276,25 @@ title: עמוד הבית
       const storePhotoModal = document.getElementById('store-photo-modal');
       const storePhotoModalImage = document.getElementById('store-photo-modal-image');
       const storePhotoModalClose = document.querySelector('.store-photo-modal__close');
+      const mitzpeInfoToggle = document.querySelector('.mitzpe-info-toggle');
+      const mitzpeInfo = document.getElementById('mitzpe_info');
+      const mitzpeDirToggle = document.querySelector('.mitzpe-dir-toggle');
+      const mitzpeDir = document.getElementById('mitzpe_dir');
+
+      if (mitzpeInfoToggle && mitzpeInfo) {
+        mitzpeInfoToggle.addEventListener('click', function(event) {
+          event.preventDefault();
+          mitzpeInfo.classList.add('is-visible');
+        });
+      }
+
+      if (mitzpeDirToggle && mitzpeDir) {
+        mitzpeDirToggle.addEventListener('click', function(event) {
+          event.preventDefault();
+          mitzpeDir.classList.add('is-visible');
+        });
+      }
+
       storePhotoButtons.forEach(function(button) {
         button.addEventListener('click', function() {
           const imageSrc = button.getAttribute('data-store-image');

@@ -232,6 +232,25 @@
   font-weight: 600;
 }
 
+.mitzpe-info {
+  display: none;
+}
+
+.mitzpe-info.is-visible {
+  display: block;
+}
+
+.mitzpe-dir {
+  display: none;
+}
+
+.mitzpe-dir.is-visible {
+  display: block;
+}
+
+
+
+
 .upcoming-events-card {
   margin: 1.4rem 0 1.6rem;
   background: linear-gradient(180deg, #f9fcff 0%, #eef6ff 100%);
