@@ -11,7 +11,7 @@ title: עמוד הבית
   <section class="hero">
     <img src="/assets/main/front.jpeg" alt="תמונה של עמרי" class="hero-image" />
     <div class="hero-content">
-     <h2> <br><br><br><br><br><br><br><br>״תהנה מכל רגע, כדי שלא תתחרט על מה שלא עשית״</h2>
+     <h2 class="h2"> <br>״תהנה מכל רגע, כדי שלא תתחרט על מה שלא עשית״</h2>
      <p class="eyebrow">אתר זיכרון לעומרי תמרי</p>
     </div>
   </section>
