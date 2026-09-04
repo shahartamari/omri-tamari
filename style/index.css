@@ -248,8 +248,21 @@
   display: block;
 }
 
+.tlamim-info {
+  display: none;
+}
 
+.tlamim-info.is-visible {
+  display: block;
+}
 
+.sucar-info {
+  display: none;
+}
+
+.sucar-info.is-visible {
+  display: block;
+}
 
 .upcoming-events-card {
   margin: 1.4rem 0 1.6rem;
