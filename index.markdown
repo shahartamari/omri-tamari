@@ -441,8 +441,18 @@ title: עמוד הבית
       <a href="https://www.mako.co.il/mako-vod-keshet/nesli_and_yoav-2024/shorts/Video-796dfeabd4f8291027.htm">
         <img src="{{ '/assets/main/lia_amit.png' | relative_url }}" alt="Alt text" />
       </a>
-      <p>ראיון עמית וליה</p>     
+      <p>ראיון עמית וליה</p>  
+      
     </article>
+    
+    <article>{% include mov.html %}</article>
+     <p>סרטון לעומרי</p>
+    <article>{% include mov2.html %}</article>
+    <p>סרטון לעומרי</p>
+    <article>{% include inbar.html %}</article>
+    <p>סטודיו ארט פיוז׳ן הסטודיו לריקוד שענבר חברה בו</p>
+    
+    
   </section>
 
   <section class="story-section detail-card gallery-section" id="gallery">
