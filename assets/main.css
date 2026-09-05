@@ -26,6 +26,19 @@ li > ul, li > ol { margin-bottom: 0; }
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
+h1.heading-reveal,
+h2.heading-reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+h1.heading-reveal.is-visible,
+h2.heading-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /** Links */
 a { color: #2a7ae2; text-decoration: none; }
 a:visited { color: #1756a9; }
