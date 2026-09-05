@@ -36,18 +36,18 @@ title: עמוד הבית
   <section class="video-omri">
   <article class="project-card">
       <h2>מתאר את היום שלו בחווה לחבר</h2>
-      <div id="featured-youtube-video" class="featured-video-shell">
-        <div class="featured-video-frame">
+      <div id="featured-youtube-video-farm" class="featured-video-shell-farm">
+        <div class="featured-video-frame-farm">
         <iframe
           src="https://www.youtube.com/embed/mmqcaYLQ2tM"
-          title="YouTube video"
+          title="YouTube video farm"
           loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
         ></iframe>
         </div>
-        <button class="video-fullscreen-button" type="button" data-fullscreen-video="featured-youtube-video">מסך מלא</button>
+        <button class="video-fullscreen-button" type="button" data-fullscreen-video="featured-youtube-video-farm">מסך מלא</button>
       </div>
     </article>
   </section>
@@ -70,17 +70,18 @@ title: עמוד הבית
           {% if e.details %}
           <p>{{ e.details }}</p>
           {% endif %}
-          <section class="video-omri">
-            <article class="project-card">
+          <button
+            type="button"
             class="add-to-calendar-button"
             data-add-to-calendar
-                  <iframe
-                    src="https://www.youtube.com/embed/mmqcaYLQ2tM"
-                    title="YouTube video"
-                    loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+            data-event-title="{{ e.event }}"
+            data-event-location="{{ e.location }}"
+            data-event-date="{{ e.date }}"
+            data-event-start="{{ e.start_time }}"
+            data-event-end="{{ e.end_time }}"
+            data-event-details="{{ e.details }}"
+          >📅 הוסף ליומן</button>
+        </div>
       </article>
       {% endfor %}
     </div>
