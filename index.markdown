@@ -33,7 +33,7 @@ title: עמוד הבית
     </div>
   </section>
 
-  <section>
+  <section class="video-omri">
   <article class="project-card">
       <h2>מתאר את היום שלו בחווה לחבר</h2>
       <div id="featured-youtube-video" class="featured-video-shell">
@@ -70,18 +70,17 @@ title: עמוד הבית
           {% if e.details %}
           <p>{{ e.details }}</p>
           {% endif %}
-          <button
-            type="button"
+          <section class="video-omri">
+            <article class="project-card">
             class="add-to-calendar-button"
             data-add-to-calendar
-            data-event-title="{{ e.event }}"
-            data-event-location="{{ e.location }}"
-            data-event-date="{{ e.date }}"
-            data-event-start="{{ e.start_time }}"
-            data-event-end="{{ e.end_time }}"
-            data-event-details="{{ e.details }}"
-          >📅 הוסף ליומן</button>
-        </div>
+                  <iframe
+                    src="https://www.youtube.com/embed/mmqcaYLQ2tM"
+                    title="YouTube video"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
       </article>
       {% endfor %}
     </div>
