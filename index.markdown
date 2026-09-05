@@ -33,6 +33,25 @@ title: עמוד הבית
     </div>
   </section>
 
+  <section>
+  <article class="project-card">
+      <h2>מתאר את היום שלו בחווה לחבר</h2>
+      <div id="featured-youtube-video" class="featured-video-shell">
+        <div class="featured-video-frame">
+        <iframe
+          src="https://www.youtube.com/embed/mmqcaYLQ2tM"
+          title="YouTube video"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+        ></iframe>
+        </div>
+        <button class="video-fullscreen-button" type="button" data-fullscreen-video="featured-youtube-video">מסך מלא</button>
+      </div>
+    </article>
+  </section>
+
 <section class="story-section detail-card upcoming-events-card" id="upcoming">
     <div class="upcoming-events-header" id="upcoming">
       <h2>אירועים קרובים</h2>
@@ -316,6 +335,7 @@ title: עמוד הבית
       const tlamimInfo = document.getElementById('tlamim_info');
       const sucarInfoToggle = document.querySelector('.sucar-info-toggle');
       const sucarInfo = document.getElementById('sucar_info');
+      const fullscreenVideoButtons = document.querySelectorAll('[data-fullscreen-video]');
 
       if (sucarInfoToggle && sucarInfo) {
         sucarInfoToggle.addEventListener('click', function(event) {
@@ -344,6 +364,25 @@ title: עמוד הבית
           tlamimInfo.classList.add('is-visible');
         });
       }
+
+      fullscreenVideoButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+          const video = document.getElementById(button.getAttribute('data-fullscreen-video'));
+          if (document.fullscreenElement) {
+            document.exitFullscreen();
+          } else if (video && video.requestFullscreen) {
+            video.requestFullscreen();
+          }
+        });
+      });
+
+      document.addEventListener('fullscreenchange', function() {
+        fullscreenVideoButtons.forEach(function(button) {
+          const isFullscreen = Boolean(document.fullscreenElement);
+          button.textContent = isFullscreen ? 'יציאה ממסך מלא' : 'מסך מלא';
+          button.setAttribute('aria-pressed', String(isFullscreen));
+        });
+      });
 
       storePhotoButtons.forEach(function(button) {
         button.addEventListener('click', function() {
