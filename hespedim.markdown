@@ -22,14 +22,19 @@ permalink: /hespedim/
   {% assign grouped_by_author = hespedim_pages | group_by_exp: "p", "p.author | strip" %}
   {% assign grouped_by_author = grouped_by_author | sort: "name" %}
 
+  <div class="author-search">
+    <input type="search" id="author-search-input" placeholder="חיפוש לפי שם..." aria-label="חיפוש לפי שם" autocomplete="off" />
+    <div id="author-search-results" class="author-search-results" hidden></div>
+  </div>
+
   <div class="author-cloud">
     {% for group in grouped_by_author %}
       {% assign author_id = group.name | slugify %}
       {% assign first_relative = group.items | first | default: nil %}
       {% assign first_item = group.items | first | default: nil %}
-      {% assign author_display = group.name %}
+      {% assign author_relative = '' %}
       {% if first_relative and first_relative.relative %}
-        {% assign author_display = group.name | append: ' (' | append: first_relative.relative | strip | append: ')' %}
+        {% assign author_relative = first_relative.relative | strip %}
       {% endif %}
       {% assign author_image = nil %}
       {% if first_item and first_item.image %}
@@ -43,13 +48,14 @@ permalink: /hespedim/
       {% if name_words.size > 1 %}
         {% assign initials = initials | append: name_words[last] | slice: 0, 1 %}
       {% endif %}
-      <a href="#" class="author-link" onclick="showAuthor(event, '{{ author_id }}')">
+      <a href="#" class="author-link" data-name="{{ group.name | escape }}" onclick="showAuthor(event, '{{ author_id }}')">
         {% if author_image %}
           <img class="author-avatar" src="{{ author_image | relative_url }}" alt="{{ group.name }}" loading="lazy" />
         {% else %}
           <span class="author-avatar author-avatar-fallback" aria-label="{{ group.name }}">{{ initials }}</span>
         {% endif %}
-        <span class="author-name">{{ author_display }}</span>
+        <span class="author-name">{{ group.name }}</span>
+        {% if author_relative != '' %}<span class="author-relative">{{ author_relative }}</span>{% endif %}
       </a>
     {% endfor %}
   </div>
