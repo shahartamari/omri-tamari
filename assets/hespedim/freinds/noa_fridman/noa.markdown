@@ -1,6 +1,6 @@
 ---
 layout: hesped
-author: נוע פרידמן
+author: נועה פרידמן
 event: ספר זכרון
 relative: בית ספר קשת
 image: /assets/hespedim/freinds/noa_fridman/noa_pic.jpeg
